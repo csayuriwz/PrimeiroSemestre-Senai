@@ -1,0 +1,96 @@
+/* Reset CSS */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Fontes */
+
+@font-face {
+  font-family: "Bebas Neue";
+  src: url("../assets/fonts/Bebas_Neue/BebasNeue-Regular.ttf");
+}
+
+/* 
+  Tipos de format()
+  - opentype (otf)
+  - truetype (ttf)
+  - embedded-opentype
+  - truetype-aat (Apple Advanced Typography)
+  - svg
+*/
+
+body {
+  background-color: #080324;
+  font-family: "Bebas Neue", cursive;
+}
+
+/* Apenas para centralizar conteúdos */
+.layout-grid {
+  height: 100%;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  /* border: 3px solid green; */
+}
+
+header {
+  background-color: #f9003d;
+  height: 60px;
+}
+
+/* FlexBox no Cabeçalho */
+header .header-flex {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+header nav {
+  display: flex;
+  justify-content: space-between;
+  width: 600px;
+  /* border: 2px solid white; */
+}
+
+header nav a {
+  padding: 15px 25px;
+  border-radius: 5px;
+  /* border: 1px solid white; */
+  font-size: 18px;
+  text-decoration: none;
+  color: white;
+  text-transform: uppercase;
+}
+
+header nav a:hover {
+  background-color: white;
+  color: #f9003d;
+  transition: 0.3s;
+}
+
+main .banner {
+  width: 100%;
+  height: 740px;
+  background-color: black;
+  color: white;
+  background-image: url("../assets/images/banner.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+/* section h1 {
+  position: absolute;
+  width: 35vw;
+  height: 230px;
+  top: 286px;
+  left: 121px;
+
+  font-style: normal;
+  font-weight: 400;
+  font-size: 6vw;
+  line-height: 115px;
+  text-transform: uppercase;
+  color: white;
+} */
