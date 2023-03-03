@@ -1,10 +1,3 @@
-/* Reset CSS */
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
 /* Fontes */
 
 @font-face {
@@ -12,14 +5,12 @@
   src: url("../assets/fonts/Bebas_Neue/BebasNeue-Regular.ttf");
 }
 
-/* 
-  Tipos de format()
-  - opentype (otf)
-  - truetype (ttf)
-  - embedded-opentype
-  - truetype-aat (Apple Advanced Typography)
-  - svg
-*/
+/* Reset CSS */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
 body {
   background-color: #080324;
@@ -32,7 +23,7 @@ body {
   width: 100%;
   max-width: 1200px;
   margin: 0 auto;
-  /* border: 3px solid green; */
+ 
 }
 
 header {
@@ -45,6 +36,7 @@ header .header-flex {
   display: flex;
   justify-content: flex-end;
   align-items: center;
+  height: 62px;
 }
 
 header nav {
@@ -55,13 +47,12 @@ header nav {
 }
 
 header nav a {
-  padding: 15px 25px;
-  border-radius: 5px;
-  /* border: 1px solid white; */
-  font-size: 18px;
-  text-decoration: none;
-  color: white;
-  text-transform: uppercase;
+ text-decoration: none;
+ color: white;
+ text-transform: uppercase;
+ font-family: "Bebas Neue";
+ font-size: 18px;
+ letter-spacing: 1px;
 }
 
 header nav a:hover {
@@ -80,17 +71,22 @@ main .banner {
   background-size: 100% 100%;
 }
 
-/* section h1 {
-  position: absolute;
-  width: 35vw;
-  height: 230px;
-  top: 286px;
-  left: 121px;
+main .banner-flex {
+  display: flex;
+  align-items: center;
+}
 
-  font-style: normal;
-  font-weight: 400;
-  font-size: 6vw;
-  line-height: 115px;
-  text-transform: uppercase;
-  color: white;
-} */
+main .banner #bannerinfo  {
+  width: 550px;
+  border: 2px solid wheat;
+}
+
+main .banner #bannerinfo h1 {
+  margin-bottom: 20px;
+  font-family: "Bebas Neue";
+}
+
+main .banner #bannerinfo p {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 53px;
+}
