@@ -1,0 +1,25 @@
+body {
+    background-color: rgb(236, 202, 190);
+}
+
+p {
+    color: dimgray;
+}
+
+#segundo {
+    background-color: rgb(206, 180, 198);
+    color: firebrick;
+    border: 2px solid rgb(139, 34, 34);
+    border-radius: 10px;
+}
+
+
+.diferente {
+    background-color: rgb(240, 211, 221);
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    border: 2px solid gray;
+    border-radius: 10px;
+    font-size: 50px;
+
+}
