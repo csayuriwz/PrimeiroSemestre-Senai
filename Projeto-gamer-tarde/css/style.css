@@ -1,0 +1,18 @@
+/* Import fonts */
+
+/* Reset css */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ body {
+    color: white;
+ }
+
+ /*header*/
+ header {
+    background-color: black;
+ }
