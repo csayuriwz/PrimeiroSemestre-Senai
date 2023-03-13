@@ -1,4 +1,8 @@
 /* Import fonts */
+@font-face {
+  font-family: Inter ;
+  src: url(../assets/fonts/Inter/Inter-VariableFont_slnt\,wght.ttf);
+}
 
 /* Reset css */
 
@@ -13,7 +17,7 @@
    margin: 0 auto;
    height: 100%;
    width: 90%;
-   border: 1px solid red;
+   /*border: 1px solid red;*/
 }
 
 .alinhamento-between-center {
@@ -32,8 +36,12 @@ header {
   height: 60px;
 }
 
-.header-top {
+header .header-top {
   display: none;
+}
+
+header .header-bottom {
+  height: 60px;
 }
 
 
@@ -41,17 +49,47 @@ header nav {
    position: fixed;
    top: 60px;
    width: 80vw;
-   height: 100vw;
-   background-color: gray;
+   height: calc(100vh - 60px);
    left: 0;
+   background-image: linear-gradient(to right bottom, rgba(27, 20, 38, 0.7), rgba(27, 20, 38, 0.4));
+   backdrop-filter: blur(45px);
 
    display: flex;
    flex-direction: column;
+   justify-content: space-between;
 }
 
 header .menu-usuarios {
    display: none;
 }
+
+header .header-bottom nav > a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+
+  border-bottom: 2px solid #f9aa01;
+  padding: 30px 0;
+  color: white;
+  font-size: 15px;
+  text-decoration: none;
+  font-family: Inter;
+  
+}
+
+header .midias-sociais {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  padding-top: 65px;
+  padding-bottom: 42px;
+}
+
+header .header-bottom nav a:last-of-type {
+  border-bottom: none;
+}
+
 
 
 
