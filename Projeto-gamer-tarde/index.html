@@ -42,15 +42,15 @@
         <div class="header-bottom">
             <div class="layout-grid alinhamento-between-center">
                 <!--menu  hamburguer visivel apenas no celular-->
-                <img src="assets/icons/menu hamburguer.svg" alt="abre e fecha o meu principal de celular">
+                <img onclick="mostrarMenu()" src="assets/icons/menu hamburguer.svg" alt="abre e fecha o meu principal de celular">
 
                 <img src="assets/icons/logotipo-gamer.svg"
                     alt="Imagem logotipo gamer com um controle de video game no centro">
 
                 <!--menu 3 pontinhos-->
-                <img src="assets/icons/menu bolinha.svg" alt="menu que abre e fecha a aba de icones do usuario">
+                <img onclick="mostrarOptions()" src="assets/icons/menu bolinha.svg" alt="menu que abre e fecha a aba de icones do usuario">
 
-                <nav class="menu">
+                <nav class="menu" id="menu">
                     <a href="">Início</a>
                     <a href="">Jogadores</a>
                     <a href="">Equipes</a>
@@ -79,7 +79,7 @@
                     </div>
                 </nav>
 
-                <div class="menu-usuarios">
+                <div class="menu-usuarios" id="menu-usuarios">
                     <a href="">
                         <img src="assets/icons/icon pessoa.svg" alt="Ícone de perfil">
                     </a>
@@ -94,6 +94,24 @@
             </div>
         </div>
     </header>
+
+    <main>
+        <img class="banner-inicio" src="assets/images/valorant-pergunte-3-scaled 1.png" alt="">
+    </main>
+
+
+    <script>
+        function mostrarMenu() {
+            //pega a nav bar pelo id
+            document.getElementById("menu").classList.toggle("mostrar-menu")
+        }
+    </script>
+
+    <script>
+        function mostrarOptions() {
+            document.getElementById("menu-usuarios").classList.toggle("mostraromenu")
+        }
+    </script>
 </body>
 
 </html>
