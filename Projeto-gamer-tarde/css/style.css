@@ -22,73 +22,47 @@
   box-sizing: border-box;
 }
 
-/* Classes Génericas */
+/* Classes Genéricas */
 .layout-grid {
   width: 90%;
   height: 100%;
   margin: 0 auto;
+  /* border: 1px solid salmon; */
 }
 
 .mostrar-menu {
   left: 0 !important;
 }
 
-.mostraromenu {
+.mostrar-usuarios {
   right: 0 !important;
 }
 
-body {
-  background-color: white;
+/* justify content + align items */
+.alinhamento-between-center {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 
+body {
+  color: white;
+}
+
 /* Mobile First */
+
 /* HEADER */
 header {
   position: fixed;
   width: 100vw;
   height: 60px;
   z-index: 100;
-  background-color: #1b1426;
+  background-color: #1B1426;
 }
 
 header .header-top {
   display: none;
-}
-
-header nav {
-  display: none;
-}
-
-header .menu-usuarios {
-  height: 170px;
-  width: 15vw;
-  position: fixed;
-  top: 60px;
-  right: -15vw;
-  z-index: 101;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
-  align-items: center;
-
-  background-image: linear-gradient(to right bottom, rgba(27, 20, 38, 0.7), rgba(27, 20, 38, 0.4));
-  backdrop-filter: blur(10px);
-
-  transition: right 0.4s;
-}
-
-header .header-bottom {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
-}
-
-.alinhamento-between-center {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
 }
 
 header .header-bottom {
@@ -99,20 +73,70 @@ header .logo {
   width: 86px;
 }
 
-header nav {
+
+header .header-bottom nav {
   position: fixed;
   top: 60px;
   left: -80vw;
   z-index: 101;
   display: flex;
   flex-direction: column;
+  /* justify-content: space-between; */
   width: 80vw;
   height: calc(100vh - 60px);
   padding-bottom: 20px;
   background-image: linear-gradient(to right bottom, rgba(27, 20, 38, 0.7), rgba(27, 20, 38, 0.4));
-  backdrop-filter: blur(10px);
+  backdrop-filter: blur(45px);
 
   transition: left 0.4s;
+}
+
+
+header .header-bottom nav > a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  padding: 30px 0;
+  color: white;
+  font-size: 15px;
+  font-family: Inter;
+  text-decoration: none;
+  border-bottom: 2px solid #F9AA01;
+}
+
+header .header-bottom nav a:last-of-type {
+  border-bottom: none;
+}
+
+header .header-bottom nav .midias-sociais {
+  position: absolute;
+  bottom: 20px;
+  left: 0;
+  width: 100%;
+
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+  gap: 20px;
+}
+
+header .menu-usuarios {
+  position: fixed;
+  top: 60px;
+  right: -20vw;
+  width: 20vw;
+  height: 170px;
+
+  background-image: linear-gradient(to right bottom, rgba(27, 20, 38, 0.7), rgba(27, 20, 38, 0.4));
+  backdrop-filter: blur(45px);
+
+  transition: right 0.4s;    
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
 }
 
 header .header-bottom nav>a {
@@ -146,26 +170,67 @@ header .header-bottom nav .midias-sociais {
 }
 
 main .banner-inicio {
-  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
   width: 100%;
-  height: 605px;
-  top: 60px;
-  color: white;
-
+  height: 606px;
+  padding-top: 20px;
+  padding-bottom: 40px;
   background-image: url(../assets/images/valorant-pergunte-3-scaled\ 1.png);
-  background-repeat: no-repeat;
   background-size: cover;
+  background-position: bottom;
+  background-repeat: no-repeat;
 }
 
-main .banner h1 {
-  display: flex;
-  position: relative;
+main .banner-inicio h1 {
   justify-content: center;
   font-family: Titillium_Web;
   font-size: 40px;
   z-index: 101;
+  color: white;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-shadow: 2px 2px 7px red;
+  align-items: center;
+  padding-top: 15%;
+}
+
+main .btn-sobre {
+  position: relative;
+  background-color: #f9aa01;
+  font-family: Titillium_Web;
+  border-radius: 8px;
+  height: 40px;
+  width: 170px;
+  color: black;
+  text-decoration: none;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/*sessao jogos*/
+
+main .jogos {
+  width: 100%;
+  height: 590px;
+  background-color: #1b1426;
 }
 
 
+main .jogos .jogos-flex  {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+/*Tablets >= 768px*/
+@media screen {
+  
+}
+/*Desktop >= 1200*/
 
 
