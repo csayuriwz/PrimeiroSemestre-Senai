@@ -1,17 +1,17 @@
 /* Imports de fonts */
 @font-face {
   font-family: Inter;
-  src: url(../assets/fonts/Inter/static/Inter-Regular.ttf);
+  src: url(../assets/fonts/Inter/Inter-VariableFont_slnt\,wght.ttf);
 }
 
 @font-face {
-  font-family: Quicksnad;
-  src: url(../assets/fonts/Quicksand/static/Quicksand-Regular.ttf);
+  font-family: TitilliumWeb-Black;
+  src: url(../assets/fonts/Titillium_Web/TitilliumWeb-Black.ttf);
 }
 
 @font-face {
-  font-family: Titillium_Web;
-  src: url(../assets/fonts/Titillium_Web/TitilliumWeb-Regular.ttf);
+  font-family: TitilliumWeb-Bold;
+  src: url(../assets/fonts/Titillium_Web/TitilliumWeb-Bold.ttf);
 }
 
 /* Reset CSS */
@@ -55,6 +55,8 @@ body {
 /* HEADER */
 header {
   position: fixed;
+  top: 0;
+  left: 0;
   width: 100vw;
   height: 60px;
   z-index: 100;
@@ -92,7 +94,7 @@ header .header-bottom nav {
 }
 
 
-header .header-bottom nav > a {
+header .header-bottom nav>a {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -131,7 +133,7 @@ header .menu-usuarios {
   background-image: linear-gradient(to right bottom, rgba(27, 20, 38, 0.7), rgba(27, 20, 38, 0.4));
   backdrop-filter: blur(45px);
 
-  transition: right 0.4s;    
+  transition: right 0.4s;
 
   display: flex;
   flex-direction: column;
@@ -139,37 +141,16 @@ header .menu-usuarios {
   align-items: center;
 }
 
-header .header-bottom nav>a {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 20px;
-  padding: 30px 0;
-  color: white;
-  font-size: 15px;
-  font-family: Inter;
-  text-decoration: none;
-  border-bottom: 2px solid #f9aa01;
+
+/* MAIN */
+
+main {
+  margin-top: 60px;
 }
 
-header .header-bottom nav a:last-of-type {
-  border-bottom: none;
-}
+/* Banner */
 
-header .header-bottom nav .midias-sociais {
-  position: absolute;
-  bottom: 20px;
-  left: 0;
-  width: 100%;
-
-  display: flex;
-  justify-content: center;
-  margin-top: 40px;
-  gap: 20px;
-
-}
-
-main .banner-inicio {
+main .banner {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -184,53 +165,119 @@ main .banner-inicio {
   background-repeat: no-repeat;
 }
 
-main .banner-inicio h1 {
-  justify-content: center;
-  font-family: Titillium_Web;
+main .banner h1 {
+  font-family: TitilliumWeb-Black;
   font-size: 40px;
-  z-index: 101;
-  color: white;
-  font-weight: bold;
-  text-transform: uppercase;
-  text-shadow: 2px 2px 7px red;
-  align-items: center;
-  padding-top: 15%;
+  text-shadow: 0 0 7px #FD4255;
 }
 
-main .btn-sobre {
-  position: relative;
-  background-color: #f9aa01;
-  font-family: Titillium_Web;
-  border-radius: 8px;
-  height: 40px;
-  width: 170px;
-  color: black;
-  text-decoration: none;
-
+main .banner a {
   display: flex;
   justify-content: center;
   align-items: center;
+  width: 170px;
+  height: 40px;
+  font-family: TitilliumWeb-Bold;
+  font-size: 24px;
+  color: black;
+  text-decoration: none;
+  background-color: #F9AA01;
+  border-radius: 8px;
 }
 
-/*sessao jogos*/
+/* Sessão Jogos */
 
 main .jogos {
   width: 100%;
   height: 590px;
-  background-color: #1b1426;
+  background-color: #1B1426;
 }
 
-
-main .jogos .jogos-flex  {
+main .jogos .jogos-flex {
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
 }
 
-/*Tablets >= 768px*/
-@media screen {
-  
+
+/* Tablets >= 768px */
+@media screen and (min-width: 768px) {}
+
+/* Desktop >= 1200px*/
+@media screen and (min-width: 1200px) {
+  .layout-grid {
+    width: 100%;
+    max-width: 1200px;
+  }
+
+  /*HEADER*/
+
+  header {
+    height: 140px;
+  }
+
+  header .header-top .contatos {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 450px;
+    border: 2px solid #FD4255;
+  }
+
+  header .header-top .contatos>div {
+    display: flex;
+    gap: 10px;
+    width: 200px;
+    border-bottom: 2px solid #F9AA01;
+  }
+
+  header .header-top .midias-sociais {
+    width: 140px;
+    border: 2px solid #FD4255;
+
+  }
+
+  /* esconde os elementos desnecessários */
+  header .header-bottom .menu-hamburger,
+  header .header-bottom .menu-pontinhos,
+  header .header-bottom nav .phone,
+  header .header-bottom nav .mail,
+  header .header-bottom nav .midias-sociais {
+    display: none;
+  }
+
+  header .logo {
+    width: 200px;
+  }
+
+  header .header-bottom nav {
+    position: static;
+    width: 440px;
+    height: 50px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    text-decoration: none;
+    padding-bottom: 0;
+  }
+
+  header .header-bottom nav>a {
+    padding: 0;
+    border: none;
+  }
+
+  header .header-bottom .menu-usuarios {
+    position: static;
+    width: 140px;
+    height: auto;
+    flex-direction: row;
+    background-color: transparent;
+    background-image: none;
+  }
+
+  header .logo {
+    width: 200px;
+  }
+
+
 }
-/*Desktop >= 1200*/
-
-

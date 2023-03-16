@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Projeto Gamer</title>
+    <title>Projeto Gamer Tarde</title>
     <link rel="stylesheet" href="./css/style.css">
 </head>
 
@@ -16,7 +16,7 @@
 
                 <div class="contatos">
                     <div class="phone">
-                        <img src="assets/icons/icone_telefone.svg" alt="ícone do telefone de contato">
+                        <img src="assets/icons/icone_telefone.svg" alt="Ícone do telefone de contato">
                         <p>(11) 0900-1010</p>
                     </div>
                     <div class="mail">
@@ -30,7 +30,7 @@
                         <img src="assets/icons/facebook.svg" alt="Imagem link do facebook da empresa">
                     </a>
                     <a href="">
-                        <img src="assets/icons/linkedin.svg" alt="Imagem link do linkedin da empresa">
+                        <img src="assets/icons/linkedin.svg" alt="Imagem link do Linkedin da empresa">
                     </a>
                     <a href="">
                         <img src="assets/icons/insta icon.svg" alt="Imagem link do instagram da empresa">
@@ -38,17 +38,15 @@
                 </div>
             </div>
         </div>
-        <hr>
+
         <div class="header-bottom">
             <div class="layout-grid alinhamento-between-center">
-                <!--menu  hamburguer visivel apenas no celular-->
-                <img onclick="mostrarMenu()" src="assets/icons/menu hamburguer.svg" alt="abre e fecha o meu principal de celular">
+                <!-- Menu Hamburger. Visível apenas no smartphone -->
+                <img class="menu-hamburger" onclick="mostrarMenu()" src="assets/icons/menu hamburguer.svg"
+                    alt="Ícone de Telefone. Abre e fecha o menu principal, no celular">
 
-                <img src="assets/icons/logotipo-gamer.svg"
-                    alt="Imagem logotipo gamer com um controle de video game no centro">
-
-                <!--menu 3 pontinhos-->
-                <img onclick="mostrarOptions()" src="assets/icons/menu bolinha.svg" alt="menu que abre e fecha a aba de icones do usuario">
+                <img class="logo" src="assets/icons/logotipo-gamer.svg"
+                    alt="Imagem logotipo gamer com um controle de vídeo game ao centro">
 
                 <nav class="menu" id="menu">
                     <a href="">Início</a>
@@ -56,9 +54,9 @@
                     <a href="">Equipes</a>
                     <a href="">Notícias</a>
 
-                    <!--visivel apenas no mobile-->
+                    <!-- vísível apenas no mobile -->
                     <a class="phone">
-                        <img src="assets/icons/icone_telefone.svg" alt="ícone do telefone de contato">
+                        <img src="assets/icons/icone_telefone.svg" alt="Ícone do telefone de contato">
                         <p>(11) 0900-1010</p>
                     </a>
                     <a class="mail">
@@ -66,12 +64,13 @@
                         <p>contato@gamer.com.br</p>
                     </a>
 
+
                     <div class="midias-sociais">
                         <a href="">
                             <img src="assets/icons/facebook.svg" alt="Imagem link do facebook da empresa">
                         </a>
                         <a href="">
-                            <img src="assets/icons/linkedin.svg" alt="Imagem link do linkedin da empresa">
+                            <img src="assets/icons/linkedin.svg" alt="Imagem link do Linkedin da empresa">
                         </a>
                         <a href="">
                             <img src="assets/icons/insta icon.svg" alt="Imagem link do instagram da empresa">
@@ -79,7 +78,11 @@
                     </div>
                 </nav>
 
-                <div class="menu-usuarios" id="menu-usuarios">
+                <!-- menu 3 pontinhos -->
+                <img class="menu-pontinhos" onclick="mostrarUsuarios()" src="assets/icons/menu bolinha.svg"
+                    alt="Ícone 3 pontinhos, abre e fecha o menu de usuários">
+
+                <div id="menu-usuarios" class="menu-usuarios">
                     <a href="">
                         <img src="assets/icons/icon pessoa.svg" alt="Ícone de perfil">
                     </a>
@@ -87,43 +90,43 @@
                         <img src="assets/icons/icon shop.svg" alt="Ícone de sacola">
                     </a>
                     <a href="">
-                        <img src="assets/icons/icon pesquisa.svg" alt="Ícone de lupa de pesquisa">
+                        <img src="assets/icons/icon pesquisa.svg" alt="Ícone lupa de pesquisa">
                     </a>
-
                 </div>
             </div>
         </div>
     </header>
 
     <main>
-        <article class="banner-inicio">
-            <h1>Liga gamers</h1>
-
+        <article class="banner">
+            <h1>Liga Gamers</h1>
             <a href="" class="btn-sobre">Sobre</a>
-
         </article>
+
 
         <section class="jogos">
             <div class="layout-grid jogos-flex">
-             <img src="assets/images/fifa23.png" alt="Imagem do jogo fifa 2023">
-             <img src="assets/images/csgo.png" alt="Imagem do jogo counter strike">
-            </div>    
-        </section>
+                <img src="assets/images/fifa23.png" alt="Imagem do jogo Fifa 2023">
+                <img src="assets/images/csgo.png" alt="Imagem do jogo Counter Strike">
+            </div>
 
+        </section>
     </main>
 
+    <footer></footer>
+
 
     <script>
+
         function mostrarMenu() {
-            //pega a nav bar pelo id
-            document.getElementById("menu").classList.toggle("mostrar-menu")
+            // pega a navbar pelo id
+            document.getElementById("menu").classList.toggle("mostrar-menu");
         }
-    </script>
 
-    <script>
-        function mostrarOptions() {
-            document.getElementById("menu-usuarios").classList.toggle("mostraromenu")
+        function mostrarUsuarios() {
+            document.getElementById("menu-usuarios").classList.toggle("mostrar-usuarios");
         }
+
     </script>
 </body>
 
