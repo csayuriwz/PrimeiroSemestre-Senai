@@ -199,83 +199,144 @@ main .jogos .jogos-flex {
   justify-content: space-evenly;
 }
 
+main .segunda-tela {
+  background-color: #F9AA01;
+  align-items: center;
+  height: 1535px;
+  width: 375px;   
+}
+
+
+
+
 /* Tablets >= 768px */
 @media screen and (min-width: 768px) {}
 
 /* Desktop >= 1200px*/
 @media screen and (min-width: 1200px) {
-    .layout-grid {
-        width: 100%;
-        max-width: 1200px;
-    }
+  .layout-grid {
+    width: 100%;
+    max-width: 1200px;
+  }
 
-    /* header */
-    header {
-        height: 140px;
-    }
+  /* header */
+  header {
+    position: static;
+    height: 140px;
+    width: 100%;
+  }
 
-    header .header-top {
-        display: block;
-        border-bottom: 2px solid #F9AA01;
-    }
+  header .header-top {
+    display: block;
+    height: 50px;
+    border-bottom: 2px solid #F9AA01;
+  }
 
-    header .header-top .contatos {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        width: 450px;
-        border: 2px solid #FD4255;
-    }
+  header .header-top .contatos {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 450px;
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    /* border: 2px solid #FD4255;*/
+  }
 
-    /* divs .phone, .mail */
-    header .header-top .contatos > div {
-        display: flex;
-        gap: 10px;
-        width: 200px;
-        border-bottom: 2px solid #F9AA01;
-    }
+  /* divs .phone, .mail */
+  header .header-top .contatos > div {
+    display: flex;
+    gap: 10px;
+    width: 200px;
+    align-items: center;
+    /* border-bottom: 2px solid #F9AA01;*/
+  }
 
 
-    header .header-top .midias-sociais {
-        width: 140px;
-        border: 2px solid #FD4255;
-    }
+  header .header-top .midias-sociais {
+    width: 140px;
+    display: flex;
+    justify-content: space-between;
+    /* border: 2px solid #FD4255;*/
+  }
 
-    /* esconde os elementos desnecessários */
-    header .header-bottom .menu-hamburger,
-    header .header-bottom .menu-pontinhos,
-    header .header-bottom nav .phone,
-    header .header-bottom nav .mail,
-    header .header-bottom nav .midias-sociais {
-        display: none;
-    }
+  /* esconde os elementos desnecessários */
+  header .header-bottom .menu-hamburger,
+  header .header-bottom .menu-pontinhos,
+  header .header-bottom nav .phone,
+  header .header-bottom nav .mail,
+  header .header-bottom nav .midias-sociais {
+    display: none;
+  }
 
-    header .logo {
-        width: 200px;
-    }
-    header .header-bottom nav {
-        position: static;
-        width: 440px;
-        height: 50px;
-        padding-bottom: 0;
-        flex-direction: row;
-        align-items: center;
-        /* background-color: red; */
-        justify-content: space-between;
-    }
+  header .header-bottom {
+    height: 90px;
+  }
 
-    header .header-bottom nav > a {
-        font-size: 14px;
-        padding: 0;
-        border: none;
-    }
+  header .logo {
+    width: 200px;
+  }
 
-    header .header-bottom .menu-usuarios {
-        position: static;
-        width: 140px;
-        flex-direction: row;
-        height: auto;
-        background-color: transparent;
-        background-image: none;
-    }
+  header .header-bottom nav {
+    position: static;
+    width: 440px;
+    height: 50px;
+    padding-bottom: 0;
+    flex-direction: row;
+    align-items: center;
+    /* background-color: red; */
+    justify-content: space-between;
+  }
+
+  header .header-bottom nav > a {
+    font-size: 14px;
+    padding: 0;
+    border: none;
+  }
+
+  header .header-bottom .menu-usuarios {
+    position: static;
+    width: 140px;
+    flex-direction: row;
+    justify-content: space-between;
+    height: auto;
+    background-color: transparent;
+    background-image: none;
+  }
+
+  /*MAIN*/
+
+  main {
+    margin-top: 0;
+  }
+
+  main .banner {
+    height: 722px;
+    background-image: url(../assets/images/Banner_background_1.png);
+  }
+
+  main .jogos .jogos-flex {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    height: 500px;
+  }
+
+  main .jogos img {
+    width: 556px;
+    height: 313px;
+  }
+
+  main .banner h1 {
+    font-size: 80px;
+    text-shadow: 0px 0px 7px #FD4255;
+    backdrop-filter: blur(7px);
+  }
+
+  main .btn-sobre {
+    margin-bottom: 45px;
+  }
+
+  
 }
