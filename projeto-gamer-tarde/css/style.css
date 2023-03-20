@@ -27,7 +27,7 @@
     font-family: "titilium web regular";
     src: url(../assets/fonts/Titillium_Web/TitilliumWeb-Regular.ttf);
 }
-/* RESET */
+/* RESET css */
 
 * {
     margin: 0;
@@ -88,6 +88,8 @@ header {
 .up-header-box {
     display: none;
 }
+
+
 
 #menu-lateral{
     position: fixed;
@@ -230,7 +232,7 @@ header {
 /* MAIN CONTENT */
 
 .banner{
-    background-image: url(../projeto-gamer-tarde/assets/images/backgorund-mobile-banner.png);
+    background-image: url(../assets/images/backgorund-mobile-banner.png);
     background-repeat: no-repeat;
     background-size: cover;
     height: 606px;
@@ -807,7 +809,7 @@ header{
 /* BANNER */
 
 .banner{
-    background-image: url(../projeto-gamer-tarde/assets/images/banner-background-desktop.png);
+    background-image: url(../assets/images/banner-background-desktop.png);
     height: 720px;
     border-top: none;
 }

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulários</title>
+</head>
+
+<body>
+
+    <h1>Cadastro de Usuários</h1>
+    <form action="">
+        <label for="nome">Nome</label>
+        <input type="text" id="nome" placeholder="Seu Nome">
+        <br>
+
+        <label for="idade">Idade</label>
+        <input type="number" id="idade" placeholder="Sua Idade">
+        <br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" placeholder="Digite seu email">
+        <br>
+
+        <label for="estado">Estado</label>
+        <select id="estado">
+            <option value="">Escolha</option>
+            <option value="SP">São Paulo</option>
+            <option value="RJ">Rio de Janeiro</option>
+            <option value="BA">Bahia</option>
+            <option value="SC">Santa Catarina</option>
+            <option value="MA">Maranhão</option>
+            <option value="MG">Minas Gerais</option>
+        </select>
+
+        <br>
+        <label for="senha">Senha:</label>
+        <input type="password" id="senha">
+        <button type="button" onclick="olhinho"> :) </button>
+
+        <br><br>
+
+        <button>Enviar</button>
+
+
+    </form>
+
+    <script>
+        let SenhaExibida = false;
+
+        function olhinho() {
+            if (SenhaExibida == false) {
+                document.getElementById("senha").type = "text";
+                SenhaExibida = true;
+            } else {
+                document.getElementById("senha").type = "password";
+                SenhaExibida = false;
+
+            }
+        }
+
+    </script>
+</body>
+
+</html>
