@@ -807,7 +807,7 @@ header{
 /* BANNER */
 
 .banner{
-    background-image: url(../images/banner-desktop.png);
+    background-image: url(../projeto-gamer-tarde/assets/images/banner-background-desktop.png);
     height: 720px;
     border-top: none;
 }
@@ -959,8 +959,9 @@ header{
 /*  NEWS  */
 
 .news{
-    background-image: url(../images/backgrund_notícias_desktop.png);
-    height: 1175px;
+   background-image: url(assets/images/back-ground\ noticias.svg);
+    height: 100%;
+   
 }
 
 .news h2{
@@ -986,7 +987,7 @@ header{
 /* FOOTER */
 
 .footer{
-    background-image: url(../images/backgroung_footer-desktop.png);
+    background-image: url(../projeto-gamer-tarde/assets/images/backgroung_footer\ \(1\).png);
     box-shadow: inset 0px 50px 80px rgb(0, 0, 0, 0.9);
     height: 520px;
     display: flex;
@@ -1058,7 +1059,6 @@ header{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    /* border: 1px solid green; */
     width: 100%;
     height: 46px;
 }
