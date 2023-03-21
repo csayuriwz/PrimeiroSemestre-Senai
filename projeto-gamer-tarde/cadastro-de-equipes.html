@@ -1,23 +1,19 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
-
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login</title>
-    <link rel="stylesheet" href="css/login.css">
-
+    <title>Document</title>
+    <link rel="stylesheet" href="css/equipes.css">
 </head>
-
 <body>
-
     <header>
 
         <div class="container-grid header-flex mobile-header">
 
             <img src="assets/icons/menu-hamburguer.svg" alt="" onclick="mostrarMenu()">
-            <img class="logotipo-mobile" src="assets/icons/logotipo-gamer-mobile.png" alt="">
+            <img class="logotipo-mobile" src="assets/icons/logotipo-gamer-mobile.png"">
             <img src="assets/icons/menu-3pontinhos.png" alt="" onclick="mostrarMenuDireita()">
 
         </div>
@@ -66,9 +62,9 @@
 
                     <nav class="link-centro">
 
-                        <a href="index.html">Inicio</a>
+                        <a href="">Inicio</a>
                         <a href="">Jogadores</a>
-                        <a href="equipes.html">Equipes</a>
+                        <a href="">Equipes</a>
                         <a href="">Noticias</a>
 
                     </nav>
@@ -115,43 +111,111 @@
     </header>
 
     <main>
-
         <section class="banner">
 
-            <article class="container-grid login-flex container-grid-d">
+            <article class="container-grid equipes-flex container-grid-d">
 
                 <div class="border-gradient">
 
-                    <div class="box-login">
-                        <h1>Login</h1>
+                    <form action="" class="box-equipes container-grid">
+                        <h1>Cadastro de equipes</h1>
                         <hr>
 
-                        <div class="input-gradient-login">
-
-                            <div class="icon-input">
-                            <img src="assets/icons/icon-user-branco.png" alt="">
-                            <input type="email" placeholder="Digite seu email...">
-                            </div>
-
+                        <div class="input-gradient-equipes">
+                            <input type="text" placeholder="Digite o ID da sua equipe...">
                         </div>
 
-                        <div class="input-gradient-login">
-
-                            <div class="icon-input">
-                            <img src="assets/icons/icon-chave.png" alt="">
-                            <input type="password" placeholder="Digite sua senha...">
-                            </div>
-
+                        <div class="input-gradient-equipes">
+                            <input type="text" placeholder="Digite o nome da sua equipe...">
                         </div>
 
-                        <button>Logar</button>
+                            <div class="image-equipe">
+                                 <input class = "input-file" name="team-avatar" type="file" accept="image/png, image/jpeg">
+                                 </input>
 
-                    </div>
+                            </div>
+                        
+                        <button class="cadastro">Cadastro</button>
+
+                    </form>
                 </div>
             </article>
 
-        </section>
 
+           
+            <article class="container-grid">
+                <table>
+                    <thead>
+
+                        <tr>
+                            <th>ID</th>
+                            <th>Nome</th>
+                            <th>Foto</th>
+                            <th></th>
+                        </tr>
+
+                    </thead>
+
+                    <tbody>
+                        
+                            <tr class="table-line">
+                                <td class="number">1</td>
+                                <td>LOUD</td>
+                                <td><img src="/assets/icons/LOUD_LOGO-mobile.png" alt=""></td>
+                                <td class="icon-trash"><img src="/assets/icons/lixinho.png" alt=""></td>
+                            </tr>
+                        
+
+                        <tr class="table-line">
+                            <td class="number">1</td>
+                            <td>LOUD</td>
+                            <td><img src="/assets/icons/LOUD_LOGO-mobile.png" alt=""></td>
+                            <td class="icon-trash"><img src="/assets/icons/lixinho.png" alt=""></td>
+                        </tr>
+
+                        <tr class="table-line">
+                            <td class="number">1</td>
+                            <td>LOUD</td>
+                            <td><img src="/assets/icons/LOUD_LOGO-mobile.png" alt=""></td>
+                            <td class="icon-trash"><img src="/assets/icons/lixinho.png" alt=""></td>
+                        </tr>
+
+                        <tr class="table-line">
+                            <td class="number">1</td>
+                            <td>LOUD</td>
+                            <td><img src="/assets/icons/LOUD_LOGO-mobile.png" alt=""></td>
+                            <td class="icon-trash"><img src="/assets/icons/lixinho.png" alt=""></td>
+                        </tr>
+
+                       
+                    </tbody>
+
+                    <!-- <tr style="background-color: aqua;">
+                        <th>exemplo1</th>
+                        <th>exemplo2</th>
+                        <th>exemplo3</th>
+                    </tr>
+                    <tr style="background-color: orange;">
+                        <td>valor1</td>
+                        <td>valor2</td>
+                        <td>valor3</td>
+                    </tr>
+                    <tr style="background-color: orange;">
+                        <td>valor1</td>
+                        <td>valor2</td>
+                        <td>valor3</td>
+                    </tr>
+                    <tr style="background-color: orange;">
+                        <td>valor1</td>
+                        <td>valor2</td>
+                        <td>valor3</td>
+                    </tr> -->
+
+
+                </table>
+            </article>
+
+        </section>
     </main>
 
     <footer class="footer">
@@ -228,8 +292,6 @@
         </div>
     </footer>
 
-   
-
     <script>
 
         function mostrarMenu() {
@@ -239,9 +301,5 @@
             document.getElementById("menu-lateral-direita").classList.toggle("mostrarMenuDireita")
         }
     </script>
-
 </body>
-
-
-
 </html>
