@@ -230,7 +230,7 @@ header {
 /* MAIN CONTENT */
 
 .banner{
-    background-image: url(../assets/images/Banner_Login.png);
+    background-image: url(../assets/images/banner-login.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     height: 687px;
@@ -333,7 +333,7 @@ header {
 }
 /* FOOTER */
 .footer{
-    background-image: url(../images/backgorund-footer.png);
+    background-image: url(../assets/images/fundo-footer-mobile.png);
     box-shadow: inset 0px 50px 80px rgb(0, 0, 0, 0.9);
     background-size: cover;
     height: 1531px;
@@ -476,12 +476,9 @@ li::before {
     margin-top: 15px;
 }
 
-.footer-bottom{
+.rodape-bottom{
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    /* border: 1px solid green; */
-    width: 100%;
     height: 46px;
 }
 .top-button{
@@ -641,7 +638,7 @@ header{
 /* MAIN */
 
 .banner{
-    background-image: url(../images/banner-login-desktop.png);
+    background-image: url(../assets/images/Imagem\ de\ fundo.png);
     height: 680px;
     border-top: none;
     background-size: cover;
@@ -657,9 +654,9 @@ header{
     margin-bottom: 40px;
 }
 
-/* FOOTER */
+/* ---------------------------------------------------------------FOOTERdesktop----------------------------------------------------------------------- */
 .footer{
-    background-image: url(../images/backgroung_footer-desktop.png);
+    background-image: url(../assets/images/backgroung_footer.png);
     box-shadow: inset 0px 50px 80px rgb(0, 0, 0, 0.9);
     height: 520px;
     display: flex;
