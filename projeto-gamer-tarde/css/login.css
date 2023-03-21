@@ -1,31 +1,26 @@
 @font-face {
     font-family: "titilium web";
-    src: url(../assets/fonts/Titillium_Web/TitilliumWeb-Black.ttf);
+    src: url(../assets/fonts/TitilliumWeb-Regular.ttf);
 }
 
 @font-face {
     font-family: "quicksand";
-    src: url(../assets/fonts/Quicksand/Quicksand-VariableFont_wght.ttf);
+    src: url(../assets/fonts/Quicksand-Regular.ttf);
 }
 
 @font-face {
     font-family: "inter";
-    src: url(../assets/fonts/Inter/Inter-VariableFont_slnt\,wght.ttf);
+    src: url(../assets/fonts/Inter-Regular.ttf);
 }
 
 @font-face {
-    font-family: "titilium web italic" ;
-    src: url(../assets/fonts/Titillium_Web/TitilliumWeb-Italic.ttf);
-}
-
-@font-face {
-    font-family: "titilium web regular";
-    src: url(../assets/fonts/Titillium_Web/TitilliumWeb-Regular.ttf);
+    font-family: "titilium web italic";
+    src: url(../assets/fonts/TitilliumWeb-Italic.ttf);
 }
 
 @font-face {
     font-family: "titilium web bold";
-    src: url(../assets/fonts/Titillium_Web/TitilliumWeb-Black.ttf);
+    src: url(../assets/fonts/TitilliumWeb-Bold.ttf);
 }
 /* RESET */
 
