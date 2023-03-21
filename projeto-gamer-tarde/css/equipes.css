@@ -22,6 +22,11 @@
     font-family: "titilium web bold";
     src: url(../assets/fonts/TitilliumWeb-Bold.ttf);
 }
+
+@font-face {
+    font-family: "titilium black";
+    src: url(../assets/fonts/TitilliumWeb-Black.ttf);
+}
 /* RESET */
 
 * {

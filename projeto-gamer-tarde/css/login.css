@@ -22,6 +22,11 @@
     font-family: "titilium web bold";
     src: url(../assets/fonts/TitilliumWeb-Bold.ttf);
 }
+
+@font-face {
+    font-family: "titilium black";
+    src: url(../assets/fonts/TitilliumWeb-Black.ttf);
+}
 /* RESET */
 
 * {
@@ -51,7 +56,7 @@ body{
     background-color: #1b1426;
 }
 
-/* header */
+/* ------------------------------------------------------------ HEADERmobile-------------------------------------------------- */
 
 header {
     position: fixed;
@@ -222,7 +227,7 @@ header {
     height: 30px;
 }
 
-/* MAIN CONTENT */
+/* ------------------------------------------------------ MAIN CONTENT ------------------------------------------------------------*/
 
 .banner{
     background-image: url(../assets/images/banner-login.jpg);
@@ -326,7 +331,7 @@ header {
     font-size: 24px;
     margin-top: 25px;
 }
-/* FOOTER */
+/* --------------------------------------------------------FOOTERmobile ------------------------------------------------------------ */
 .footer{
     background-image: url(../assets/images/fundo-footer-mobile.png);
     box-shadow: inset 0px 50px 80px rgb(0, 0, 0, 0.9);
@@ -489,7 +494,7 @@ li::before {
     margin-top: 15px;
 }
 
-/* MEDIA QUERIES */
+/* -------------------------------------------------------MEDIA QUERIES----------------------------------------------------------*/
 
 @media screen and (min-width:992px) {
     
@@ -501,7 +506,7 @@ li::before {
     max-width: 1280px;
     /* border: 1px solid green; */
 }
-
+/* ---------------------------------------------------HEADERdesktop--------------------------------------------------------------*/
 .mobile-header{
     display: none;
 }
@@ -630,7 +635,7 @@ header{
     color: #f9aa01;
 }
 
-/* MAIN */
+/* ------------------------------------------------------------MAINdesktop---------------------------------------------------------- */
 
 .banner{
     background-image: url(../assets/images/Imagem\ de\ fundo.png);
@@ -649,7 +654,7 @@ header{
     margin-bottom: 40px;
 }
 
-/* ---------------------------------------------------------------FOOTERdesktop----------------------------------------------------------------------- */
+/* ---------------------------------------------------FOOTERdesktop----------------------------------------------------------------- */
 .footer{
     background-image: url(../assets/images/backgroung_footer.png);
     box-shadow: inset 0px 50px 80px rgb(0, 0, 0, 0.9);
@@ -723,7 +728,6 @@ header{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    /* border: 1px solid green; */
     width: 100%;
     height: 46px;
 }

@@ -22,6 +22,11 @@
     font-family: "titilium web bold";
     src: url(../assets/fonts/TitilliumWeb-Bold.ttf);
 }
+
+@font-face {
+    font-family: "titilium black";
+    src: url(../assets/fonts/TitilliumWeb-Black.ttf);
+}
 /* RESET */
 
 * {
@@ -417,7 +422,7 @@ tbody{
     flex-direction: column;
 }
 
-.box1-footer{
+.box-footer{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -427,12 +432,12 @@ tbody{
     text-align:justify;
 }
 
-.box1-footer *{
+.box-footer *{
     margin-top: 30px;
     margin-bottom: 30px;
 }
 
-.social-box-footer{
+.socialmedia-footer{
     width: 100%;
     display: flex;
     justify-content: space-between;
@@ -450,7 +455,7 @@ footer hr{
     border: 1px solid #f9aa01;
 }
 
-.box2-footer ul {
+.LinksUteis-footer ul {
     font-family: "inter";
     font-size: 16px;
     margin-top: 34px;
@@ -478,15 +483,15 @@ li::before {
     padding-bottom: 8px;
   }
 
-  .box2-footer ul li {
+  .LinksUteis-footer ul li {
     display: flex;
 }
 
-.box3-footer hr{
+.contatos-footer hr{
     margin-bottom: 50px;
 }
 
-.box3-footer h2{
+.contatos-footer h2{
     color: #f9aa01;
     font-size: 16px;
     font-family: "inter";
@@ -502,8 +507,9 @@ li::before {
     padding-bottom: 9px;
 }
 
-.box4-footer hr{
+.Newsletter-footer hr{
     margin-bottom: 30px;
+    width: 200px;
     
 }
 
@@ -515,7 +521,7 @@ li::before {
     border-radius: 8px;
 }
 
-.box4-footer .input-gradient input{
+.Newsletter-footer .input-gradient input{
     color: white;
     padding-left: 16px;
     background: transparent;
@@ -528,7 +534,7 @@ li::before {
     outline: none;
 }
 
-.box4-footer input::placeholder{
+.Newsletter-footer input::placeholder{
     font-weight: bold;
     color: white;
     font-family: "quicksand";
@@ -536,7 +542,7 @@ li::before {
     margin-right: 16px;
 }
 
-.box4-footer button{
+.Newsletter-footer button{
     width: 100%;
     height: 40px;
     background-color: #f9aa01;
@@ -557,15 +563,15 @@ li::before {
     width: 100%;
     height: 46px;
 }
-.top-button{
+.setinha-button{
     align-self: flex-end;
     margin-top: 110px;
     margin-right: 18px;
 }
 
-.copyright{
+footer .copyright{
     color: white;
-    font-family: "titilium web regular";
+    font-family: "titilium web";
     align-self: center;
     margin-top: 15px;
 }
@@ -731,27 +737,11 @@ main .cadastrar {
     color: #1b1426;
 }
 
-main .lixo {
-    display: none;
-}
 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* FOOTER */
+/* --------------------------------------------- FOOTERDESKTOP---------------------------------------------------------------- */
 
 .footer{
     background-image: url(../assets/images/backgroung_footer.png);

@@ -1,7 +1,4 @@
-@font-face {
-    font-family: "titilium web";
-    src: url(../assets/fonts/TitilliumWeb-Regular.ttf);
-}
+/*---------------------------------------------------FONTES-----------------------------------------------------------------------*/
 
 @font-face {
     font-family: "quicksand";
@@ -14,6 +11,11 @@
 }
 
 @font-face {
+    font-family: "titilium web";
+    src: url(../assets/fonts/TitilliumWeb-Regular.ttf);
+}
+
+@font-face {
     font-family: "titilium web italic";
     src: url(../assets/fonts/TitilliumWeb-Italic.ttf);
 }
@@ -21,6 +23,11 @@
 @font-face {
     font-family: "titilium web bold";
     src: url(../assets/fonts/TitilliumWeb-Bold.ttf);
+}
+
+@font-face {
+    font-family: "titilium black";
+    src: url(../assets/fonts/TitilliumWeb-Black.ttf);
 }
 
 /* RESET css */
@@ -72,10 +79,6 @@ header {
     justify-content: space-between;
 }
 
-.logotipo-mobile{
-    width: 87.5px;
-    height: 25px;
-}
 
 .logotipo-desktop{
     display: none;
