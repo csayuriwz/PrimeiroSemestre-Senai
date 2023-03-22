@@ -1,6 +1,6 @@
 @font-face {
     font-family: "titilium web";
-    src: url(../assets/fonts/TitilliumWeb-Regular.ttf);
+    src: url(../assets/fonts/Inter-Regular.ttf);
 }
 
 @font-face {
@@ -227,7 +227,9 @@ header {
     height: 30px;
 }
 
-/* -----------------------------------------------------------MAINmobile ----------------------------------------------------------------- */
+/* ---------------------------------------------------------MAINmobile--------------------------------------------------------------- */
+
+
 .banner{
     background-image: url(../assets/images/fundo-mobile-jogadores.png);
 
@@ -409,7 +411,7 @@ tbody{
 
 
 
-/* -----------------------------------------------------------FOOTERmobile-------------------------------------------------------------------- */
+/* ----------------------------------------------------FOOTERmobile----------------------------------------------------------------- */
 .footer{
     background-image: url(../assets/images/backgroung_footer.png);
     box-shadow: inset 0px 50px 80px rgb(0, 0, 0, 0.9);
@@ -586,8 +588,8 @@ footer .copyright{
     max-width: 1280px;
     /* border: 1px solid green; */
 }
-/*----------------------------------------------------------------HEADERdesktop------------------------------------------------------------------*/
-.mobile-header{
+/*------------------------------------------------------------HEADERdesktop-----------------------------------------------------------*/
+.header-mobile{
     display: none;
 }
 

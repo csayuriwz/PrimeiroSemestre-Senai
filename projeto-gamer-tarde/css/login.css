@@ -507,7 +507,7 @@ li::before {
     /* border: 1px solid green; */
 }
 /* ---------------------------------------------------HEADERdesktop--------------------------------------------------------------*/
-.mobile-header{
+.header-mobile{
     display: none;
 }
 

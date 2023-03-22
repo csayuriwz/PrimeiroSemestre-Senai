@@ -1,22 +1,25 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 
 <head>
+
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
     <link rel="stylesheet" href="css/equipes.css">
+    <title>Liga Gamers</title>
+
 </head>
 
 <body>
+
     <header>
 
         <div class="container-grid header-flex mobile-header">
 
             <img src="assets/icons/menu-hamburguer.svg" alt="" onclick="mostrarMenu()">
-            <img class="logotipo-mobile" src="assets/icons/logotipo-gamer-mobile.png"">
-            <img src=" assets/icons/menu-3pontinhos.png" alt="" onclick="mostrarMenuDireita()">
+            <img class="logotipo-mobile" src="assets/icons/logotipo-gamer-mobile.png" alt="">
+            <img src="assets/icons/menu-3pontinhos.png" alt="" onclick="mostrarMenuDireita()">
 
         </div>
 
@@ -64,33 +67,37 @@
 
                     <nav class="link-centro">
 
-                        <a href="">Inicio</a>
-                        <a href="">Jogadores</a>
-                        <a href="">Equipes</a>
+                        <a href="index.html">Inicio</a>
+                        <a href="jogadores.html">Jogadores</a>
+                        <a href="equipes.html">Equipes</a>
                         <a href="">Noticias</a>
 
                     </nav>
 
                     <div class="contatos-mobile">
 
-                        <div class="tel-box-mobile">
-                            <img src="assets/icons/icone_telefone.svg" alt="">
-                            <span>(11) 99999-9999</span>
-                        </div>
+                        <a href="">
+                            <div class="tel-box-mobile">
+                                <img src="assets/icons/icone_telefone.svg" alt="">
+                                <span>(11) 99999-9999</span>
+                            </div>
+                        </a>
 
-                        <div class="mail-box-mobile">
-                            <img src="assets/icons/icone_email.svg" alt="">
-                            <span>contato@gamer.com.br<span>
-                        </div>
+                        <a href="">
+                            <div class="mail-box-mobile">
+                                <img src="assets/icons/icone_email.svg" alt="">
+                                <span>contato@gamer.com.br<span>
+                            </div>
+                        </a>
 
                     </div>
                 </div>
 
                 <div class="social-box-mobile">
 
-                    <img class="facebook" src="assets/icons/icon-facebbok.svg" alt="">
-                    <img class="linkedin" src="assets/icons/icon-linkedin.svg" alt="">
-                    <img class="instagram" src="assets/icons/icon-instagram.svg" alt="">
+                    <a href=""><img class="facebook" src="assets/icons/icon-facebbok.svg" alt=""></a>
+                    <a href=""><img class="linkedin" src="assets/icons/icon-linkedin.svg" alt=""></a>
+                    <a href=""><img class="instagram" src="assets/icons/icon-instagram.svg" alt=""></a>
 
                 </div>
 
@@ -101,8 +108,8 @@
                 <div class="icons-left">
 
                     <a href="login.html"><input type="image" src="assets/icons/icon-user.svg"></a>
-                    <img src="assets/icons/icon-shop.svg" alt="">
-                    <img src="assets/icons/icon-lupa.svg" alt="">
+                    <a href=""><img src="assets/icons/icon-shop.svg" alt=""></a>
+                    <a href=""><img src="assets/icons/icon-lupa.svg" alt=""></a>
 
                 </div>
 
@@ -119,7 +126,7 @@
 
                 <div class="border-gradient">
 
-                    <form action="" class="box-equipes container-grid">
+                    <form action="" class="box-equipes">
                         <h1>Cadastro de equipes</h1>
                         <hr>
 
@@ -131,12 +138,13 @@
                             <input type="text" placeholder="Digite o nome da sua equipe...">
                         </div>
 
-                        <div class="image-equipe">
-                            <input class="input-file" name="team-avatar" type="file" accept="image/png, image/jpeg">
-                            </input>
+                            <div class="image-equipe">
+                                <label for="input-file"></label>
+                                 <input id = "input-file" name="team-avatar" type="file" accept="image/png, image/jpeg">
+                                 </input>
 
-                        </div>
-
+                            </div>
+                        
                         <button class="cadastro">Cadastro</button>
 
                     </form>
@@ -144,16 +152,16 @@
             </article>
 
 
-
+           
             <article class="container-grid">
                 <table>
                     <thead>
 
-                        <tr>
+                        <tr enumeracao-tabela>
                             <th>ID</th>
                             <th>Nome</th>
                             <th>Foto</th>
-                            <th></th>
+                            <th>  </th>
                         </tr>
 
                     </thead>
@@ -162,7 +170,7 @@
 
                         <tr class="table-line">
                             <td class="number">1</td>
-                            <td>LOUD</td>
+                            <td>João</td>
                             <td><img src="assets/icons/LOUD_LOGO-mobile.png" alt=""></td>
                             <td><img src="assets/icons/lixinho.png" alt=""></td>
                         </tr>
@@ -170,27 +178,30 @@
 
                         <tr class="table-line">
                             <td class="number">1</td>
-                            <td>LOUD</td>
+                            <td>João</td>
                             <td><img src="assets/icons/LOUD_LOGO-mobile.png" alt=""></td>
                             <td><img src="assets/icons/lixinho.png" alt=""></td>
                         </tr>
 
                         <tr class="table-line">
                             <td class="number">1</td>
-                            <td>LOUD</td>
+                            <td>João</td>
                             <td><img src="assets/icons/LOUD_LOGO-mobile.png" alt=""></td>
                             <td><img src="assets/icons/lixinho.png" alt=""></td>
                         </tr>
 
                         <tr class="table-line">
                             <td class="number">1</td>
-                            <td>LOUD</td>
+                            <td>João</td>
                             <td> <img src="assets/icons/LOUD_LOGO-mobile.png" alt=""></td>
                             <td><img src="assets/icons/lixinho.png" alt=""></td>
                         </tr>
 
 
                     </tbody>
+
+                    
+
 
                 </table>
             </article>
@@ -200,7 +211,7 @@
 
     <footer class="footer">
 
-
+        
         <section class="container-grid container-grid-d footer-flex">
 
             <article class="box1-footer">
@@ -252,22 +263,22 @@
                 <hr>
 
                 <form action="" class="frm-news">
-                    <div class="input-gradient">
-                        <input type="email" placeholder="Digite seu e-mail...">
-                    </div>
-                    <button>Enviar</button>
+                <div class="input-gradient">
+                    <input type="email" placeholder="Digite seu e-mail...">
+                </div>
+                <button>Enviar</button>
                 </form>
 
             </article>
 
-
-
+            
+            
         </section>
 
-        <div class="footer-bottom container-grid-d container-grid">
-            <input class="top-button" type="image" src="assets/icons/Botao_voltar_ao_topo.svg">
-
-            <p class="copyright">©Copyright2022-GamerJogosDigitais</p>
+        <div class = "footer-bottom container-grid-d container-grid" >
+        <input class="top-button" type="image" src="assets/icons/Botao_voltar_ao_topo.svg">
+        
+        <p class="copyright">©Copyright2022-GamerJogosDigitais</p>
 
         </div>
     </footer>
@@ -281,6 +292,7 @@
             document.getElementById("menu-lateral-direita").classList.toggle("mostrarMenuDireita")
         }
     </script>
+
 </body>
 
 </html>

@@ -27,6 +27,7 @@
     font-family: "titilium black";
     src: url(../assets/fonts/TitilliumWeb-Black.ttf);
 }
+
 /* RESET */
 
 * {
@@ -37,26 +38,27 @@
 
 /* configuracoes genericas */
 
-.mostrarMenu{
+.mostrarMenu {
     left: 0 !important;
     opacity: 1 !important;
 }
-.mostrarMenuDireita{
+
+.mostrarMenuDireita {
     right: 0 !important;
     opacity: 1 !important;
 }
 
-.container-grid{
+.container-grid {
     width: 90%;
     margin: 0 auto;
     max-width: 768px;
 }
 
-body{
+body {
     background-color: #1b1426;
 }
 
-/* -------------------------------------------------------- HEADERmobile----------------------------------------------------------------------- */
+/* header */
 
 header {
     position: fixed;
@@ -70,18 +72,18 @@ header {
     background-color: #1b1426;
 }
 
-.header-flex{
+.header-flex {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
-.logotipo-mobile{
+.logotipo-mobile {
     width: 87.5px;
     height: 25px;
 }
 
-.logotipo-desktop{
+.logotipo-desktop {
     display: none;
 }
 
@@ -89,10 +91,10 @@ header {
     display: none;
 }
 
-#menu-lateral{
+#menu-lateral {
     position: fixed;
     top: 60px;
-    left:  -270px;
+    left: -270px;
     width: 270px;
     height: calc(100vh - 60px);
     display: flex;
@@ -101,13 +103,13 @@ header {
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    background-image: linear-gradient(rgb(27, 20, 38, 70%), rgb(27, 20, 38,40%));
+    background-image: linear-gradient(rgb(27, 20, 38, 70%), rgb(27, 20, 38, 40%));
     backdrop-filter: blur(5px);
     box-shadow: 5px 0px 30px;
     opacity: 0;
 }
 
-.link-centro{
+.link-centro {
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -129,15 +131,19 @@ header {
     width: 270px;
 }
 
-.contatos-mobile span{
+.contatos-mobile span {
     font-family: "inter";
     font-size: 15px;
     color: white;
 }
 
-.contatos-mobile{
+.contatos-mobile {
     width: 100%;
     text-align: center;
+}
+
+.contatos-mobile a {
+    text-decoration: none;
 }
 
 .tel-box-mobile {
@@ -178,7 +184,7 @@ header {
     right: -66px;
     width: 66px;
     height: 170px;
-    background-image: linear-gradient(rgb(27, 20, 38, 70%), rgb(27, 20, 38,40%));
+    background-image: linear-gradient(rgb(27, 20, 38, 70%), rgb(27, 20, 38, 40%));
     backdrop-filter: blur(5px);
     box-shadow: 5px 0px 30px;
     align-items: center;
@@ -189,7 +195,7 @@ header {
     opacity: 0;
 }
 
-.icons-left{
+.icons-left {
     display: flex;
     flex-direction: column;
     width: 20px;
@@ -197,51 +203,51 @@ header {
     justify-content: space-between;
 }
 
-.upper-header-mobile{
+.upper-header-mobile {
     display: flex;
     flex-direction: column;
     height: 510px;
 }
 
 .social-box-mobile {
-    margin-bottom: 10px;
+    margin-bottom: 60px;
     display: flex;
     width: 152px;
     height: 31px;
     justify-content: space-between;
 }
 
-.social-box-mobile .facebook{
+.social-box-mobile .facebook {
     width: 15px;
     height: 29px;
 }
 
-.social-box-mobile .linkedin{
+.social-box-mobile .linkedin {
     width: 26px;
     height: 26px;
     margin-top: 3px;
 }
 
-.social-box-mobile .instagram{
+.social-box-mobile .instagram {
     width: 30px;
     height: 30px;
 }
 
-/* -----------------------------------------------------------MAINmobile ----------------------------------------------------------------- */
-.banner{
-    background-image: url(../assets/images/fundo-mobile-equipes.png);
+/* ************ MAIN ************** */
+.banner {
+    background-image: url(../images/Banner_cadastro_de_Equipe.png);
 
     height: 1231px;
 }
 
-.equipes-flex{
+.equipes-flex {
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
 
-.box-equipes{
+.box-equipes {
     flex-direction: column;
     background-image: linear-gradient(112.07deg, rgba(27, 20, 38, 0.6) 0%, rgba(60, 3, 65, 0.38) 98.83%);
     backdrop-filter: blur(5px);
@@ -257,65 +263,58 @@ header {
     align-items: center;
 }
 
-.border-gradient{
+.border-gradient {
     margin-top: 138px;
-    padding: 1px;
     height: 492px;
     width: 335px;
-    background-image: linear-gradient(to right bottom, rgba(255, 255, 255, .5), rgba(255, 255, 255, .0));    
+    background: linear-gradient(to right bottom, rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0)) border-box;
+    border-image-slice: 1;
+    border: 2px solid transparent;
     border-radius: 8px;
 
 }
 
-.box-equipes hr{
+.box-equipes hr {
     border: 2px solid #f9aa01;
     width: 250px;
     margin-bottom: 80px;
 }
 
-.box-equipes h1{
+.box-equipes h1 {
     font-size: 28px;
     margin-top: 40px;
 }
 
-.input-gradient-equipes{
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.input-gradient-equipes {
     width: 273px;
-    height: 40px;
-    padding: 1.5px;
-    background-image: linear-gradient(90deg, rgba(255, 255, 255, 0.459), rgba(255, 255, 255, 0) );
+    padding: 1px;
+    background: linear-gradient(to right, rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0)) border-box;
+    border-image-slice: 1;
+    border: 2px solid transparent;
     border-radius: 8px;
     margin-bottom: 30px;
 }
 
 .input-gradient-equipes input {
     display: flex;
-    align-items: center;
     padding-left: 16px;
-    background: transparent;
     width: 100%;
-    height: 100%;
     border-radius: 8px;
-    background-image: linear-gradient(90deg, #bbaacc 0%, rgba(217, 217, 217, 0.862) 103.86%);
+    background-image: linear-gradient(91.13deg, rgba(239, 239, 239, 0.6) 0%, rgba(239, 239, 239, 0.1) 100%);
     backdrop-filter: blur(5px);
-    width: 100%;
-    color: white;
-    padding-left: 16px;
-    height: 40px;
     background: transparent;
+    height: 40px;
     border: none;
     outline: none;
 }
 
-.input-gradient-equipes input::placeholder{
+.input-gradient-equipes input::placeholder {
     color: white;
     font-family: "titilium web regular";
     font-size: 16px;
 }
 
-.box-equipes .cadastro{
+.box-equipes .cadastro {
     width: 273px;
     height: 40px;
     border-radius: 8px;
@@ -326,7 +325,7 @@ header {
     margin-top: 49px;
 }
 
-.image-equipe input::file-selector-button{
+.image-equipe input::file-selector-button {
     background-color: white;
     width: 124px;
     height: 40px;
@@ -334,26 +333,17 @@ header {
     border-radius: 8px;
     font-family: "titilium web bold";
 }
-/*tabela*/
-table{
+
+table {
     width: 100%;
-    border-spacing: 0 15px;
+    /* border-spacing: 0 15px;  */
     margin-top: 90px;
+    border-collapse: collapse;
 }
 
-table, tr, td{
-    border-collapse: separate;
-
-}
-
-thead tr th{
+thead tr th {
     border-bottom: 3px solid #f9aa01;
     height: 50px;
-    border-spacing: 14px;
-}
-
-thead{
-    width: 100%;
 }
 
 table th {
@@ -364,89 +354,91 @@ table th {
     font-size: 20px;
 }
 
-.table-line{
-    background-image: linear-gradient(112.07deg, rgba(27, 20, 38, 0.6) 0%, rgba(60, 3, 65, 0.38) 98.83%);
+.table-line {
+    background-image: linear-gradient(112.07deg, rgba(27, 20, 38, 0.9) 0%, rgba(60, 3, 65, 0.9) 98.83%);
     backdrop-filter: blur(5px);
     text-align: center;
-    vertical-align: middle;
     color: white;
     font-family: 'titilium web bold';
     font-size: 20px;
     height: 70px;
-    border-spacing: 0 10px;
-    border-collapse: collapse;
     border-radius: 8px;
+    background: linear-gradient(to right, rgba(27, 20, 38, .9), rgba(60, 3, 65, 0.03)) padding-box,
+        linear-gradient(to right, rgba(255, 255, 255, .6), rgba(255, 255, 255, 0)) border-box;
+    border-image-slice: 1;
+    border: none;
 }
 
-.table-line td{
-    border-collapse: collapse;
+.table-line td {
+    border: none !important;
 }
 
-tbody{
-    border-spacing: 0 1000px;
-    /* background-color: #f9aa01; */
-}
-
-.number{
+.number {
     border-radius: 8px 0 0 8px;
 }
 
-.icon-trash{
+.icon-trash {
     border-radius: 0 8px 8px 0;
 }
 
-.table-line td{
+.table-line td {
     border-right: 2px solid #f9aa01;
+    height: 10px;
 }
 
-.table-line > td:last-of-type{
+.table-line>td:last-of-type {
     border-right: none;
 }
 
-
-
-/* FOOTER */
-.footer{
-    background-image: url(../assets/images/backgroung_footer.png);
+/* **************** FOOTER ************* */
+.footer {
+    background-image: url(../images/backgorund-footer.png);
     box-shadow: inset 0px 50px 80px rgb(0, 0, 0, 0.9);
     background-size: cover;
     height: 1531px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
-.footer-flex{
+.footer-flex {
     display: flex;
     flex-direction: column;
 }
 
-.box1-footer{
+.box1-footer {
     display: flex;
     flex-direction: column;
     align-items: center;
     color: white;
     font-family: "quicksand";
     font-size: 16px;
-    text-align:justify;
+    text-align: justify;
 }
 
-.box1-footer *{
-    margin-top: 30px;
-    margin-bottom: 30px;
+.box1-footer>img {
+    margin-top: 90px;
+    margin-bottom: 90px;
 }
 
-.social-box-footer{
+.box1-footer p {
+    margin-bottom: 100px;
+}
+
+.social-box-footer {
     width: 100%;
     display: flex;
     justify-content: space-between;
 }
 
-h5{
+h5 {
     color: white;
     font-family: "titilium web";
     font-size: 40px;
     margin-top: 100px;
 }
 
-footer hr{
+footer hr {
     width: 110px;
     border: 1px solid #f9aa01;
 }
@@ -461,14 +453,14 @@ footer hr{
 }
 
 li a {
-    color: white ;
+    color: white;
     text-decoration: none;
     display: flex;
     align-items: center;
     margin-right: 25px;
-  }
+}
 
-.inside{
+.inside {
     list-style-position: none;
 }
 
@@ -477,46 +469,51 @@ li::before {
 
     margin-right: 12px;
     padding-bottom: 8px;
-  }
+}
 
-  .box2-footer ul li {
+.box2-footer ul li {
     display: flex;
 }
 
-.box3-footer hr{
+.box3-footer hr {
     margin-bottom: 50px;
 }
 
-.box3-footer h2{
+.box3-footer h2 {
     color: #f9aa01;
     font-size: 16px;
     font-family: "inter";
 
 }
 
-.box3-footer p{
+.box3-footer p {
     color: white;
     font-size: 16px;
     font-family: "inter";
 }
-.box3-footer p, h2{
+
+.box3-footer p,
+h2 {
     padding-bottom: 9px;
 }
 
-.box4-footer hr{
+.box4-footer hr {
     margin-bottom: 30px;
-    
+
 }
 
-.input-gradient{
+.input-gradient {
     width: 100%;
     height: 40px;
-    padding: 1.5px;
-    background-image: linear-gradient(90deg, rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.1) );
     border-radius: 8px;
+    background:
+        linear-gradient(to right, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0)) border-box;
+
+    border-image-slice: 1;
+    border: 1px solid transparent;
 }
 
-.box4-footer .input-gradient input{
+.box4-footer .input-gradient input {
     color: white;
     padding-left: 16px;
     background: transparent;
@@ -529,7 +526,7 @@ li::before {
     outline: none;
 }
 
-.box4-footer input::placeholder{
+.box4-footer input::placeholder {
     font-weight: bold;
     color: white;
     font-family: "quicksand";
@@ -537,7 +534,7 @@ li::before {
     margin-right: 16px;
 }
 
-.box4-footer button{
+.box4-footer button {
     width: 100%;
     height: 40px;
     background-color: #f9aa01;
@@ -550,7 +547,7 @@ li::before {
     margin-top: 15px;
 }
 
-.footer-bottom{
+.footer-bottom {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -558,264 +555,288 @@ li::before {
     width: 100%;
     height: 46px;
 }
-.top-button{
+
+.footer-bottom a {
     align-self: flex-end;
-    margin-top: 110px;
+    margin-top: 80px;
     margin-right: 18px;
 }
 
-.copyright{
+.copyright {
     color: white;
     font-family: "titilium web regular";
     align-self: center;
-    margin-top: 15px;
 }
+
+/* MEDIA QUERIES */
 
 @media screen and (min-width:992px) {
-    
+
     /* CONFIG GENERICA */
 
-.container-grid-d{
-    width: 100%;
-    margin: 0 auto;
-    max-width: 1280px;
-    /* border: 1px solid green; */
-}
-/*----------------------------------------------------------------HEADERdesktop------------------------------------------------------------------*/
-.mobile-header{
-    display: none;
-}
+    .container-grid-d {
+        width: 100%;
+        margin: 0 auto;
+        max-width: 1280px;
+        /* border: 1px solid green; */
+    }
 
-header{
-    position: static;
-    height: 140px;
-    align-items: flex-start;
-    flex-direction: column;
-}
+    .header-mobile {
+        display: none;
+    }
 
-
-.up-header-box{
-    display: flex;
-    border-bottom: 2px solid #f9aa01;
-    width: 100%;
-    height: 50px;
-}
-
-.flex{
-    display: flex;
-    justify-content: space-between;
-}
-
-.contatos{
-    display: flex;
-    justify-content: space-between;
-    width: 431px;
-}
-
-.tel-box{
-    width: 168px;
-}
-
-.mail-box{
-    width: 218px;
-}
-
-.contatos a{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    text-decoration: none;
-    align-items: center;
-    color: white;
-    font-family: "inter";
-    font-size: 12px;
-}
-
-.social-box{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    width: 127px;
-}
-
-.logotipo-desktop{
-    display: block;
-}
-
-.bottom-header{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    height: 90px;
-    width: 100%;
-}
-
-#menu-lateral{
-    width: 867px;
-    position: static;
-    height: auto;
-    flex-direction: row;
-    justify-content: space-between;
-    opacity: 1;
-    box-shadow: none;
-    background-image: none;
-    backdrop-filter: none;
-    height: max-content;
-}
-
-.upper-header-mobile{
-    display: flex;
-    width: 420px;
-    align-items: center;
-    justify-content: center;
-    height: max-content;
-}
-
-.social-box-mobile, .contatos-mobile{
-    display: none;
-}
-
-.link-centro{
-    flex-direction: row;
-    width: 420px;
-    height: max-content;
-}
-
-.link-centro a{
-    height: max-content;
-    border: none;
-    margin-right: 59px;
-}
-
-#menu-lateral-direita{
-    right: 0;
-    opacity: 1;
-    position: static;
-    background-image: none;
-    backdrop-filter: none;
-    flex-direction: row;
-    justify-content: space-between;
-    box-shadow: none;
-    width: 130px;
-    height: max-content;
-}
-
-.icons-left{
-    flex-direction: row;
-    justify-content: space-between;
-    width: 130px;
-    height: 25px;
-}
-
-.link-centro a:hover{
-    color: #f9aa01;
-}
-
-}
+    header {
+        position: static;
+        height: 140px;
+        align-items: flex-start;
+        flex-direction: column;
+    }
 
 
-/*-----------------------------------------------------------------MAINdesktop----------------------------------------------------------------*/
+    .up-header-box {
+        display: flex;
+        border-bottom: 2px solid #f9aa01;
+        width: 100%;
+        height: 50px;
+    }
 
-main .banner {
-    background-image: url(../assets/images/fundo-desktop-equipes.png);
-    width: 100%;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 1372px;
-}
+    .flex {
+        display: flex;
+        justify-content: space-between;
+    }
 
+    .contatos {
+        display: flex;
+        justify-content: space-between;
+        width: 431px;
+    }
 
-main .box-equipes .container-grid {
-    width: 100px;
-    height: 530px;
-}
+    .tel-box {
+        width: 168px;
+    }
+
+    .mail-box {
+        width: 218px;
+    }
+
+    .contatos a {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        text-decoration: none;
+        align-items: center;
+        color: white;
+        font-family: "inter";
+        font-size: 12px;
+    }
+
+    .social-box {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 127px;
+    }
+
+    .logotipo-desktop {
+        display: block;
+    }
+
+    .bottom-header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        height: 90px;
+        width: 100%;
+    }
+
+    #menu-lateral {
+        width: 867px;
+        position: static;
+        flex-direction: row;
+        justify-content: space-between;
+        opacity: 1;
+        height: auto;
+        box-shadow: none;
+        background-image: none;
+        backdrop-filter: none;
+    }
+
+    .upper-header-mobile {
+        height: max-content;
+        display: flex;
+        width: 420px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .social-box-mobile,
+    .contatos-mobile {
+        display: none;
+    }
+
+    .link-centro {
+        flex-direction: row;
+        width: 420px;
+        height: max-content;
+    }
+
+    .link-centro a {
+        height: max-content;
+        border: none;
+        margin-right: 59px;
+    }
+
+    #menu-lateral-direita {
+        right: 0;
+        opacity: 1;
+        position: static;
+        background-image: none;
+        backdrop-filter: none;
+        flex-direction: row;
+        justify-content: space-between;
+        box-shadow: none;
+        width: 130px;
+        height: 30px;
+    }
+
+    .icons-left {
+        flex-direction: row;
+        justify-content: space-between;
+        width: 130px;
+        height: 25px;
+    }
+
+    .link-centro a:hover {
+        color: #f9aa01;
+    }
 
 
 
+    /* MAIN */
+    .banner {
+        background-image: url(/images/banner_cadastro_de_equipe\ \(1\).png);
+        background-size: cover;
+    }
 
-/* ---------------------------------------------------------------FOOTERdesktop-------------------------------------------------------------- */
+    .input-gradient-equipes {
+        width: 80%;
+    }
 
-.footer{
-    background-image: url(../assets/images/backgroung_footer.png);
-    box-shadow: inset 0px 50px 80px rgb(0, 0, 0, 0.9);
-    height: 520px;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    justify-content: space-evenly;
-}
+    .border-gradient {
+        width: 800px;
+        height: 530px;
+    }
 
-.footer h5{
-    margin-top: 0;
-}
+    .box-equipes h1 {
+        font-size: 40px;
+        font-family: 'titilium web black';
+    }
 
-.footer-flex{
-    height: 257px;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-    margin-top: 40px;
-}
+    .box-equipes hr {
+        width: 390px;
+    }
 
-.box1-footer {
-    width: 294px;
-    height: 300px;
-    align-items: flex-start;
-    justify-content: space-around;
-}
+    .image-equipe input::file-selector-button {
+        width: 334px;
+    }
 
-.box1-footer *{
-    margin: 0;
-}
-.social-box-footer{
-    width: 206px;
-    justify-content: space-between;
+    tbody>tr:last-of-type {
+        display: none;
+    }
 
-}
+    .table-line {
+        height: 125px;
+    }
 
-.box2-footer{
-    width: 200px;
-    height: 257px;
-    margin-bottom: 20px;
-    align-self: flex-start;
-}
+    table {
+        margin-top: 20px;
+    }
 
-.box3-footer{
-    margin-bottom: 10px;
-    align-self: flex-start;
-}
+    /* FOOTER */
+    .footer {
+        background-image: url(../images/backgroung_footer-desktop.png);
+        box-shadow: inset 0px 50px 80px rgb(0, 0, 0, 0.9);
+        height: 520px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
 
-.box4-footer{
-    align-self: flex-start;
-    padding-bottom: 80px;
-}
+    .footer h5 {
+        margin-top: 0;
+    }
 
-.box2-footer li {
-    margin-bottom: 12px;
-}
+    .footer-flex {
+        height: 257px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: 40px;
+    }
 
-.box2-footer li a:hover{
-    color: #f9aa01;
-}
+    .box1-footer {
+        width: 294px;
+        height: 300px;
+        align-items: flex-start;
+        justify-content: space-around;
+    }
 
-.input-gradient{
-    width: 285px;
-    margin-top: 52px;
-}
+    .box1-footer * {
+        margin: 0;
+    }
 
-.footer-bottom{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    width: 100%;
-    height: 46px;
-}
+    .social-box-footer {
+        width: 206px;
+        justify-content: space-between;
 
-.footer-bottom input{
-    margin-top: 0;
-}
+    }
 
-h5{
-    font-size: 30px;
+    .box2-footer {
+        width: 200px;
+        height: 257px;
+        margin-bottom: 20px;
+        align-self: flex-start;
+    }
+
+    .box3-footer {
+        margin-bottom: 10px;
+        align-self: flex-start;
+    }
+
+    .box4-footer {
+        align-self: flex-start;
+        padding-bottom: 80px;
+    }
+
+    .box2-footer li {
+        margin-bottom: 12px;
+    }
+
+    .box2-footer li a:hover {
+        color: #f9aa01;
+    }
+
+    .input-gradient {
+        width: 285px;
+        margin-top: 52px;
+    }
+
+    .footer-bottom {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        /* border: 1px solid green; */
+        width: 100%;
+        height: 46px;
+    }
+
+    .footer-bottom input {
+        margin-top: 0;
+    }
+
+    h5 {
+        font-size: 30px;
+    }
 }
