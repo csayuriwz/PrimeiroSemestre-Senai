@@ -313,47 +313,54 @@ header {
     margin-top: 25px;
 }
 /* --------------------------------------------------------FOOTERmobile ------------------------------------------------------------ */
-.footer{
+.footer {
     background-image: url(../assets/images/fundo-footer-mobile.png);
     box-shadow: inset 0px 50px 80px rgb(0, 0, 0, 0.9);
     background-size: cover;
     height: 1531px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
-.footer-flex{
+.footer-flex {
     display: flex;
     flex-direction: column;
 }
 
-.box1-footer{
+.box1-footer {
     display: flex;
     flex-direction: column;
     align-items: center;
     color: white;
     font-family: "quicksand";
     font-size: 16px;
-    text-align:justify;
+    text-align: justify;
 }
 
-.box1-footer *{
-    margin-top: 30px;
-    margin-bottom: 30px;
+.box1-footer>img {
+    margin-top: 90px;
+    margin-bottom: 90px;
 }
 
-.social-box-footer{
+.box1-footer p {
+    margin-bottom: 100px;
+}
+
+.social-box-footer {
     width: 100%;
     display: flex;
     justify-content: space-between;
 }
 
-h5{
+h5 {
     color: white;
     font-family: "titilium web";
     font-size: 40px;
     margin-top: 100px;
 }
 
-footer hr{
+footer hr {
     width: 110px;
     border: 1px solid #f9aa01;
 }
@@ -368,62 +375,61 @@ footer hr{
 }
 
 li a {
-    color: white ;
+    color: white;
     text-decoration: none;
     display: flex;
     align-items: center;
     margin-right: 25px;
-  }
+}
 
-.inside{
+.inside {
     list-style-position: none;
 }
 
-li::before {
-    content: url(../assets/icons/Line\ 27.svg);
 
-    margin-right: 12px;
-    padding-bottom: 8px;
-  }
-
-  .box2-footer ul li {
+.box2-footer ul li {
     display: flex;
 }
 
-.box3-footer hr{
+.box3-footer hr {
     margin-bottom: 50px;
 }
 
-.box3-footer h2{
+.box3-footer h2 {
     color: #f9aa01;
     font-size: 16px;
     font-family: "inter";
 
 }
 
-.box3-footer p{
+.box3-footer p {
     color: white;
     font-size: 16px;
     font-family: "inter";
 }
-.box3-footer p, h2{
+
+.box3-footer p,
+h2 {
     padding-bottom: 9px;
 }
 
-.box4-footer hr{
+.box4-footer hr {
     margin-bottom: 30px;
-    
+
 }
 
-.input-gradient{
+.input-gradient {
     width: 100%;
     height: 40px;
-    padding: 1.5px;
-    background-image: linear-gradient(90deg, rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.1) );
     border-radius: 8px;
+    background:
+        linear-gradient(to right, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0)) border-box;
+
+    border-image-slice: 1;
+    border: 1px solid transparent;
 }
 
-.box4-footer .input-gradient input{
+.box4-footer .input-gradient input {
     color: white;
     padding-left: 16px;
     background: transparent;
@@ -436,7 +442,7 @@ li::before {
     outline: none;
 }
 
-.box4-footer input::placeholder{
+.box4-footer input::placeholder {
     font-weight: bold;
     color: white;
     font-family: "quicksand";
@@ -444,7 +450,7 @@ li::before {
     margin-right: 16px;
 }
 
-.box4-footer button{
+.box4-footer button {
     width: 100%;
     height: 40px;
     background-color: #f9aa01;
@@ -457,22 +463,25 @@ li::before {
     margin-top: 15px;
 }
 
-.rodape-bottom{
+.footer-bottom {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    /* border: 1px solid green; */
+    width: 100%;
     height: 46px;
 }
-.top-button{
+
+.footer-bottom a {
     align-self: flex-end;
-    margin-top: 110px;
+    margin-top: 80px;
     margin-right: 18px;
 }
 
-.copyright{
+.copyright {
     color: white;
-    font-family: "titilium web regular";
+    font-family: "titilium web";
     align-self: center;
-    margin-top: 15px;
 }
 
 /* -------------------------------------------------------MEDIA QUERIES----------------------------------------------------------*/
@@ -639,7 +648,7 @@ header{
 }
 
 /* ---------------------------------------------------FOOTERdesktop----------------------------------------------------------------- */
-.footer{
+.footer {
     background-image: url(../assets/images/backgroung_footer.png);
     box-shadow: inset 0px 50px 80px rgb(0, 0, 0, 0.9);
     height: 520px;
@@ -649,11 +658,11 @@ header{
     justify-content: space-evenly;
 }
 
-.footer h5{
+.footer h5 {
     margin-top: 0;
 }
 
-.footer-flex{
+.footer-flex {
     height: 257px;
     display: flex;
     flex-direction: row;
@@ -669,28 +678,29 @@ header{
     justify-content: space-around;
 }
 
-.box1-footer *{
-    margin: 0;
+.box1-footer * {
+    margin: 0 !important;
 }
-.social-box-footer{
+
+.social-box-footer {
     width: 206px;
     justify-content: space-between;
 
 }
 
-.box2-footer{
+.box2-footer {
     width: 200px;
     height: 257px;
     margin-bottom: 20px;
     align-self: flex-start;
 }
 
-.box3-footer{
+.box3-footer {
     margin-bottom: 10px;
     align-self: flex-start;
 }
 
-.box4-footer{
+.box4-footer {
     align-self: flex-start;
     padding-bottom: 80px;
 }
@@ -699,28 +709,30 @@ header{
     margin-bottom: 12px;
 }
 
-.box2-footer li a:hover{
+.box2-footer li a:hover {
     color: #f9aa01;
 }
 
-.input-gradient{
+.input-gradient {
     width: 285px;
     margin-top: 52px;
 }
 
-.footer-bottom{
+.footer-bottom {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    /* border: 1px solid green; */
     width: 100%;
     height: 46px;
 }
 
-.footer-bottom input{
+.footer-bottom input {
     margin-top: 0;
 }
 
-h5{
+h5 {
     font-size: 30px;
 }
+
 }

@@ -40,22 +40,23 @@
 
 /* configuracoes genericas */
 
-.mostrarMenu{
+.mostrarMenu {
     left: 0 !important;
     opacity: 1 !important;
 }
-.mostrarMenuDireita{
+
+.mostrarMenuDireita {
     right: 0 !important;
     opacity: 1 !important;
 }
 
-.container-grid{
+.container-grid {
     width: 90%;
     margin: 0 auto;
     max-width: 768px;
 }
 
-body{
+body {
     background-color: #1b1426;
 }
 
@@ -73,26 +74,26 @@ header {
     background-color: #1b1426;
 }
 
-.header-flex{
+.header-flex {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
 
-.logotipo-desktop{
+.logotipo-desktop {
     display: none;
 }
 
-.primeiraparte-header{
+.primeiraparte-header {
     display: none;
 }
 
 
-#menu-hamburguer{
+#menu-hamburguer {
     position: fixed;
     top: 60px;
-    left:  -270px;
+    left: -270px;
     width: 270px;
     height: calc(100vh - 60px);
     display: flex;
@@ -101,13 +102,13 @@ header {
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    background-image: linear-gradient(rgb(27, 20, 38, 70%), rgb(27, 20, 38,40%));
+    background-image: linear-gradient(rgb(27, 20, 38, 70%), rgb(27, 20, 38, 40%));
     backdrop-filter: blur(2px);
     box-shadow: 5px 0px 30px;
-    
+
 }
 
-.links{
+.links {
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -129,13 +130,13 @@ header {
     width: 270px;
 }
 
-.contatos-mobile span{
+.contatos-mobile span {
     font-family: "inter";
     font-size: 15px;
     color: white;
 }
 
-.contatos-mobile{
+.contatos-mobile {
     width: 100%;
     text-align: center;
 }
@@ -178,7 +179,7 @@ header {
     right: -66px;
     width: 66px;
     height: 170px;
-    background-image: linear-gradient(rgb(27, 20, 38, 70%), rgb(27, 20, 38,40%));
+    background-image: linear-gradient(rgb(27, 20, 38, 70%), rgb(27, 20, 38, 40%));
     backdrop-filter: blur(5px);
     box-shadow: 5px 0px 30px;
     align-items: center;
@@ -189,7 +190,7 @@ header {
     opacity: 0;
 }
 
-.icons-usuario{
+.icons-usuario {
     display: flex;
     flex-direction: column;
     width: 20px;
@@ -197,7 +198,7 @@ header {
     justify-content: space-between;
 }
 
-.primeiraparte-header-mobile{
+.primeiraparte-header-mobile {
     display: flex;
     flex-direction: column;
     height: 510px;
@@ -213,7 +214,7 @@ header {
 
 /* ------------------------------------------------MAINmobile---------------------------------------------------- */
 
-.banner{
+.banner {
     background-image: url(../assets/images/backgorund-mobile-banner.png);
     background-repeat: no-repeat;
     background-size: cover;
@@ -222,7 +223,7 @@ header {
     box-sizing: border-box
 }
 
-.banner-content{
+.banner-content {
     height: 503px;
     display: flex;
     flex-direction: column;
@@ -230,7 +231,7 @@ header {
     justify-content: space-between;
 }
 
-.banner-content h1{
+.banner-content h1 {
     margin-top: 20px;
     color: white;
     font-family: "titilium web";
@@ -252,7 +253,7 @@ header {
 
 /* sessao azul */
 
-.most-popular{
+.most-popular {
     position: relative;
     height: 590px;
     display: flex;
@@ -262,13 +263,13 @@ header {
     z-index: -1;
 }
 
-.most-popular-box img{
+.most-popular-box img {
     position: relative;
     width: 100%;
     height: 189px;
 }
 
-.most-popular-box{
+.most-popular-box {
     width: 337px;
     position: relative;
 }
@@ -276,28 +277,28 @@ header {
 
 /* sessao amarela */
 
-.programer-team{
+.programer-team {
     background-color: #f9aa01;
     height: 1535px;
 }
 
-.info-article{
+.info-article {
     position: relative;
 }
 
-.info-1{
+.info-1 {
     margin-bottom: 300px;
 }
 
-.info-2{
+.info-2 {
     display: flex;
     justify-content: flex-end;
 }
 
-.border-gradient2{
+.border-gradient2 {
     padding: 1px;
     width: 210px;
-    background-image: linear-gradient(to right bottom, rgba(255, 255, 255, .5), rgba(255, 255, 255, .1));    
+    background-image: linear-gradient(to right bottom, rgba(255, 255, 255, .5), rgba(255, 255, 255, .1));
     border-radius: 8px;
     z-index: 1;
     position: absolute;
@@ -305,11 +306,11 @@ header {
     right: 127px;
 }
 
-.info-box2 p{
+.info-box2 p {
     font-size: 12px !important;
 }
 
-.programer-team h2{
+.programer-team h2 {
     font-size: 15px;
     font-family: "titilium web";
     text-align: center;
@@ -321,14 +322,14 @@ header {
 
 .programer-team hr {
     width: 204px;
-    margin: 0 auto 100px ;
+    margin: 0 auto 100px;
     border: 1px solid #1b1426;
 }
 
-.border-gradient{
+.border-gradient {
     padding: 1px;
     width: 210px;
-    background-image: linear-gradient(to right bottom, rgba(255, 255, 255, .5), rgba(255, 255, 255, .1));    
+    background-image: linear-gradient(to right bottom, rgba(255, 255, 255, .5), rgba(255, 255, 255, .1));
     border-radius: 8px;
     z-index: 1;
     position: absolute;
@@ -336,7 +337,7 @@ header {
     left: 127px;
 }
 
-.info-box{
+.info-box {
     height: 262px;
     background: linear-gradient(to right bottom, rgba(122, 49, 236, .2), rgba(47, 7, 109, 0.8));
     backdrop-filter: blur(5px);
@@ -349,7 +350,7 @@ header {
     padding: 5px;
 }
 
-.info-box h3{
+.info-box h3 {
     font-size: 16px;
     font-family: "titilium web";
     color: white;
@@ -357,7 +358,7 @@ header {
 
 }
 
-.info-box p{
+.info-box p {
     color: white;
     font-family: "quicksand";
     font-size: 14px;
@@ -367,53 +368,45 @@ header {
 
 }
 
-.info-box2 img{
+.info-box2 img {
     margin-left: 20px;
 }
 
-.perso2-mobile{
+.perso2-mobile {
     width: 332px;
     height: 428px;
 }
 
-.perso1-mobile{
+.perso1-mobile {
     width: 314px;
     height: 511px;
 }
 
-.perso1-desktop{
+.perso1-desktop {
     display: none;
 }
 
-.perso2-desktop{
+.perso2-desktop {
     display: none;
 }
 
 /* sessao noticias */
 
-.news{
-    background-image: url(../images/backgrund_notícias\ 1.png);
+.news {
+    background-image: url(../assets/images/back-ground\ noticias.svg);
     background-position: center;
     background-size: cover;
     position: relative;
     height: 3675px;
 }
 
-.news::before{
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    backdrop-filter: blur(4px);
-}
 
-.news-card img{
+
+.news-card img {
     width: 100%;
 }
 
-.news h2{
+.news h2 {
     position: relative;
     color: white;
     font-size: 15px;
@@ -428,11 +421,11 @@ header {
 .news hr {
     position: relative;
     width: 204px;
-    margin: 0 auto 60px ;
+    margin: 0 auto 60px;
     border: 1px solid #f9aa01;
 }
 
-.text-box-news{
+.text-box-news {
     border-radius: 8px;
     width: 100%;
     height: 387px;
@@ -441,70 +434,78 @@ header {
     color: white;
 }
 
-.text-box-news h4{
+.text-box-news h4 {
     font-family: "titilium web";
     font-size: 24px;
     font-weight: 1;
     padding: 25px 25px 0 25px;
 }
-.text-box-news p{
+
+.text-box-news p {
     padding: 20px 25px 0 25px;
     font-family: "quicksand";
     font-size: 16px;
 }
 
-.news-card{
+.news-card {
     margin-bottom: 20px;
 }
 
 
 /* ----------------------------------------------------------FOOTERmobile------------------------------------------------ */
-.footer{
-    background-image: url(../assets/images/backgroung_footer.png);
+.footer {
+    background-image: url(../assets/images/fundo-footer-mobile.png);
     box-shadow: inset 0px 50px 80px rgb(0, 0, 0, 0.9);
     background-size: cover;
     height: 1531px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
-.footer-flex{
+.footer-flex {
     display: flex;
     flex-direction: column;
 }
 
-.agradecimentos{
+.box1-footer {
     display: flex;
     flex-direction: column;
     align-items: center;
     color: white;
     font-family: "quicksand";
     font-size: 16px;
-    text-align:justify;
+    text-align: justify;
 }
 
-.agradecimentos *{
-    margin-top: 30px;
-    margin-bottom: 30px;
+.box1-footer>img {
+    margin-top: 90px;
+    margin-bottom: 90px;
 }
 
-.midiassociais{
+.box1-footer p {
+    margin-bottom: 100px;
+}
+
+.social-box-footer {
     width: 100%;
     display: flex;
     justify-content: space-between;
 }
 
-h5{
+h5 {
     color: white;
     font-family: "titilium web";
     font-size: 40px;
     margin-top: 100px;
 }
 
-footer hr{
+footer hr {
     width: 110px;
     border: 1px solid #f9aa01;
 }
 
-.LinksUteis ul {
+.box2-footer ul {
     font-family: "inter";
     font-size: 16px;
     margin-top: 34px;
@@ -514,62 +515,61 @@ footer hr{
 }
 
 li a {
-    color: white ;
+    color: white;
     text-decoration: none;
     display: flex;
     align-items: center;
     margin-right: 25px;
-  }
+}
 
-.inside{
+.inside {
     list-style-position: none;
 }
 
-li::before {
-    content: url(../assets/icons/Line\ 27.svg);
 
-    margin-right: 12px;
-    padding-bottom: 8px;
-  }
-
-  .LinksUteis ul li {
+.box2-footer ul li {
     display: flex;
 }
 
-.Contatos hr{
+.box3-footer hr {
     margin-bottom: 50px;
 }
 
-.Contatos h2{
+.box3-footer h2 {
     color: #f9aa01;
     font-size: 16px;
     font-family: "inter";
 
 }
 
-.Contatos p{
+.box3-footer p {
     color: white;
     font-size: 16px;
     font-family: "inter";
 }
-.Contatos p, h2{
+
+.box3-footer p,
+h2 {
     padding-bottom: 9px;
 }
 
-.Newsletter hr{
+.box4-footer hr {
     margin-bottom: 30px;
-    
+
 }
 
-.input-gradient{
+.input-gradient {
     width: 100%;
     height: 40px;
-    padding: 1.5px;
-    background-image: linear-gradient(90deg, rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.1) );
     border-radius: 8px;
+    background:
+        linear-gradient(to right, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0)) border-box;
+
+    border-image-slice: 1;
+    border: 1px solid transparent;
 }
 
-.Newsletter .input-gradient input{
+.box4-footer .input-gradient input {
     color: white;
     padding-left: 16px;
     background: transparent;
@@ -582,7 +582,7 @@ li::before {
     outline: none;
 }
 
-.Newsletter input::placeholder{
+.box4-footer input::placeholder {
     font-weight: bold;
     color: white;
     font-family: "quicksand";
@@ -590,7 +590,7 @@ li::before {
     margin-right: 16px;
 }
 
-.Newsletter button{
+.box4-footer button {
     width: 100%;
     height: 40px;
     background-color: #f9aa01;
@@ -603,437 +603,442 @@ li::before {
     margin-top: 15px;
 }
 
-.footer-bottom{
+.footer-bottom {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    
+    /* border: 1px solid green; */
     width: 100%;
     height: 46px;
 }
-.setinha {
+
+.footer-bottom a {
     align-self: flex-end;
-    margin-top: 110px;
+    margin-top: 80px;
     margin-right: 18px;
 }
 
-.copyright{
+.copyright {
     color: white;
-    font-family: "titilium web regular";
+    font-family: "titilium web";
     align-self: center;
-    margin-top: 15px;
 }
-
 
 /* ------------------------------------------------ MEDIA QUERIES ---------------------------------------------------- */
 
 @media screen and (min-width:992px) {
-    
+
     /* CONFIG GENERICA */
 
-.container-grid-d{
-    width: 100%;
-    margin: 0 auto;
-    max-width: 1280px;
-    /* border: 1px solid green; */
-}
-/*----------------------------------------------------HEADERdesktop-----------------------------------------------------*/
-.header-mobile{
-    display: none;
-}
-
-header{
-    position: static;
-    height: 140px;
-    align-items: flex-start;
-    flex-direction: column;
-}
-
-
-.primeiraparte-header{
-    display: flex;
-    border-bottom: 2px solid #f9aa01;
-    width: 100%;
-    height: 50px;
-}
-
-.flex{
-    display: flex;
-    justify-content: space-between;
-}
-
-.contatos{
-    display: flex;
-    justify-content: space-between;
-    width: 431px;
-}
-
-.telefone{
-    width: 168px;
-}
-
-.email{
-    width: 218px;
-}
-
-.contatos a{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    text-decoration: none;
-    align-items: center;
-    color: white;
-    font-family: "inter";
-    font-size: 12px;
-}
-
-.midias-sociais{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    width: 127px;
-}
-
-.logotipo-desktop{
-    display: block;
-}
-
-.segundaparte-header{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    height: 90px;
-    width: 100%;
-}
-
-#menu-hamburguer{
-    width: 867px;
-    position: static;
-    height: auto;
-    flex-direction: row;
-    justify-content: space-between;
-    opacity: 1;
-    box-shadow: none;
-    background-image: none;
-    backdrop-filter: none;
-    height: max-content;
-}
-
-.headerbottom-mobile{
-    display: flex;
-    width: 420px;
-    align-items: center;
-    justify-content: center;
-    height: max-content;
-}
-
-.midias-sociais-mobile, .contatos-mobile{
-    display: none;
-}
-
-.links{
-    flex-direction: row;
-    width: 420px;
-    height: max-content;
-}
-
-.links a{
-    height: max-content;
-    border: none;
-    margin-right: 59px;
-}
-
-#menu-trespontinhos{
-    right: 0;
-    opacity: 1;
-    position: static;
-    background-image: none;
-    backdrop-filter: none;
-    flex-direction: row;
-    justify-content: space-between;
-    box-shadow: none;
-    width: 130px;
-    height: 30px;
-}
-
-.icons-usuario{
-    flex-direction: row;
-    justify-content: space-between;
-    width: 130px;
-    height: 25px;
-}
-
-.links a:hover{
-    color: #f9aa01;
-}
-
-/* --------------------------------------------------------MAINdesktop----------------------------------------------------------- */
-/* BANNER */
-
-.banner{
-    background-image: url(../assets/images/banner-background-desktop.png);
-    height: 1020px;
-    border-top: none;
-}
-
-.banner h1{
-    font-size: 80px;
-}
-
-.banner-content a {
-    width: 200px;
-    margin-top: 450px;
-}
-
-/* ***SESSAO POPULARES ******** */
-
-.most-popular{
-    flex-direction: row;
-    height: 500px;
-    justify-content: space-between;
-}
-
-.most-popular-box{
-    width: 45%;
-    height: 313px;
-    justify-content: space-between;
-}
-
-.most-popular-box img{
-    height: 100%;
-}
-
-.box-vidro{
-    width: 576px;
-    height: 81px;
-    top: 232px;
-}
-
-.yellow-box{
-    width: 221px;
-    height: 57px;
-    margin-left: 57px;
-}
-
-.yellow-box h2{
-    font-size: 20px;
-}
-
-/* Secao amarela desktop */
-
-.programer-team{
-    height: 1000px;
-}
-
-.programer-team h2{
-    font-size: 40px;
-}
-
-.info-flex{
-    display: flex;
-    justify-content: space-between;
-    height: 719px;
-}
-
-.border-gradient{
-    width: 360px;
-    height: 440px;
-}
-.border-gradient2{
-    width: 360px;
-    height: 440px;
-}
-.info-box{
-    justify-content: flex-start;
-    width: 360px;
-    height: 440px;
-}
-
-.info-box h3{
-    margin-top: 23px;
-    font-size: 25px;
-}
-
-.info-box p {
-    margin-top: 10px;
-    font-size: 16px;
-    width: 248px;
-    height: 49px;
-    padding-left: 1px;
-    padding-right: 1px;
-}
-
-#prof {
-    font-size: 16px !important;
-}
-
-.info-box .icon1{
-    margin-top: 56px;
-    width: 143px;
-    height: 143px;
-}
-
-.info-box .icon2{
-    margin-top: 38px;
-    width: 162px;
-    height: 162px;
-}
-
-.border-gradient{
-    left: 230px !important;
-    top: 150px !important;
-}
-
-.border-gradient2{
-    right: 250px !important;
-    top: 150px !important;
-}
-
-.info-article{
-    bottom: 60px !important;
-}
-
-.info-2{
-    position: relative;
-    bottom: 40px;
-}
-
-.info-2 img{
-    width: 521px;
-    height: 692px;
-    margin-top: -40px;
-}
-
-.perso1-mobile{
-    display: none;
-}
-
-.perso1-desktop{
-    display: flex;
-}
-
-.perso2-mobile{
-    display:none;
-}
-
-.perso2-desktop{
-    display: flex;
-}
-
-/*  sessao das noticias desktop  */
-
-.news{
-   background-image: url(../assets/images/back-ground\ noticias.svg);
-    height: 100%;
-   
-}
-
-.news h2{
-    font-size: 40px
-}
-
-.news-card{
-    width: 285px;
-    height: 387px;
-    margin-bottom: 60px;
-    transition: box-shadow 0.5s;
-}
-
-.news-card:hover{
-    box-shadow: 15px 0px 35px;
-}
-.news-flex{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-}
-
-/* ----------------------------------------------------FOOTERdesktop------------------------------------------------------- */
-.footer{
-    background-image: url(../assets/images/backgroung_footer.png);
-    box-shadow: inset 0px 50px 80px rgb(0, 0, 0, 0.9);
-    height: 520px;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    justify-content: space-evenly;
-}
-
-.footer h5{
-    margin-top: 0;
-}
-
-.footer-flex{
-    height: 257px;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-    margin-top: 40px;
-}
-
-.agradecimentos {
-    width: 294px;
-    height: 300px;
-    align-items: flex-start;
-    justify-content: space-around;
-}
-
-.agradecimentos *{
-    margin: 0 !important;
-}
-.midiassociais-footer{
-    width: 206px;
-    justify-content: space-between;
-
-}
-
-.LinksUteis{
-    width: 200px;
-    height: 257px;
-    margin-bottom: 20px;
-    align-self: flex-start;
-}
-
-.LinksUteis li {
-    margin-bottom: 12px;
-}
-
-.Contatos{
-    margin-bottom: 10px;
-    align-self: flex-start;
-}
-
-.Newsletter{
-    align-self: flex-start;
-    padding-bottom: 80px;
-}
-
-
-.LinksUteis li a:hover{
-    color: #f9aa01;
-}
-
-.input-gradient{
-    width: 285px;
-    margin-top: 52px;
-}
-
-.footer-bottom{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    /* border: 1px solid green; */
-    width: 100%;
-    height: 46px;
-}
-
-.footer-bottom input{
-    margin-top: 0;
-}
-
-h5{
-    font-size: 30px;
-}
+    .container-grid-d {
+        width: 100%;
+        margin: 0 auto;
+        max-width: 1280px;
+        /* border: 1px solid green; */
+    }
+
+    /*----------------------------------------------------HEADERdesktop-----------------------------------------------------*/
+    .header-mobile {
+        display: none;
+    }
+
+    header {
+        position: static;
+        height: 140px;
+        align-items: flex-start;
+        flex-direction: column;
+    }
+
+
+    .primeiraparte-header {
+        display: flex;
+        border-bottom: 2px solid #f9aa01;
+        width: 100%;
+        height: 50px;
+    }
+
+    .flex {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .contatos {
+        display: flex;
+        justify-content: space-between;
+        width: 431px;
+    }
+
+    .telefone {
+        width: 168px;
+    }
+
+    .email {
+        width: 218px;
+    }
+
+    .contatos a {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        text-decoration: none;
+        align-items: center;
+        color: white;
+        font-family: "inter";
+        font-size: 12px;
+    }
+
+    .midias-sociais {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 127px;
+    }
+
+    .logotipo-desktop {
+        display: block;
+    }
+
+    .segundaparte-header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        height: 90px;
+        width: 100%;
+    }
+
+    #menu-hamburguer {
+        width: 867px;
+        position: static;
+        height: auto;
+        flex-direction: row;
+        justify-content: space-between;
+        opacity: 1;
+        box-shadow: none;
+        background-image: none;
+        backdrop-filter: none;
+        height: max-content;
+    }
+
+    .headerbottom-mobile {
+        display: flex;
+        width: 420px;
+        align-items: center;
+        justify-content: center;
+        height: max-content;
+    }
+
+    .midias-sociais-mobile,
+    .contatos-mobile {
+        display: none;
+    }
+
+    .links {
+        flex-direction: row;
+        width: 420px;
+        height: max-content;
+    }
+
+    .links a {
+        height: max-content;
+        border: none;
+        margin-right: 59px;
+    }
+
+    #menu-trespontinhos {
+        right: 0;
+        opacity: 1;
+        position: static;
+        background-image: none;
+        backdrop-filter: none;
+        flex-direction: row;
+        justify-content: space-between;
+        box-shadow: none;
+        width: 130px;
+        height: 30px;
+    }
+
+    .icons-usuario {
+        flex-direction: row;
+        justify-content: space-between;
+        width: 130px;
+        height: 25px;
+    }
+
+    .links a:hover {
+        color: #f9aa01;
+    }
+
+    /* --------------------------------------------------------MAINdesktop----------------------------------------------------------- */
+    /* BANNER */
+
+    .banner {
+        background-image: url(../assets/images/banner-background-desktop.png);
+        height: 1020px;
+        border-top: none;
+    }
+
+    .banner h1 {
+        font-size: 80px;
+    }
+
+    .banner-content a {
+        width: 200px;
+        margin-top: 450px;
+    }
+
+    /* ***SESSAO POPULARES ******** */
+
+    .most-popular {
+        flex-direction: row;
+        height: 500px;
+        justify-content: space-between;
+    }
+
+    .most-popular-box {
+        width: 45%;
+        height: 313px;
+        justify-content: space-between;
+    }
+
+    .most-popular-box img {
+        height: 100%;
+    }
+
+    .box-vidro {
+        width: 576px;
+        height: 81px;
+        top: 232px;
+    }
+
+    .yellow-box {
+        width: 221px;
+        height: 57px;
+        margin-left: 57px;
+    }
+
+    .yellow-box h2 {
+        font-size: 20px;
+    }
+
+    /* Secao amarela desktop */
+
+    .programer-team {
+        height: 1000px;
+    }
+
+    .programer-team h2 {
+        font-size: 40px;
+    }
+
+    .info-flex {
+        display: flex;
+        justify-content: space-between;
+        height: 719px;
+    }
+
+    .border-gradient {
+        width: 360px;
+        height: 440px;
+    }
+
+    .border-gradient2 {
+        width: 360px;
+        height: 440px;
+    }
+
+    .info-box {
+        justify-content: flex-start;
+        width: 360px;
+        height: 440px;
+    }
+
+    .info-box h3 {
+        margin-top: 23px;
+        font-size: 25px;
+    }
+
+    .info-box p {
+        margin-top: 10px;
+        font-size: 16px;
+        width: 248px;
+        height: 49px;
+        padding-left: 1px;
+        padding-right: 1px;
+    }
+
+    #prof {
+        font-size: 16px !important;
+    }
+
+    .info-box .icon1 {
+        margin-top: 56px;
+        width: 143px;
+        height: 143px;
+    }
+
+    .info-box .icon2 {
+        margin-top: 38px;
+        width: 162px;
+        height: 162px;
+    }
+
+    .border-gradient {
+        left: 230px !important;
+        top: 150px !important;
+    }
+
+    .border-gradient2 {
+        right: 250px !important;
+        top: 150px !important;
+    }
+
+    .info-article {
+        bottom: 60px !important;
+    }
+
+    .info-2 {
+        position: relative;
+        bottom: 40px;
+    }
+
+    .info-2 img {
+        width: 521px;
+        height: 692px;
+        margin-top: -40px;
+    }
+
+    .perso1-mobile {
+        display: none;
+    }
+
+    .perso1-desktop {
+        display: flex;
+    }
+
+    .perso2-mobile {
+        display: none;
+    }
+
+    .perso2-desktop {
+        display: flex;
+    }
+
+    /*  sessao das noticias desktop  */
+
+    .news {
+        background-image: url(../assets/images/back-ground\ noticias.svg);
+        height: 100%;
+
+    }
+
+    .news h2 {
+        font-size: 40px
+    }
+
+    .news-card {
+        width: 285px;
+        height: 387px;
+        margin-bottom: 60px;
+        transition: box-shadow 0.5s;
+    }
+
+    .news-card:hover {
+        box-shadow: 15px 0px 35px;
+    }
+
+    .news-flex {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    /* ----------------------------------------------------FOOTERdesktop------------------------------------------------------- */
+
+    .footer {
+        background-image: url(../assets/images/backgroung_footer.png);
+        box-shadow: inset 0px 50px 80px rgb(0, 0, 0, 0.9);
+        height: 520px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+
+    .footer h5 {
+        margin-top: 0;
+    }
+
+    .footer-flex {
+        height: 257px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: 40px;
+    }
+
+    .box1-footer {
+        width: 294px;
+        height: 300px;
+        align-items: flex-start;
+        justify-content: space-around;
+    }
+
+    .box1-footer * {
+        margin: 0 !important;
+    }
+
+    .social-box-footer {
+        width: 206px;
+        justify-content: space-between;
+
+    }
+
+    .box2-footer {
+        width: 200px;
+        height: 257px;
+        margin-bottom: 20px;
+        align-self: flex-start;
+    }
+
+    .box3-footer {
+        margin-bottom: 10px;
+        align-self: flex-start;
+    }
+
+    .box4-footer {
+        align-self: flex-start;
+        padding-bottom: 80px;
+    }
+
+    .box2-footer li {
+        margin-bottom: 12px;
+    }
+
+    .box2-footer li a:hover {
+        color: #f9aa01;
+    }
+
+    .input-gradient {
+        width: 285px;
+        margin-top: 52px;
+    }
+
+    .footer-bottom {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        /* border: 1px solid green; */
+        width: 100%;
+        height: 46px;
+    }
+
+    .footer-bottom input {
+        margin-top: 0;
+    }
+
+    h5 {
+        font-size: 30px;
+    }
 
 }
