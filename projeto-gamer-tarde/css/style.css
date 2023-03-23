@@ -89,7 +89,6 @@ header {
 }
 
 
-
 #menu-hamburguer{
     position: fixed;
     top: 60px;
@@ -472,7 +471,7 @@ header {
     flex-direction: column;
 }
 
-.box1-footer{
+.agradecimentos{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -482,12 +481,12 @@ header {
     text-align:justify;
 }
 
-.box1-footer *{
+.agradecimentos *{
     margin-top: 30px;
     margin-bottom: 30px;
 }
 
-.social-box-footer{
+.midiassociais{
     width: 100%;
     display: flex;
     justify-content: space-between;
@@ -505,7 +504,7 @@ footer hr{
     border: 1px solid #f9aa01;
 }
 
-.box2-footer ul {
+.LinksUteis ul {
     font-family: "inter";
     font-size: 16px;
     margin-top: 34px;
@@ -533,31 +532,31 @@ li::before {
     padding-bottom: 8px;
   }
 
-  .box2-footer ul li {
+  .LinksUteis ul li {
     display: flex;
 }
 
-.box3-footer hr{
+.Contatos hr{
     margin-bottom: 50px;
 }
 
-.box3-footer h2{
+.Contatos h2{
     color: #f9aa01;
     font-size: 16px;
     font-family: "inter";
 
 }
 
-.box3-footer p{
+.Contatos p{
     color: white;
     font-size: 16px;
     font-family: "inter";
 }
-.box3-footer p, h2{
+.Contatos p, h2{
     padding-bottom: 9px;
 }
 
-.box4-footer hr{
+.Newsletter hr{
     margin-bottom: 30px;
     
 }
@@ -570,7 +569,7 @@ li::before {
     border-radius: 8px;
 }
 
-.box4-footer .input-gradient input{
+.Newsletter .input-gradient input{
     color: white;
     padding-left: 16px;
     background: transparent;
@@ -583,7 +582,7 @@ li::before {
     outline: none;
 }
 
-.box4-footer input::placeholder{
+.Newsletter input::placeholder{
     font-weight: bold;
     color: white;
     font-family: "quicksand";
@@ -591,7 +590,7 @@ li::before {
     margin-right: 16px;
 }
 
-.box4-footer button{
+.Newsletter button{
     width: 100%;
     height: 40px;
     background-color: #f9aa01;
@@ -608,11 +607,11 @@ li::before {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    /* border: 1px solid green; */
+    
     width: 100%;
     height: 46px;
 }
-.top-button{
+.setinha {
     align-self: flex-end;
     margin-top: 110px;
     margin-right: 18px;
@@ -950,7 +949,6 @@ header{
 }
 
 /* ----------------------------------------------------FOOTERdesktop------------------------------------------------------- */
-
 .footer{
     background-image: url(../assets/images/backgroung_footer.png);
     box-shadow: inset 0px 50px 80px rgb(0, 0, 0, 0.9);
@@ -974,44 +972,45 @@ header{
     margin-top: 40px;
 }
 
-.box1-footer {
+.agradecimentos {
     width: 294px;
     height: 300px;
     align-items: flex-start;
     justify-content: space-around;
 }
 
-.box1-footer *{
-    margin: 0;
+.agradecimentos *{
+    margin: 0 !important;
 }
-.social-box-footer{
+.midiassociais-footer{
     width: 206px;
     justify-content: space-between;
 
 }
 
-.box2-footer{
+.LinksUteis{
     width: 200px;
     height: 257px;
     margin-bottom: 20px;
     align-self: flex-start;
 }
 
-.box3-footer{
+.LinksUteis li {
+    margin-bottom: 12px;
+}
+
+.Contatos{
     margin-bottom: 10px;
     align-self: flex-start;
 }
 
-.box4-footer{
+.Newsletter{
     align-self: flex-start;
     padding-bottom: 80px;
 }
 
-.box2-footer li {
-    margin-bottom: 12px;
-}
 
-.box2-footer li a:hover{
+.LinksUteis li a:hover{
     color: #f9aa01;
 }
 
@@ -1024,6 +1023,7 @@ header{
     display: flex;
     flex-direction: column;
     justify-content: center;
+    /* border: 1px solid green; */
     width: 100%;
     height: 46px;
 }
@@ -1035,4 +1035,5 @@ header{
 h5{
     font-size: 30px;
 }
+
 }
