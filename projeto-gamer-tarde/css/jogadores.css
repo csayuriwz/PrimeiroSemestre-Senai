@@ -76,20 +76,18 @@ header {
     justify-content: space-between;
 }
 
-.logotipo-mobile{
-    width: 87.5px;
-    height: 25px;
-}
 
 .logotipo-desktop{
     display: none;
 }
 
-.up-header-box {
+.primeiraparte-header{
     display: none;
 }
 
-#menu-lateral{
+
+
+#menu-hamburguer{
     position: fixed;
     top: 60px;
     left:  -270px;
@@ -102,12 +100,12 @@ header {
     justify-content: space-between;
     align-items: center;
     background-image: linear-gradient(rgb(27, 20, 38, 70%), rgb(27, 20, 38,40%));
-    backdrop-filter: blur(5px);
+    backdrop-filter: blur(2px);
     box-shadow: 5px 0px 30px;
-    opacity: 0;
+    
 }
 
-.link-centro{
+.links{
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -116,7 +114,7 @@ header {
     width: 100%;
 }
 
-.link-centro a {
+.links a {
     align-items: center;
     display: flex;
     justify-content: space-evenly;
@@ -140,7 +138,7 @@ header {
     text-align: center;
 }
 
-.tel-box-mobile {
+.telefone-mobile {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
@@ -149,30 +147,30 @@ header {
     height: 80px;
 }
 
-.tel-box-mobile img {
+.telefone-mobile img {
     margin-left: 40px;
 }
 
-.tel-box-mobile span {
+.telefone-mobile span {
     margin-right: 40px;
 }
 
-.mail-box-mobile {
+.email-mobile {
     display: flex;
     align-items: center;
     justify-content: space-around;
     line-height: 80px;
 }
 
-.mail-box-mobile img {
+.email-mobile img {
     margin-left: 30px;
 }
 
-.mail-box-mobile span {
+.email-mobile span {
     margin-right: 10px;
 }
 
-#menu-lateral-direita {
+#menu-trespontinhos {
     position: fixed;
     top: 60px;
     right: -66px;
@@ -189,7 +187,7 @@ header {
     opacity: 0;
 }
 
-.icons-left{
+.icons-usuario{
     display: flex;
     flex-direction: column;
     width: 20px;
@@ -197,36 +195,19 @@ header {
     justify-content: space-between;
 }
 
-.upper-header-mobile{
+.primeiraparte-header-mobile{
     display: flex;
     flex-direction: column;
     height: 510px;
 }
 
-.social-box-mobile {
+.midias-sociais-mobile {
     margin-bottom: 10px;
     display: flex;
     width: 152px;
     height: 31px;
     justify-content: space-between;
 }
-
-.social-box-mobile .facebook{
-    width: 15px;
-    height: 29px;
-}
-
-.social-box-mobile .linkedin{
-    width: 26px;
-    height: 26px;
-    margin-top: 3px;
-}
-
-.social-box-mobile .instagram{
-    width: 30px;
-    height: 30px;
-}
-
 /* ---------------------------------------------------------MAINmobile--------------------------------------------------------------- */
 
 
@@ -577,7 +558,7 @@ footer .copyright{
     align-self: center;
     margin-top: 15px;
 }
-/*----------------------------------------------------------------desktop-----------------------------------------------------------------------*/
+/*----------------------------------------------------------------MEDIA QUERIES-----------------------------------------------------------------------*/
 @media screen and (min-width:992px) {
     
     /* CONFIG GENERICA */
@@ -601,7 +582,7 @@ header{
 }
 
 
-.up-header-box{
+.primeiraparte-header{
     display: flex;
     border-bottom: 2px solid #f9aa01;
     width: 100%;
@@ -619,11 +600,11 @@ header{
     width: 431px;
 }
 
-.tel-box{
+.telefone{
     width: 168px;
 }
 
-.mail-box{
+.email{
     width: 218px;
 }
 
@@ -638,7 +619,7 @@ header{
     font-size: 12px;
 }
 
-.social-box{
+.midias-sociais{
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -649,7 +630,7 @@ header{
     display: block;
 }
 
-.bottom-header{
+.segundaparte-header{
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -657,7 +638,7 @@ header{
     width: 100%;
 }
 
-#menu-lateral{
+#menu-hamburguer{
     width: 867px;
     position: static;
     height: auto;
@@ -670,7 +651,7 @@ header{
     height: max-content;
 }
 
-.upper-header-mobile{
+.headerbottom-mobile{
     display: flex;
     width: 420px;
     align-items: center;
@@ -678,23 +659,23 @@ header{
     height: max-content;
 }
 
-.social-box-mobile, .contatos-mobile{
+.midias-sociais-mobile, .contatos-mobile{
     display: none;
 }
 
-.link-centro{
+.links{
     flex-direction: row;
     width: 420px;
     height: max-content;
 }
 
-.link-centro a{
+.links a{
     height: max-content;
     border: none;
     margin-right: 59px;
 }
 
-#menu-lateral-direita{
+#menu-trespontinhos{
     right: 0;
     opacity: 1;
     position: static;
@@ -704,22 +685,21 @@ header{
     justify-content: space-between;
     box-shadow: none;
     width: 130px;
-    height: max-content;
+    height: 30px;
 }
 
-.icons-left{
+.icons-usuario{
     flex-direction: row;
     justify-content: space-between;
     width: 130px;
     height: 25px;
 }
 
-.link-centro a:hover{
+.links a:hover{
     color: #f9aa01;
 }
 
-
-/* ---------------------------------------------------------------MAINdesktop--------------------------------------------------------------- */
+/* ----------------------------------------------------------MAINdesktop--------------------------------------------------------- */
 
 main .banner {
     background-image: url(../assets/images/fundo-desktop-jogador.png);
@@ -743,7 +723,7 @@ main .cadastrar {
 
 
 
-/* --------------------------------------------- FOOTERDESKTOP---------------------------------------------------------------- */
+/* --------------------------------------------- FOOTERdesktop---------------------------------------------------------------- */
 
 .footer{
     background-image: url(../assets/images/backgroung_footer.png);

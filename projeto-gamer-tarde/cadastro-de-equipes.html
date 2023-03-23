@@ -15,101 +15,97 @@
 
     <header>
 
-        <div class="container-grid header-flex mobile-header">
+        <div class="container-grid header-flex header-mobile">
 
             <img src="assets/icons/menu-hamburguer.svg" alt="" onclick="mostrarMenu()">
-            <img class="logotipo-mobile" src="assets/icons/logotipo-gamer-mobile.png" alt="">
-            <img src="assets/icons/menu-3pontinhos.png" alt="" onclick="mostrarMenuDireita()">
+            <img class="" src="assets/icons/logotipo-gamer-mobile.png"">
+            <img src=" assets/icons/menu-3pontinhos.png" alt="" onclick="mostrarMenuDireita()">
 
         </div>
 
 
 
-        <div class="up-header-box">
+        <div class="primeiraparte-header">
 
             <div class="container-grid-d flex">
                 <div class="contatos">
 
-                    <a href="" class="tel-box">
-                        <img src="assets/icons/icone_telefone.svg" alt="">
+                    <a href="" class="Telefone">
+                        <img src="assets/icons/icone_telefone.svg" alt="icone de um telefone">
                         <span>(11) 99999-9999</span>
                     </a>
 
-                    <a href="" class="mail-box">
-                        <img src="assets/icons/icone_email.svg" alt="">
+                    <a href="" class="email">
+                        <img src="assets/icons/icone_email.svg" alt="icone de um email">
                         <span>contato@gamer.com.br<span>
                     </a>
 
                 </div>
 
-                <div class="social-box">
+                <div class="midias-sociais">
                     <a href="">
-                        <img class="facebook" src="assets/icons/icon-facebbok.svg" alt="">
+                        <img src="assets/icons/icon-facebbok.svg" alt="icone do facebook">
                     </a>
                     <a href="">
-                        <img class="linkedin" src="assets/icons/icon-linkedin.svg" alt="">
+                        <img src="assets/icons/icon-linkedin.svg" alt="icone do linkedin">
                     </a>
                     <a href="">
-                        <img class="instagram" src="assets/icons/icon-instagram.svg" alt="">
+                        <img src="assets/icons/icon-instagram.svg" alt="icone do instagram">
                     </a>
                 </div>
             </div>
 
         </div>
 
-        <div class="bottom-header container-grid-d">
+        <div class="segundaparte-header container-grid-d">
 
-            <div id="menu-lateral">
+            <div id="menu-hamburguer">
 
                 <img class="logotipo-desktop" src="assets/icons/logotipo-gamer.svg" alt="">
 
-                <div class="upper-header-mobile">
+                <div class="headerbottom-mobile">
 
-                    <nav class="link-centro">
+                    <nav class="links">
 
-                        <a href="index.html">Inicio</a>
-                        <a href="jogadores.html">Jogadores</a>
-                        <a href="equipes.html">Equipes</a>
+                        <a href="">Inicio</a>
+                        <a href="">Jogadores</a>
+                        <a href="">Equipes</a>
                         <a href="">Noticias</a>
 
                     </nav>
 
                     <div class="contatos-mobile">
 
-                        <a href="">
-                            <div class="tel-box-mobile">
-                                <img src="assets/icons/icone_telefone.svg" alt="">
-                                <span>(11) 99999-9999</span>
-                            </div>
-                        </a>
+                        <div class="telefone-mobile">
+                            <img src="assets/icons/icone_telefone.svg" alt="">
+                            <span>(11) 99999-9999</span>
+                        </div>
 
-                        <a href="">
-                            <div class="mail-box-mobile">
-                                <img src="assets/icons/icone_email.svg" alt="">
-                                <span>contato@gamer.com.br<span>
-                            </div>
-                        </a>
+                        <div class="email-mobile">
+                            <img src="assets/icons/icone_email.svg" alt="">
+                            <span>contato@gamer.com.br<span>
+                        </div>
 
                     </div>
                 </div>
 
-                <div class="social-box-mobile">
+                <div class="midias-sociais-mobile">
 
-                    <a href=""><img class="facebook" src="assets/icons/icon-facebbok.svg" alt=""></a>
-                    <a href=""><img class="linkedin" src="assets/icons/icon-linkedin.svg" alt=""></a>
-                    <a href=""><img class="instagram" src="assets/icons/icon-instagram.svg" alt=""></a>
+                    <img class="facebook" src="assets/icons/icon-facebbok.svg" alt="">
+                    <img class="linkedin" src="assets/icons/icon-linkedin.svg" alt="">
+                    <img class="instagram" src="assets/icons/icon-instagram.svg" alt="">
 
                 </div>
 
             </div>
 
-            <div id="menu-lateral-direita">
+            <div id="menu-trespontinhos">
 
-                <div class="icons-left">
+                <div class="icons-usuario">
 
                     <a href="login.html"><input type="image" src="assets/icons/icon-user.svg"></a>
-                    <a href=""><img src="assets/icons/icon-shop.svg" alt=""></a>
-                    <a href=""><img src="assets/icons/icon-lupa.svg" alt=""></a>
+                    <img src="assets/icons/icon-shop.svg" alt="">
+                    <img src="assets/icons/icon-lupa.svg" alt="">
 
                 </div>
 
@@ -282,14 +278,13 @@
 
         </div>
     </footer>
-
     <script>
 
         function mostrarMenu() {
-            document.getElementById("menu-lateral").classList.toggle("mostrarMenu");
+            document.getElementById("menu-hamburguer").classList.toggle("mostrarMenu");
         }
         function mostrarMenuDireita() {
-            document.getElementById("menu-lateral-direita").classList.toggle("mostrarMenuDireita")
+            document.getElementById("menu-trespontinhos").classList.toggle("mostrarMenuDireita")
         }
     </script>
 
