@@ -223,7 +223,7 @@ header {
     box-sizing: border-box
 }
 
-.banner-content {
+.main1 {
     height: 503px;
     display: flex;
     flex-direction: column;
@@ -231,7 +231,7 @@ header {
     justify-content: space-between;
 }
 
-.banner-content h1 {
+.main1 h1 {
     margin-top: 20px;
     color: white;
     font-family: "titilium web";
@@ -253,7 +253,7 @@ header {
 
 /* sessao azul */
 
-.most-popular {
+.main2 {
     position: relative;
     height: 590px;
     display: flex;
@@ -263,56 +263,30 @@ header {
     z-index: -1;
 }
 
-.most-popular-box img {
+
+.fifa-cs {
+    width: 337px;
+    position: relative;
+}
+
+.fifa-cs img {
     position: relative;
     width: 100%;
     height: 189px;
 }
 
-.most-popular-box {
-    width: 337px;
-    position: relative;
-}
 
 
 /* sessao amarela */
 
-.programer-team {
+.progamer {
     background-color: #f9aa01;
     height: 1535px;
 }
 
-.info-article {
-    position: relative;
-}
-
-.info-1 {
-    margin-bottom: 300px;
-}
-
-.info-2 {
-    display: flex;
-    justify-content: flex-end;
-}
-
-.border-gradient2 {
-    padding: 1px;
-    width: 210px;
-    background-image: linear-gradient(to right bottom, rgba(255, 255, 255, .5), rgba(255, 255, 255, .1));
-    border-radius: 8px;
-    z-index: 1;
-    position: absolute;
-    top: 100px;
-    right: 127px;
-}
-
-.info-box2 p {
-    font-size: 12px !important;
-}
-
-.programer-team h2 {
-    font-size: 15px;
-    font-family: "titilium web";
+.progamer h2 {
+    font-size: 18px;
+    font-family: "titilium black";
     text-align: center;
     padding-top: 70px;
     text-transform: uppercase;
@@ -320,10 +294,24 @@ header {
     margin-bottom: 40px;
 }
 
-.programer-team hr {
+.progamer hr {
     width: 204px;
     margin: 0 auto 100px;
     border: 1px solid #1b1426;
+}
+
+
+.caixinha {
+    position: relative;
+}
+
+.c1 {
+    margin-bottom: 300px;
+}
+
+.c2{
+    display: flex;
+    justify-content: flex-end;
 }
 
 .border-gradient {
@@ -337,7 +325,25 @@ header {
     left: 127px;
 }
 
-.info-box {
+
+.border-gradient2 {
+    padding: 1px;
+    width: 210px;
+    background-image: linear-gradient(to right bottom, rgba(255, 255, 255, .5), rgba(255, 255, 255, .1));
+    border-radius: 8px;
+    z-index: 1;
+    position: absolute;
+    top: 100px;
+    right: 127px;
+}
+
+.professores p {
+    font-size: 12px !important;
+}
+
+
+
+.Croxa {
     height: 262px;
     background: linear-gradient(to right bottom, rgba(122, 49, 236, .2), rgba(47, 7, 109, 0.8));
     backdrop-filter: blur(5px);
@@ -350,7 +356,7 @@ header {
     padding: 5px;
 }
 
-.info-box h3 {
+.Croxa h3 {
     font-size: 16px;
     font-family: "titilium web";
     color: white;
@@ -358,7 +364,7 @@ header {
 
 }
 
-.info-box p {
+.Croxa p {
     color: white;
     font-family: "quicksand";
     font-size: 14px;
@@ -368,31 +374,41 @@ header {
 
 }
 
-.info-box2 img {
+.professores img {
     margin-left: 20px;
 }
 
-.perso2-mobile {
+.jinx-mobile {
     width: 332px;
     height: 428px;
 }
 
-.perso1-mobile {
+.kiljoy-mobile {
     width: 314px;
     height: 511px;
 }
 
-.perso1-desktop {
+.kiljoy-desktop {
     display: none;
 }
 
-.perso2-desktop {
+.jinx-desktop {
     display: none;
+}
+
+.Croxa .user {
+    width: 97px;
+    height: 96px;
+}
+
+.Croxa .controle {
+    width: 97px;
+    height: 97px;
 }
 
 /* sessao noticias */
 
-.news {
+.noticias {
     background-image: url(../assets/images/back-ground\ noticias.svg);
     background-position: center;
     background-size: cover;
@@ -402,11 +418,11 @@ header {
 
 
 
-.news-card img {
+.card img {
     width: 100%;
 }
 
-.news h2 {
+.noticias h2 {
     position: relative;
     color: white;
     font-size: 15px;
@@ -418,14 +434,14 @@ header {
     margin-bottom: 40px;
 }
 
-.news hr {
+.noticias hr {
     position: relative;
     width: 204px;
     margin: 0 auto 60px;
     border: 1px solid #f9aa01;
 }
 
-.text-box-news {
+.textnoticias {
     border-radius: 8px;
     width: 100%;
     height: 387px;
@@ -434,20 +450,20 @@ header {
     color: white;
 }
 
-.text-box-news h4 {
+.textnoticias h4 {
     font-family: "titilium web";
     font-size: 24px;
     font-weight: 1;
     padding: 25px 25px 0 25px;
 }
 
-.text-box-news p {
+.textnoticias p {
     padding: 20px 25px 0 25px;
     font-family: "quicksand";
     font-size: 16px;
 }
 
-.news-card {
+.card {
     margin-bottom: 20px;
 }
 
@@ -769,68 +785,54 @@ h2 {
     }
 
     /* --------------------------------------------------------MAINdesktop----------------------------------------------------------- */
-    /* BANNER */
+
 
     .banner {
         background-image: url(../assets/images/banner-background-desktop.png);
-        height: 1020px;
+        height: 900px;
         border-top: none;
     }
 
     .banner h1 {
         font-size: 80px;
+        font-family: "titilium black";
     }
 
-    .banner-content a {
+    .main1 a {
         width: 200px;
-        margin-top: 450px;
+        margin-top: 650px;
     }
 
-    /* ***SESSAO POPULARES ******** */
+    /* tela azulzinha */
 
-    .most-popular {
+    .main2 {
         flex-direction: row;
         height: 500px;
         justify-content: space-between;
     }
 
-    .most-popular-box {
+    .fifa-cs {
         width: 45%;
         height: 313px;
         justify-content: space-between;
     }
 
-    .most-popular-box img {
+    .fifa-cs img {
         height: 100%;
-    }
-
-    .box-vidro {
-        width: 576px;
-        height: 81px;
-        top: 232px;
-    }
-
-    .yellow-box {
-        width: 221px;
-        height: 57px;
-        margin-left: 57px;
-    }
-
-    .yellow-box h2 {
-        font-size: 20px;
     }
 
     /* Secao amarela desktop */
 
-    .programer-team {
+    .progamer {
         height: 1000px;
     }
 
-    .programer-team h2 {
+    .progamer h2 {
         font-size: 40px;
+        font-family: "titilium black";
     }
 
-    .info-flex {
+    .infos {
         display: flex;
         justify-content: space-between;
         height: 719px;
@@ -846,18 +848,18 @@ h2 {
         height: 440px;
     }
 
-    .info-box {
+    .Croxa {
         justify-content: flex-start;
         width: 360px;
         height: 440px;
     }
 
-    .info-box h3 {
+    .Croxa h3 {
         margin-top: 23px;
         font-size: 25px;
     }
 
-    .info-box p {
+    .Croxa p {
         margin-top: 10px;
         font-size: 16px;
         width: 248px;
@@ -867,16 +869,16 @@ h2 {
     }
 
     #prof {
-        font-size: 16px !important;
+        font-size: 12px;
     }
 
-    .info-box .icon1 {
+    .Croxa .controle {
         margin-top: 56px;
         width: 143px;
         height: 143px;
     }
 
-    .info-box .icon2 {
+    .Croxa .user {
         margin-top: 38px;
         width: 162px;
         height: 162px;
@@ -892,57 +894,57 @@ h2 {
         top: 150px !important;
     }
 
-    .info-article {
+    .caixinha {
         bottom: 60px !important;
     }
 
-    .info-2 {
+    .c2 {
         position: relative;
         bottom: 40px;
     }
 
-    .info-2 img {
+    .c2 img {
         width: 521px;
         height: 692px;
         margin-top: -40px;
     }
 
-    .perso1-mobile {
+    .kiljoy-mobile {
         display: none;
     }
 
-    .perso1-desktop {
+    .kiljoy-desktop {
         display: flex;
     }
 
-    .perso2-mobile {
+    .jinx-mobile {
         display: none;
     }
 
-    .perso2-desktop {
+    .jinx-desktop {
         display: flex;
     }
 
     /*  sessao das noticias desktop  */
 
-    .news {
+    .noticias {
         background-image: url(../assets/images/back-ground\ noticias.svg);
         height: 100%;
 
     }
 
-    .news h2 {
+    .noticias h2 {
         font-size: 40px
     }
 
-    .news-card {
+    .card {
         width: 285px;
         height: 387px;
         margin-bottom: 60px;
         transition: box-shadow 0.5s;
     }
 
-    .news-card:hover {
+    .card:hover {
         box-shadow: 15px 0px 35px;
     }
 

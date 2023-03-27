@@ -27,6 +27,7 @@
     font-family: "titilium black";
     src: url(../assets/fonts/TitilliumWeb-Black.ttf);
 }
+
 /* RESET */
 
 * {
@@ -37,22 +38,23 @@
 
 /* configuracoes genericas */
 
-.mostrarMenu{
+.mostrarMenu {
     left: 0 !important;
     opacity: 1 !important;
 }
-.mostrarMenuDireita{
+
+.mostrarMenuDireita {
     right: 0 !important;
     opacity: 1 !important;
 }
 
-.container-grid{
+.container-grid {
     width: 90%;
     margin: 0 auto;
     max-width: 768px;
 }
 
-body{
+body {
     background-color: #1b1426;
 }
 
@@ -70,27 +72,27 @@ header {
     background-color: #1b1426;
 }
 
-.header-flex{
+.header-flex {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
 
-.logotipo-desktop{
+.logotipo-desktop {
     display: none;
 }
 
-.primeiraparte-header{
+.primeiraparte-header {
     display: none;
 }
 
 
 
-#menu-hamburguer{
+#menu-hamburguer {
     position: fixed;
     top: 60px;
-    left:  -270px;
+    left: -270px;
     width: 270px;
     height: calc(100vh - 60px);
     display: flex;
@@ -99,13 +101,13 @@ header {
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    background-image: linear-gradient(rgb(27, 20, 38, 70%), rgb(27, 20, 38,40%));
+    background-image: linear-gradient(rgb(27, 20, 38, 70%), rgb(27, 20, 38, 40%));
     backdrop-filter: blur(2px);
     box-shadow: 5px 0px 30px;
-    
+
 }
 
-.links{
+.links {
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -127,13 +129,13 @@ header {
     width: 270px;
 }
 
-.contatos-mobile span{
+.contatos-mobile span {
     font-family: "inter";
     font-size: 15px;
     color: white;
 }
 
-.contatos-mobile{
+.contatos-mobile {
     width: 100%;
     text-align: center;
 }
@@ -176,7 +178,7 @@ header {
     right: -66px;
     width: 66px;
     height: 170px;
-    background-image: linear-gradient(rgb(27, 20, 38, 70%), rgb(27, 20, 38,40%));
+    background-image: linear-gradient(rgb(27, 20, 38, 70%), rgb(27, 20, 38, 40%));
     backdrop-filter: blur(5px);
     box-shadow: 5px 0px 30px;
     align-items: center;
@@ -187,7 +189,7 @@ header {
     opacity: 0;
 }
 
-.icons-usuario{
+.icons-usuario {
     display: flex;
     flex-direction: column;
     width: 20px;
@@ -195,7 +197,7 @@ header {
     justify-content: space-between;
 }
 
-.primeiraparte-header-mobile{
+.primeiraparte-header-mobile {
     display: flex;
     flex-direction: column;
     height: 510px;
@@ -208,9 +210,10 @@ header {
     height: 31px;
     justify-content: space-between;
 }
+
 /* ------------------------------------------------------ MAINmobile ------------------------------------------------------------*/
 
-.banner{
+.banner {
     background-image: url(../assets/images/banner-login.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -219,21 +222,24 @@ header {
     box-sizing: border-box;
 }
 
-.login-flex{
+.login-flex {
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
 
-.box-login{
+.login {
     flex-direction: column;
+
     background-image: linear-gradient(112.07deg, rgba(27, 20, 38, 0.6) 0%, rgba(60, 3, 65, 0.38) 98.83%);
     backdrop-filter: blur(5px);
     width: 100%;
     height: 100%;
+
     align-self: center;
     border-radius: 8px;
+    
     color: white;
     font-family: "titilium web";
     font-size: 28px;
@@ -242,34 +248,35 @@ header {
     align-items: center;
 }
 
-.border-gradient{
-    margin-top: 78px;
-    padding: 1px;
-    height: 462px;
-    width: 335px;
-    background-image: linear-gradient(to right bottom, rgba(255, 255, 255, .5), rgba(255, 255, 255, .0));    
-    border-radius: 8px;
-
-}
-
-.box-login hr{
+.login hr {
     border: 2px solid #f9aa01;
     width: 90px;
     margin-bottom: 80px;
 }
 
-.box-login h1{
+.login h1 {
     margin-top: 40px;
 }
 
-.input-gradient-login{
+.border-gradient {
+    margin-top: 78px;
+    padding: 1px;
+    height: 462px;
+    width: 335px;
+    background-image: linear-gradient(to right bottom, rgba(255, 255, 255, .5), rgba(255, 255, 255, .0));
+    border-radius: 8px;
+
+}
+
+
+.barradelogin {
     display: flex;
     align-items: center;
     justify-content: center;
     width: 273px;
     height: 40px;
     padding: 1.5px;
-    background-image: linear-gradient(90deg, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.0) );
+    background-image: linear-gradient(90deg, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.0));
     border-radius: 8px;
     margin-bottom: 30px;
 }
@@ -286,7 +293,7 @@ header {
     backdrop-filter: blur(5px);
 }
 
-.icon-input input{
+.icon-input input {
     width: 100%;
     color: white;
     padding-left: 16px;
@@ -296,13 +303,13 @@ header {
     outline: none;
 }
 
-.icon-input input::placeholder{
+.icon-input input::placeholder {
     color: white;
     font-family: "titilium web regular";
     font-size: 16px;
 }
 
-.box-login button{
+.login button {
     width: 273px;
     height: 40px;
     border-radius: 8px;
@@ -312,6 +319,7 @@ header {
     font-size: 24px;
     margin-top: 25px;
 }
+
 /* --------------------------------------------------------FOOTERmobile ------------------------------------------------------------ */
 .footer {
     background-image: url(../assets/images/fundo-footer-mobile.png);
@@ -487,252 +495,254 @@ h2 {
 /* -------------------------------------------------------MEDIA QUERIES----------------------------------------------------------*/
 
 @media screen and (min-width:992px) {
-    
+
     /* CONFIG GENERICA */
 
-.container-grid-d{
-    width: 100%;
-    margin: 0 auto;
-    max-width: 1280px;
-    /* border: 1px solid green; */
-}
-/* ---------------------------------------------------HEADERdesktop--------------------------------------------------------------*/
+    .container-grid-d {
+        width: 100%;
+        margin: 0 auto;
+        max-width: 1280px;
+        /* border: 1px solid green; */
+    }
 
-.header-mobile{
-    display: none;
-}
+    /* ---------------------------------------------------HEADERdesktop--------------------------------------------------------------*/
 
-header{
-    position: static;
-    height: 140px;
-    align-items: flex-start;
-    flex-direction: column;
-}
+    .header-mobile {
+        display: none;
+    }
 
-
-.primeiraparte-header{
-    display: flex;
-    border-bottom: 2px solid #f9aa01;
-    width: 100%;
-    height: 50px;
-}
-
-.flex{
-    display: flex;
-    justify-content: space-between;
-}
-
-.contatos{
-    display: flex;
-    justify-content: space-between;
-    width: 431px;
-}
-
-.telefone{
-    width: 168px;
-}
-
-.email{
-    width: 218px;
-}
-
-.contatos a{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    text-decoration: none;
-    align-items: center;
-    color: white;
-    font-family: "inter";
-    font-size: 12px;
-}
-
-.midias-sociais{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    width: 127px;
-}
-
-.logotipo-desktop{
-    display: block;
-}
-
-.segundaparte-header{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    height: 90px;
-    width: 100%;
-}
-
-#menu-hamburguer{
-    width: 867px;
-    position: static;
-    height: auto;
-    flex-direction: row;
-    justify-content: space-between;
-    opacity: 1;
-    box-shadow: none;
-    background-image: none;
-    backdrop-filter: none;
-    height: max-content;
-}
-
-.headerbottom-mobile{
-    display: flex;
-    width: 420px;
-    align-items: center;
-    justify-content: center;
-    height: max-content;
-}
-
-.midias-sociais-mobile, .contatos-mobile{
-    display: none;
-}
-
-.links{
-    flex-direction: row;
-    width: 420px;
-    height: max-content;
-}
-
-.links a{
-    height: max-content;
-    border: none;
-    margin-right: 59px;
-}
-
-#menu-trespontinhos{
-    right: 0;
-    opacity: 1;
-    position: static;
-    background-image: none;
-    backdrop-filter: none;
-    flex-direction: row;
-    justify-content: space-between;
-    box-shadow: none;
-    width: 130px;
-    height: 30px;
-}
-
-.icons-usuario{
-    flex-direction: row;
-    justify-content: space-between;
-    width: 130px;
-    height: 25px;
-}
-
-.links a:hover{
-    color: #f9aa01;
-}
+    header {
+        position: static;
+        height: 140px;
+        align-items: flex-start;
+        flex-direction: column;
+    }
 
 
-/* ------------------------------------------------------------MAINdesktop---------------------------------------------------------- */
+    .primeiraparte-header {
+        display: flex;
+        border-bottom: 2px solid #f9aa01;
+        width: 100%;
+        height: 50px;
+    }
 
-.banner{
-    background-image: url(../assets/images/Imagem\ de\ fundo.png);
-    height: 680px;
-    border-top: none;
-    background-size: cover;
-}
+    .flex {
+        display: flex;
+        justify-content: space-between;
+    }
 
-.border-gradient{
-    width: 800px;
-    height: 520px;
-}
+    .contatos {
+        display: flex;
+        justify-content: space-between;
+        width: 431px;
+    }
 
-.input-gradient-login{
-    width: 560px;
-    margin-bottom: 40px;
-}
+    .telefone {
+        width: 168px;
+    }
 
-/* ---------------------------------------------------FOOTERdesktop----------------------------------------------------------------- */
-.footer {
-    background-image: url(../assets/images/backgroung_footer.png);
-    box-shadow: inset 0px 50px 80px rgb(0, 0, 0, 0.9);
-    height: 520px;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    justify-content: space-evenly;
-}
+    .email {
+        width: 218px;
+    }
 
-.footer h5 {
-    margin-top: 0;
-}
+    .contatos a {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        text-decoration: none;
+        align-items: center;
+        color: white;
+        font-family: "inter";
+        font-size: 12px;
+    }
 
-.footer-flex {
-    height: 257px;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-    margin-top: 40px;
-}
+    .midias-sociais {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 127px;
+    }
 
-.box1-footer {
-    width: 294px;
-    height: 300px;
-    align-items: flex-start;
-    justify-content: space-around;
-}
+    .logotipo-desktop {
+        display: block;
+    }
 
-.box1-footer * {
-    margin: 0 !important;
-}
+    .segundaparte-header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        height: 90px;
+        width: 100%;
+    }
 
-.social-box-footer {
-    width: 206px;
-    justify-content: space-between;
+    #menu-hamburguer {
+        width: 867px;
+        position: static;
+        height: auto;
+        flex-direction: row;
+        justify-content: space-between;
+        opacity: 1;
+        box-shadow: none;
+        background-image: none;
+        backdrop-filter: none;
+        height: max-content;
+    }
 
-}
+    .headerbottom-mobile {
+        display: flex;
+        width: 420px;
+        align-items: center;
+        justify-content: center;
+        height: max-content;
+    }
 
-.box2-footer {
-    width: 200px;
-    height: 257px;
-    margin-bottom: 20px;
-    align-self: flex-start;
-}
+    .midias-sociais-mobile,
+    .contatos-mobile {
+        display: none;
+    }
 
-.box3-footer {
-    margin-bottom: 10px;
-    align-self: flex-start;
-}
+    .links {
+        flex-direction: row;
+        width: 420px;
+        height: max-content;
+    }
 
-.box4-footer {
-    align-self: flex-start;
-    padding-bottom: 80px;
-}
+    .links a {
+        height: max-content;
+        border: none;
+        margin-right: 59px;
+    }
 
-.box2-footer li {
-    margin-bottom: 12px;
-}
+    #menu-trespontinhos {
+        right: 0;
+        opacity: 1;
+        position: static;
+        background-image: none;
+        backdrop-filter: none;
+        flex-direction: row;
+        justify-content: space-between;
+        box-shadow: none;
+        width: 130px;
+        height: 30px;
+    }
 
-.box2-footer li a:hover {
-    color: #f9aa01;
-}
+    .icons-usuario {
+        flex-direction: row;
+        justify-content: space-between;
+        width: 130px;
+        height: 25px;
+    }
 
-.input-gradient {
-    width: 285px;
-    margin-top: 52px;
-}
+    .links a:hover {
+        color: #f9aa01;
+    }
 
-.footer-bottom {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    /* border: 1px solid green; */
-    width: 100%;
-    height: 46px;
-}
 
-.footer-bottom input {
-    margin-top: 0;
-}
+    /* ------------------------------------------------------------MAINdesktop---------------------------------------------------------- */
 
-h5 {
-    font-size: 30px;
-}
+    .banner {
+        background-image: url(../assets/images/Imagem\ de\ fundo.png);
+        height: 680px;
+        border-top: none;
+        background-size: cover;
+    }
+
+    .border-gradient {
+        width: 800px;
+        height: 520px;
+    }
+
+    .barradelogin {
+        width: 560px;
+        margin-bottom: 40px;
+    }
+
+    /* ---------------------------------------------------FOOTERdesktop----------------------------------------------------------------- */
+    .footer {
+        background-image: url(../assets/images/backgroung_footer.png);
+        box-shadow: inset 0px 50px 80px rgb(0, 0, 0, 0.9);
+        height: 520px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+
+    .footer h5 {
+        margin-top: 0;
+    }
+
+    .footer-flex {
+        height: 257px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: 40px;
+    }
+
+    .box1-footer {
+        width: 294px;
+        height: 300px;
+        align-items: flex-start;
+        justify-content: space-around;
+    }
+
+    .box1-footer * {
+        margin: 0 !important;
+    }
+
+    .social-box-footer {
+        width: 206px;
+        justify-content: space-between;
+
+    }
+
+    .box2-footer {
+        width: 200px;
+        height: 257px;
+        margin-bottom: 20px;
+        align-self: flex-start;
+    }
+
+    .box3-footer {
+        margin-bottom: 10px;
+        align-self: flex-start;
+    }
+
+    .box4-footer {
+        align-self: flex-start;
+        padding-bottom: 80px;
+    }
+
+    .box2-footer li {
+        margin-bottom: 12px;
+    }
+
+    .box2-footer li a:hover {
+        color: #f9aa01;
+    }
+
+    .input-gradient {
+        width: 285px;
+        margin-top: 52px;
+    }
+
+    .footer-bottom {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        /* border: 1px solid green; */
+        width: 100%;
+        height: 46px;
+    }
+
+    .footer-bottom input {
+        margin-top: 0;
+    }
+
+    h5 {
+        font-size: 30px;
+    }
 
 }
