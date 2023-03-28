@@ -1,0 +1,15 @@
+C:\Users\40666090823\Desktop\PrimeiroSemestre-Senai\BACKEND-1\bin\Debug\net7.0\BACKEND-1.exe
+C:\Users\40666090823\Desktop\PrimeiroSemestre-Senai\BACKEND-1\bin\Debug\net7.0\BACKEND-1.deps.json
+C:\Users\40666090823\Desktop\PrimeiroSemestre-Senai\BACKEND-1\bin\Debug\net7.0\BACKEND-1.runtimeconfig.json
+C:\Users\40666090823\Desktop\PrimeiroSemestre-Senai\BACKEND-1\bin\Debug\net7.0\BACKEND-1.dll
+C:\Users\40666090823\Desktop\PrimeiroSemestre-Senai\BACKEND-1\bin\Debug\net7.0\BACKEND-1.pdb
+C:\Users\40666090823\Desktop\PrimeiroSemestre-Senai\BACKEND-1\obj\Debug\net7.0\BACKEND-1.csproj.AssemblyReference.cache
+C:\Users\40666090823\Desktop\PrimeiroSemestre-Senai\BACKEND-1\obj\Debug\net7.0\BACKEND-1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\40666090823\Desktop\PrimeiroSemestre-Senai\BACKEND-1\obj\Debug\net7.0\BACKEND-1.AssemblyInfoInputs.cache
+C:\Users\40666090823\Desktop\PrimeiroSemestre-Senai\BACKEND-1\obj\Debug\net7.0\BACKEND-1.AssemblyInfo.cs
+C:\Users\40666090823\Desktop\PrimeiroSemestre-Senai\BACKEND-1\obj\Debug\net7.0\BACKEND-1.csproj.CoreCompileInputs.cache
+C:\Users\40666090823\Desktop\PrimeiroSemestre-Senai\BACKEND-1\obj\Debug\net7.0\BACKEND-1.dll
+C:\Users\40666090823\Desktop\PrimeiroSemestre-Senai\BACKEND-1\obj\Debug\net7.0\refint\BACKEND-1.dll
+C:\Users\40666090823\Desktop\PrimeiroSemestre-Senai\BACKEND-1\obj\Debug\net7.0\BACKEND-1.pdb
+C:\Users\40666090823\Desktop\PrimeiroSemestre-Senai\BACKEND-1\obj\Debug\net7.0\BACKEND-1.genruntimeconfig.cache
+C:\Users\40666090823\Desktop\PrimeiroSemestre-Senai\BACKEND-1\obj\Debug\net7.0\ref\BACKEND-1.dll
