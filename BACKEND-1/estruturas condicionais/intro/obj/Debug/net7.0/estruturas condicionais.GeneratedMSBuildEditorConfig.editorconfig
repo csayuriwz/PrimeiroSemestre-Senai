@@ -7,5 +7,5 @@ build_property.InvariantGlobalization =
 build_property.PlatformNeutralAssembly = 
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
-build_property.RootNamespace = _1
-build_property.ProjectDir = c:\Users\40666090823\Desktop\PrimeiroSemestre-Senai\exercicios\1\
+build_property.RootNamespace = estruturas_condicionais
+build_property.ProjectDir = c:\Users\40666090823\Desktop\PrimeiroSemestre-Senai\BACKEND-1\estruturas condicionais\intro\
