@@ -1,0 +1,15 @@
+C:\Users\40666090823\Desktop\PrimeiroSemestre-Senai\BACKEND-1\switch-case\intro\bin\Debug\net7.0\intro.exe
+C:\Users\40666090823\Desktop\PrimeiroSemestre-Senai\BACKEND-1\switch-case\intro\bin\Debug\net7.0\intro.deps.json
+C:\Users\40666090823\Desktop\PrimeiroSemestre-Senai\BACKEND-1\switch-case\intro\bin\Debug\net7.0\intro.runtimeconfig.json
+C:\Users\40666090823\Desktop\PrimeiroSemestre-Senai\BACKEND-1\switch-case\intro\bin\Debug\net7.0\intro.dll
+C:\Users\40666090823\Desktop\PrimeiroSemestre-Senai\BACKEND-1\switch-case\intro\bin\Debug\net7.0\intro.pdb
+C:\Users\40666090823\Desktop\PrimeiroSemestre-Senai\BACKEND-1\switch-case\intro\obj\Debug\net7.0\intro.csproj.AssemblyReference.cache
+C:\Users\40666090823\Desktop\PrimeiroSemestre-Senai\BACKEND-1\switch-case\intro\obj\Debug\net7.0\intro.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\40666090823\Desktop\PrimeiroSemestre-Senai\BACKEND-1\switch-case\intro\obj\Debug\net7.0\intro.AssemblyInfoInputs.cache
+C:\Users\40666090823\Desktop\PrimeiroSemestre-Senai\BACKEND-1\switch-case\intro\obj\Debug\net7.0\intro.AssemblyInfo.cs
+C:\Users\40666090823\Desktop\PrimeiroSemestre-Senai\BACKEND-1\switch-case\intro\obj\Debug\net7.0\intro.csproj.CoreCompileInputs.cache
+C:\Users\40666090823\Desktop\PrimeiroSemestre-Senai\BACKEND-1\switch-case\intro\obj\Debug\net7.0\intro.dll
+C:\Users\40666090823\Desktop\PrimeiroSemestre-Senai\BACKEND-1\switch-case\intro\obj\Debug\net7.0\refint\intro.dll
+C:\Users\40666090823\Desktop\PrimeiroSemestre-Senai\BACKEND-1\switch-case\intro\obj\Debug\net7.0\intro.pdb
+C:\Users\40666090823\Desktop\PrimeiroSemestre-Senai\BACKEND-1\switch-case\intro\obj\Debug\net7.0\intro.genruntimeconfig.cache
+C:\Users\40666090823\Desktop\PrimeiroSemestre-Senai\BACKEND-1\switch-case\intro\obj\Debug\net7.0\ref\intro.dll
