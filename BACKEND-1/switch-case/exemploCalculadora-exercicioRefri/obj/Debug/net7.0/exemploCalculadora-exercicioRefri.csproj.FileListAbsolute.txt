@@ -1,0 +1,15 @@
+C:\Users\40666090823\Desktop\PrimeiroSemestre-Senai\BACKEND-1\switch-case\exemploCalculadora-exercicioRefri\bin\Debug\net7.0\exemploCalculadora-exercicioRefri.exe
+C:\Users\40666090823\Desktop\PrimeiroSemestre-Senai\BACKEND-1\switch-case\exemploCalculadora-exercicioRefri\bin\Debug\net7.0\exemploCalculadora-exercicioRefri.deps.json
+C:\Users\40666090823\Desktop\PrimeiroSemestre-Senai\BACKEND-1\switch-case\exemploCalculadora-exercicioRefri\bin\Debug\net7.0\exemploCalculadora-exercicioRefri.runtimeconfig.json
+C:\Users\40666090823\Desktop\PrimeiroSemestre-Senai\BACKEND-1\switch-case\exemploCalculadora-exercicioRefri\bin\Debug\net7.0\exemploCalculadora-exercicioRefri.dll
+C:\Users\40666090823\Desktop\PrimeiroSemestre-Senai\BACKEND-1\switch-case\exemploCalculadora-exercicioRefri\bin\Debug\net7.0\exemploCalculadora-exercicioRefri.pdb
+C:\Users\40666090823\Desktop\PrimeiroSemestre-Senai\BACKEND-1\switch-case\exemploCalculadora-exercicioRefri\obj\Debug\net7.0\exemploCalculadora-exercicioRefri.csproj.AssemblyReference.cache
+C:\Users\40666090823\Desktop\PrimeiroSemestre-Senai\BACKEND-1\switch-case\exemploCalculadora-exercicioRefri\obj\Debug\net7.0\exemploCalculadora-exercicioRefri.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\40666090823\Desktop\PrimeiroSemestre-Senai\BACKEND-1\switch-case\exemploCalculadora-exercicioRefri\obj\Debug\net7.0\exemploCalculadora-exercicioRefri.AssemblyInfoInputs.cache
+C:\Users\40666090823\Desktop\PrimeiroSemestre-Senai\BACKEND-1\switch-case\exemploCalculadora-exercicioRefri\obj\Debug\net7.0\exemploCalculadora-exercicioRefri.AssemblyInfo.cs
+C:\Users\40666090823\Desktop\PrimeiroSemestre-Senai\BACKEND-1\switch-case\exemploCalculadora-exercicioRefri\obj\Debug\net7.0\exemploCalculadora-exercicioRefri.csproj.CoreCompileInputs.cache
+C:\Users\40666090823\Desktop\PrimeiroSemestre-Senai\BACKEND-1\switch-case\exemploCalculadora-exercicioRefri\obj\Debug\net7.0\exemploCalculadora-exercicioRefri.dll
+C:\Users\40666090823\Desktop\PrimeiroSemestre-Senai\BACKEND-1\switch-case\exemploCalculadora-exercicioRefri\obj\Debug\net7.0\refint\exemploCalculadora-exercicioRefri.dll
+C:\Users\40666090823\Desktop\PrimeiroSemestre-Senai\BACKEND-1\switch-case\exemploCalculadora-exercicioRefri\obj\Debug\net7.0\exemploCalculadora-exercicioRefri.pdb
+C:\Users\40666090823\Desktop\PrimeiroSemestre-Senai\BACKEND-1\switch-case\exemploCalculadora-exercicioRefri\obj\Debug\net7.0\exemploCalculadora-exercicioRefri.genruntimeconfig.cache
+C:\Users\40666090823\Desktop\PrimeiroSemestre-Senai\BACKEND-1\switch-case\exemploCalculadora-exercicioRefri\obj\Debug\net7.0\ref\exemploCalculadora-exercicioRefri.dll

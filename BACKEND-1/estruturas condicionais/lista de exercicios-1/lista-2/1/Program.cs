@@ -11,22 +11,21 @@ int ano = int.Parse(Console.ReadLine());
 
 if( (dia <= 0 || dia >= 32)) 
 {
-    Console.WriteLine($"Data invalida, digite um dia valido");
+    Console.WriteLine($"Data invalida, digite um dia valido, o dia escolhido não existe");
 }
 
 else if (mes <= 0 || mes >= 13)
 {
-    Console.WriteLine($"Data invalida, digite um mes valido");
+    Console.WriteLine($"Data invalida, digite um mes valido, o mes escolhido não existe");
 }
 
-else if (ano >= 2013)
+else if (ano > 2013)
 {
-
+    Console.WriteLine($"Data invalida, digite um mes valido, o ano escolhido não existe");
 }
 
 else
 {
-    Console.WriteLine($"Data valida! Sua data de aniversario e: {dia/mes/ano}");
-    
+    Console.WriteLine($"Data valida! Sua data de aniversario e: {dia}/{mes}/{ano}");
 }
 

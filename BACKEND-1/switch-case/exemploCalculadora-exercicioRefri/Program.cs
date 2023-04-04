@@ -11,54 +11,54 @@
 
 //entrada 
 
-Console.WriteLine(@$"
--------------------------------------
-| Programa de calculadora |   
-|                                          | 
-|   Informe a operação        |
-|                                          |
-|    (+) soma                        |
-|    (-) subtração                  |
-|    (*) multiplicação             |
-|    (/) divisão                       |
---------------------------------------
-");
+// Console.WriteLine(@$"
+// -------------------------------------
+// | Programa de calculadora           |   
+// |                                   | 
+// |   Informe a operação              |
+// |                                   |
+// |    (+) soma                       |
+// |    (-) subtração                  |
+// |    (*) multiplicação              |
+// |    (/) divisão                    |
+// -------------------------------------
+// ");
 
-char operacao = char.Parse(Console.ReadLine()!);
+// char operacao = char.Parse(Console.ReadLine()!);
 
-Console.WriteLine($"Informe o primeiro número: ");
-double num1 = double.Parse(Console.ReadLine()!);
+// Console.WriteLine($"Informe o primeiro número: ");
+// double num1 = double.Parse(Console.ReadLine()!);
 
-Console.WriteLine($"Informe o segundo número: ");
-double num2 = double.Parse(Console.ReadLine()!);
+// Console.WriteLine($"Informe o segundo número: ");
+// double num2 = double.Parse(Console.ReadLine()!);
 
-double resultado = 0;
+// double resultado = 0;
 
-//processamento
-//saida
+// //processamento
+// //saida
 
-switch (operacao)
-{
-    case '+':
-        resultado = (num1 + num2);
-        Console.WriteLine($"O resultado da conta é igual á : {resultado}");
-        break;
-    case '-':
-        resultado = (num1 - num2);
-        Console.WriteLine($"O resultado da conta é igual á : {resultado}");
-        break;
-    case '*':
-        resultado = (num1 * num2);
-        Console.WriteLine($"O resultado da conta é igual á : {resultado}");
-        break;
-    case '/':
-        resultado = (num1 / num2);
-        Console.WriteLine($"O resultado da conta é igual á : {resultado}");
-        break;
-    default:
-        Console.WriteLine($"Operação inválida, repita o processo!");        
-        break;
-}
+// switch (operacao)
+// {
+//     case '+':
+//         resultado = (num1 + num2);
+//         Console.WriteLine($"O resultado da conta é igual á : {resultado}");
+//         break;
+//     case '-':
+//         resultado = (num1 - num2);
+//         Console.WriteLine($"O resultado da conta é igual á : {resultado}");
+//         break;
+//     case '*':
+//         resultado = (num1 * num2);
+//         Console.WriteLine($"O resultado da conta é igual á : {resultado}");
+//         break;
+//     case '/':
+//         resultado = (num1 / num2);
+//         Console.WriteLine($"O resultado da conta é igual á : {resultado}");
+//         break;
+//     default:
+//         Console.WriteLine($"Operação inválida, repita o processo!");        
+//         break;
+// }
 
 
 
@@ -87,20 +87,24 @@ switch (operacao)
 //caso contrário, a bebida é sem gelo adicional
 
 
-Console.WriteLine(@$"Escolha uma opção de bebida: 
-1- Coca-cola
-2- Pepsi
-3- Fanta
-4- Monster
+Console.WriteLine(@$"Escolha uma opção de bebida: '
+
+
+ ---------------------------
+ |  1- café                |
+ |  2- milkshake           |
+ |  3- frappuccino         |
+ |  4- espresso macchiato  |
+ ---------------------------
 ");
 
-int refri = int.Parse(Console.ReadLine()!);
+int cafés = int.Parse(Console.ReadLine()!);
 int gelo = 0;
 
-switch (refri)
+switch (cafés)
 {
     case 1:
-        Console.WriteLine($"Você escolheu coca-cola");
+        Console.WriteLine($"Você escolheu café");
         Console.WriteLine(@$"Gostaria de adicionar gelo?
         1- Com gelo
         2- Sem gelo");
@@ -108,20 +112,18 @@ switch (refri)
         switch (gelo)
         {
             case 1:
-                Console.WriteLine($"Você escolheu uma coca-cola com gelo.");
+                Console.WriteLine($"Você escolheu um café com gelo.");
                 break;
             case 2:
-                Console.WriteLine($"Você escolheu uma coca-cola sem gelo.");
+                Console.WriteLine($"Você escolheu uma café sem gelo.");
                 break;
             default:
                 Console.WriteLine($"Escolha inválida.");
                 break;
         }
-
-
         break;
     case 2:
-        Console.WriteLine($"Você escolheu Pepsi");
+        Console.WriteLine($"Você escolheu um milkshake ");
         Console.WriteLine(@$"Gostaria de adicionar gelo?
         1- Com gelo
         2- Sem gelo");
@@ -129,10 +131,10 @@ switch (refri)
         switch (gelo)
         {
             case 1:
-                Console.WriteLine($"Você escolheu uma coca-cola com gelo.");
+                Console.WriteLine($"Você escolheu um milkshake com gelo.");
                 break;
             case 2:
-                Console.WriteLine($"Você escolheu uma coca-cola sem gelo.");
+                Console.WriteLine($"Você escolheu um milkshake sem gelo.");
                 break;
             default:
                 Console.WriteLine($"Escolha inválida.");
@@ -140,7 +142,7 @@ switch (refri)
         }
         break;
     case 3:
-        Console.WriteLine($"Você escolheu Fanta");
+        Console.WriteLine($"Você escolheu frappuccino");
         Console.WriteLine(@$"Gostaria de adicionar gelo?
         1- Com gelo
         2- Sem gelo");
@@ -148,10 +150,10 @@ switch (refri)
         switch (gelo)
         {
             case 1:
-                Console.WriteLine($"Você escolheu uma coca-cola com gelo.");
+                Console.WriteLine($"Você escolheu uma frappuccino com gelo.");
                 break;
             case 2:
-                Console.WriteLine($"Você escolheu uma coca-cola sem gelo.");
+                Console.WriteLine($"Você escolheu uma frappuccino sem gelo.");
                 break;
             default:
                 Console.WriteLine($"Escolha inválida.");
@@ -159,7 +161,7 @@ switch (refri)
         }
         break;
     case 4:
-        Console.WriteLine($"Você escolheu Monster");
+        Console.WriteLine($"Você escolheu espresso macchiato");
         Console.WriteLine(@$"Gostaria de adicionar gelo?
         1- Com gelo
         2- Sem gelo");
@@ -167,10 +169,10 @@ switch (refri)
         switch (gelo)
         {
             case 1:
-                Console.WriteLine($"Você escolheu uma coca-cola com gelo.");
+                Console.WriteLine($"Você escolheu um espresso macchiato com gelo.");
                 break;
             case 2:
-                Console.WriteLine($"Você escolheu uma coca-cola sem gelo.");
+                Console.WriteLine($"Você escolheu um espresso macchiato sem gelo.");
                 break;
             default:
                 Console.WriteLine($"Escolha inválida.");

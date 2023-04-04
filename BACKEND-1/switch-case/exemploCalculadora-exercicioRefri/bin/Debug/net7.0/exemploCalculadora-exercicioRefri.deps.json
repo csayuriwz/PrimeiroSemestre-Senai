@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "exemploCalculadora-exercicioRefri/1.0.0": {
+        "runtime": {
+          "exemploCalculadora-exercicioRefri.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "exemploCalculadora-exercicioRefri/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
