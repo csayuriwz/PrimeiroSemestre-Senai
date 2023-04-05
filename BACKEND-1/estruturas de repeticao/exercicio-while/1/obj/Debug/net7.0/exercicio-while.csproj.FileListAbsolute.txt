@@ -1,0 +1,15 @@
+C:\Users\40666090823\Desktop\PrimeiroSemestre-Senai\BACKEND-1\estruturas de repeticao\exercicio-while\bin\Debug\net7.0\exercicio-while.exe
+C:\Users\40666090823\Desktop\PrimeiroSemestre-Senai\BACKEND-1\estruturas de repeticao\exercicio-while\bin\Debug\net7.0\exercicio-while.deps.json
+C:\Users\40666090823\Desktop\PrimeiroSemestre-Senai\BACKEND-1\estruturas de repeticao\exercicio-while\bin\Debug\net7.0\exercicio-while.runtimeconfig.json
+C:\Users\40666090823\Desktop\PrimeiroSemestre-Senai\BACKEND-1\estruturas de repeticao\exercicio-while\bin\Debug\net7.0\exercicio-while.dll
+C:\Users\40666090823\Desktop\PrimeiroSemestre-Senai\BACKEND-1\estruturas de repeticao\exercicio-while\bin\Debug\net7.0\exercicio-while.pdb
+C:\Users\40666090823\Desktop\PrimeiroSemestre-Senai\BACKEND-1\estruturas de repeticao\exercicio-while\obj\Debug\net7.0\exercicio-while.csproj.AssemblyReference.cache
+C:\Users\40666090823\Desktop\PrimeiroSemestre-Senai\BACKEND-1\estruturas de repeticao\exercicio-while\obj\Debug\net7.0\exercicio-while.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\40666090823\Desktop\PrimeiroSemestre-Senai\BACKEND-1\estruturas de repeticao\exercicio-while\obj\Debug\net7.0\exercicio-while.AssemblyInfoInputs.cache
+C:\Users\40666090823\Desktop\PrimeiroSemestre-Senai\BACKEND-1\estruturas de repeticao\exercicio-while\obj\Debug\net7.0\exercicio-while.AssemblyInfo.cs
+C:\Users\40666090823\Desktop\PrimeiroSemestre-Senai\BACKEND-1\estruturas de repeticao\exercicio-while\obj\Debug\net7.0\exercicio-while.csproj.CoreCompileInputs.cache
+C:\Users\40666090823\Desktop\PrimeiroSemestre-Senai\BACKEND-1\estruturas de repeticao\exercicio-while\obj\Debug\net7.0\exercicio-while.dll
+C:\Users\40666090823\Desktop\PrimeiroSemestre-Senai\BACKEND-1\estruturas de repeticao\exercicio-while\obj\Debug\net7.0\refint\exercicio-while.dll
+C:\Users\40666090823\Desktop\PrimeiroSemestre-Senai\BACKEND-1\estruturas de repeticao\exercicio-while\obj\Debug\net7.0\exercicio-while.pdb
+C:\Users\40666090823\Desktop\PrimeiroSemestre-Senai\BACKEND-1\estruturas de repeticao\exercicio-while\obj\Debug\net7.0\exercicio-while.genruntimeconfig.cache
+C:\Users\40666090823\Desktop\PrimeiroSemestre-Senai\BACKEND-1\estruturas de repeticao\exercicio-while\obj\Debug\net7.0\ref\exercicio-while.dll
