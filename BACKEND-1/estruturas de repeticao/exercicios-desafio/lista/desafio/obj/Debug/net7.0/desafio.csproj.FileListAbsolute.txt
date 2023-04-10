@@ -1,0 +1,15 @@
+C:\Users\40666090823\Desktop\PrimeiroSemestre-Senai\BACKEND-1\estruturas de repeticao\exercicios-desafio\lista\desafio\bin\Debug\net7.0\desafio.exe
+C:\Users\40666090823\Desktop\PrimeiroSemestre-Senai\BACKEND-1\estruturas de repeticao\exercicios-desafio\lista\desafio\bin\Debug\net7.0\desafio.deps.json
+C:\Users\40666090823\Desktop\PrimeiroSemestre-Senai\BACKEND-1\estruturas de repeticao\exercicios-desafio\lista\desafio\bin\Debug\net7.0\desafio.runtimeconfig.json
+C:\Users\40666090823\Desktop\PrimeiroSemestre-Senai\BACKEND-1\estruturas de repeticao\exercicios-desafio\lista\desafio\bin\Debug\net7.0\desafio.dll
+C:\Users\40666090823\Desktop\PrimeiroSemestre-Senai\BACKEND-1\estruturas de repeticao\exercicios-desafio\lista\desafio\bin\Debug\net7.0\desafio.pdb
+C:\Users\40666090823\Desktop\PrimeiroSemestre-Senai\BACKEND-1\estruturas de repeticao\exercicios-desafio\lista\desafio\obj\Debug\net7.0\desafio.csproj.AssemblyReference.cache
+C:\Users\40666090823\Desktop\PrimeiroSemestre-Senai\BACKEND-1\estruturas de repeticao\exercicios-desafio\lista\desafio\obj\Debug\net7.0\desafio.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\40666090823\Desktop\PrimeiroSemestre-Senai\BACKEND-1\estruturas de repeticao\exercicios-desafio\lista\desafio\obj\Debug\net7.0\desafio.AssemblyInfoInputs.cache
+C:\Users\40666090823\Desktop\PrimeiroSemestre-Senai\BACKEND-1\estruturas de repeticao\exercicios-desafio\lista\desafio\obj\Debug\net7.0\desafio.AssemblyInfo.cs
+C:\Users\40666090823\Desktop\PrimeiroSemestre-Senai\BACKEND-1\estruturas de repeticao\exercicios-desafio\lista\desafio\obj\Debug\net7.0\desafio.csproj.CoreCompileInputs.cache
+C:\Users\40666090823\Desktop\PrimeiroSemestre-Senai\BACKEND-1\estruturas de repeticao\exercicios-desafio\lista\desafio\obj\Debug\net7.0\desafio.dll
+C:\Users\40666090823\Desktop\PrimeiroSemestre-Senai\BACKEND-1\estruturas de repeticao\exercicios-desafio\lista\desafio\obj\Debug\net7.0\refint\desafio.dll
+C:\Users\40666090823\Desktop\PrimeiroSemestre-Senai\BACKEND-1\estruturas de repeticao\exercicios-desafio\lista\desafio\obj\Debug\net7.0\desafio.pdb
+C:\Users\40666090823\Desktop\PrimeiroSemestre-Senai\BACKEND-1\estruturas de repeticao\exercicios-desafio\lista\desafio\obj\Debug\net7.0\desafio.genruntimeconfig.cache
+C:\Users\40666090823\Desktop\PrimeiroSemestre-Senai\BACKEND-1\estruturas de repeticao\exercicios-desafio\lista\desafio\obj\Debug\net7.0\ref\desafio.dll
