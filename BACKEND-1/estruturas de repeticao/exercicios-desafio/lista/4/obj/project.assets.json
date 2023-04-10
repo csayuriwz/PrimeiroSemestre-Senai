@@ -8,26 +8,24 @@
     "net7.0": []
   },
   "packageFolders": {
-    "C:\\Users\\40666090823\\.nuget\\packages\\": {}
+    "C:\\Users\\catar\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\40666090823\\Desktop\\PrimeiroSemestre-Senai\\BACKEND-1\\estruturas de repeticao\\exercicios-desafio\\lista\\4\\4.csproj",
+      "projectUniqueName": "C:\\Users\\catar\\PrimeiroSemestre-Senai\\BACKEND-1\\estruturas de repeticao\\exercicios-desafio\\lista\\4\\4.csproj",
       "projectName": "4",
-      "projectPath": "C:\\Users\\40666090823\\Desktop\\PrimeiroSemestre-Senai\\BACKEND-1\\estruturas de repeticao\\exercicios-desafio\\lista\\4\\4.csproj",
-      "packagesPath": "C:\\Users\\40666090823\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\40666090823\\Desktop\\PrimeiroSemestre-Senai\\BACKEND-1\\estruturas de repeticao\\exercicios-desafio\\lista\\4\\obj\\",
+      "projectPath": "C:\\Users\\catar\\PrimeiroSemestre-Senai\\BACKEND-1\\estruturas de repeticao\\exercicios-desafio\\lista\\4\\4.csproj",
+      "packagesPath": "C:\\Users\\catar\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\catar\\PrimeiroSemestre-Senai\\BACKEND-1\\estruturas de repeticao\\exercicios-desafio\\lista\\4\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\40666090823\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Users\\catar\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net7.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -61,7 +59,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
       }
     }
   }
