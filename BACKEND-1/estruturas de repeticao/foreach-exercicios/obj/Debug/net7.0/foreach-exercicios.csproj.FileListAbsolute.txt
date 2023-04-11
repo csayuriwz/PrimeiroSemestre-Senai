@@ -1,0 +1,15 @@
+C:\Users\40666090823\Desktop\PrimeiroSemestre-Senai\BACKEND-1\estruturas de repeticao\foreach-exercicios\bin\Debug\net7.0\foreach-exercicios.exe
+C:\Users\40666090823\Desktop\PrimeiroSemestre-Senai\BACKEND-1\estruturas de repeticao\foreach-exercicios\bin\Debug\net7.0\foreach-exercicios.deps.json
+C:\Users\40666090823\Desktop\PrimeiroSemestre-Senai\BACKEND-1\estruturas de repeticao\foreach-exercicios\bin\Debug\net7.0\foreach-exercicios.runtimeconfig.json
+C:\Users\40666090823\Desktop\PrimeiroSemestre-Senai\BACKEND-1\estruturas de repeticao\foreach-exercicios\bin\Debug\net7.0\foreach-exercicios.dll
+C:\Users\40666090823\Desktop\PrimeiroSemestre-Senai\BACKEND-1\estruturas de repeticao\foreach-exercicios\bin\Debug\net7.0\foreach-exercicios.pdb
+C:\Users\40666090823\Desktop\PrimeiroSemestre-Senai\BACKEND-1\estruturas de repeticao\foreach-exercicios\obj\Debug\net7.0\foreach-exercicios.csproj.AssemblyReference.cache
+C:\Users\40666090823\Desktop\PrimeiroSemestre-Senai\BACKEND-1\estruturas de repeticao\foreach-exercicios\obj\Debug\net7.0\foreach-exercicios.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\40666090823\Desktop\PrimeiroSemestre-Senai\BACKEND-1\estruturas de repeticao\foreach-exercicios\obj\Debug\net7.0\foreach-exercicios.AssemblyInfoInputs.cache
+C:\Users\40666090823\Desktop\PrimeiroSemestre-Senai\BACKEND-1\estruturas de repeticao\foreach-exercicios\obj\Debug\net7.0\foreach-exercicios.AssemblyInfo.cs
+C:\Users\40666090823\Desktop\PrimeiroSemestre-Senai\BACKEND-1\estruturas de repeticao\foreach-exercicios\obj\Debug\net7.0\foreach-exercicios.csproj.CoreCompileInputs.cache
+C:\Users\40666090823\Desktop\PrimeiroSemestre-Senai\BACKEND-1\estruturas de repeticao\foreach-exercicios\obj\Debug\net7.0\foreach-exercicios.dll
+C:\Users\40666090823\Desktop\PrimeiroSemestre-Senai\BACKEND-1\estruturas de repeticao\foreach-exercicios\obj\Debug\net7.0\refint\foreach-exercicios.dll
+C:\Users\40666090823\Desktop\PrimeiroSemestre-Senai\BACKEND-1\estruturas de repeticao\foreach-exercicios\obj\Debug\net7.0\foreach-exercicios.pdb
+C:\Users\40666090823\Desktop\PrimeiroSemestre-Senai\BACKEND-1\estruturas de repeticao\foreach-exercicios\obj\Debug\net7.0\foreach-exercicios.genruntimeconfig.cache
+C:\Users\40666090823\Desktop\PrimeiroSemestre-Senai\BACKEND-1\estruturas de repeticao\foreach-exercicios\obj\Debug\net7.0\ref\foreach-exercicios.dll
