@@ -1,0 +1,15 @@
+C:\Users\40666090823\Desktop\PrimeiroSemestre-Senai\BACKEND-1\metodos\exercicio\exemplo-soma\bin\Debug\net7.0\exemplo-soma.exe
+C:\Users\40666090823\Desktop\PrimeiroSemestre-Senai\BACKEND-1\metodos\exercicio\exemplo-soma\bin\Debug\net7.0\exemplo-soma.deps.json
+C:\Users\40666090823\Desktop\PrimeiroSemestre-Senai\BACKEND-1\metodos\exercicio\exemplo-soma\bin\Debug\net7.0\exemplo-soma.runtimeconfig.json
+C:\Users\40666090823\Desktop\PrimeiroSemestre-Senai\BACKEND-1\metodos\exercicio\exemplo-soma\bin\Debug\net7.0\exemplo-soma.dll
+C:\Users\40666090823\Desktop\PrimeiroSemestre-Senai\BACKEND-1\metodos\exercicio\exemplo-soma\bin\Debug\net7.0\exemplo-soma.pdb
+C:\Users\40666090823\Desktop\PrimeiroSemestre-Senai\BACKEND-1\metodos\exercicio\exemplo-soma\obj\Debug\net7.0\exemplo-soma.csproj.AssemblyReference.cache
+C:\Users\40666090823\Desktop\PrimeiroSemestre-Senai\BACKEND-1\metodos\exercicio\exemplo-soma\obj\Debug\net7.0\exemplo-soma.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\40666090823\Desktop\PrimeiroSemestre-Senai\BACKEND-1\metodos\exercicio\exemplo-soma\obj\Debug\net7.0\exemplo-soma.AssemblyInfoInputs.cache
+C:\Users\40666090823\Desktop\PrimeiroSemestre-Senai\BACKEND-1\metodos\exercicio\exemplo-soma\obj\Debug\net7.0\exemplo-soma.AssemblyInfo.cs
+C:\Users\40666090823\Desktop\PrimeiroSemestre-Senai\BACKEND-1\metodos\exercicio\exemplo-soma\obj\Debug\net7.0\exemplo-soma.csproj.CoreCompileInputs.cache
+C:\Users\40666090823\Desktop\PrimeiroSemestre-Senai\BACKEND-1\metodos\exercicio\exemplo-soma\obj\Debug\net7.0\exemplo-soma.dll
+C:\Users\40666090823\Desktop\PrimeiroSemestre-Senai\BACKEND-1\metodos\exercicio\exemplo-soma\obj\Debug\net7.0\refint\exemplo-soma.dll
+C:\Users\40666090823\Desktop\PrimeiroSemestre-Senai\BACKEND-1\metodos\exercicio\exemplo-soma\obj\Debug\net7.0\exemplo-soma.pdb
+C:\Users\40666090823\Desktop\PrimeiroSemestre-Senai\BACKEND-1\metodos\exercicio\exemplo-soma\obj\Debug\net7.0\exemplo-soma.genruntimeconfig.cache
+C:\Users\40666090823\Desktop\PrimeiroSemestre-Senai\BACKEND-1\metodos\exercicio\exemplo-soma\obj\Debug\net7.0\ref\exemplo-soma.dll
