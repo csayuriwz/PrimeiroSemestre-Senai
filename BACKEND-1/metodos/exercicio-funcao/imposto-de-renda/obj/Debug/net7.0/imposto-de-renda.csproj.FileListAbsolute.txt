@@ -1,0 +1,15 @@
+C:\Users\40666090823\Desktop\PrimeiroSemestre-Senai\BACKEND-1\metodos\exercicio-funcao\imposto-de-renda\obj\Debug\net7.0\imposto-de-renda.csproj.AssemblyReference.cache
+C:\Users\40666090823\Desktop\PrimeiroSemestre-Senai\BACKEND-1\metodos\exercicio-funcao\imposto-de-renda\obj\Debug\net7.0\imposto-de-renda.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\40666090823\Desktop\PrimeiroSemestre-Senai\BACKEND-1\metodos\exercicio-funcao\imposto-de-renda\obj\Debug\net7.0\imposto-de-renda.AssemblyInfoInputs.cache
+C:\Users\40666090823\Desktop\PrimeiroSemestre-Senai\BACKEND-1\metodos\exercicio-funcao\imposto-de-renda\obj\Debug\net7.0\imposto-de-renda.AssemblyInfo.cs
+C:\Users\40666090823\Desktop\PrimeiroSemestre-Senai\BACKEND-1\metodos\exercicio-funcao\imposto-de-renda\obj\Debug\net7.0\imposto-de-renda.csproj.CoreCompileInputs.cache
+C:\Users\40666090823\Desktop\PrimeiroSemestre-Senai\BACKEND-1\metodos\exercicio-funcao\imposto-de-renda\bin\Debug\net7.0\imposto-de-renda.exe
+C:\Users\40666090823\Desktop\PrimeiroSemestre-Senai\BACKEND-1\metodos\exercicio-funcao\imposto-de-renda\bin\Debug\net7.0\imposto-de-renda.deps.json
+C:\Users\40666090823\Desktop\PrimeiroSemestre-Senai\BACKEND-1\metodos\exercicio-funcao\imposto-de-renda\bin\Debug\net7.0\imposto-de-renda.runtimeconfig.json
+C:\Users\40666090823\Desktop\PrimeiroSemestre-Senai\BACKEND-1\metodos\exercicio-funcao\imposto-de-renda\bin\Debug\net7.0\imposto-de-renda.dll
+C:\Users\40666090823\Desktop\PrimeiroSemestre-Senai\BACKEND-1\metodos\exercicio-funcao\imposto-de-renda\bin\Debug\net7.0\imposto-de-renda.pdb
+C:\Users\40666090823\Desktop\PrimeiroSemestre-Senai\BACKEND-1\metodos\exercicio-funcao\imposto-de-renda\obj\Debug\net7.0\imposto-de-renda.dll
+C:\Users\40666090823\Desktop\PrimeiroSemestre-Senai\BACKEND-1\metodos\exercicio-funcao\imposto-de-renda\obj\Debug\net7.0\refint\imposto-de-renda.dll
+C:\Users\40666090823\Desktop\PrimeiroSemestre-Senai\BACKEND-1\metodos\exercicio-funcao\imposto-de-renda\obj\Debug\net7.0\imposto-de-renda.pdb
+C:\Users\40666090823\Desktop\PrimeiroSemestre-Senai\BACKEND-1\metodos\exercicio-funcao\imposto-de-renda\obj\Debug\net7.0\imposto-de-renda.genruntimeconfig.cache
+C:\Users\40666090823\Desktop\PrimeiroSemestre-Senai\BACKEND-1\metodos\exercicio-funcao\imposto-de-renda\obj\Debug\net7.0\ref\imposto-de-renda.dll
