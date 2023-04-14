@@ -1,17 +1,19 @@
-﻿// 5 - Escreva um algoritmo que imprima a tabuada (de 1 a 10) para os números de 1 a 10.
-// Exemplo: tabuada do 1, tabuada do 2, etc... Dica: utilize um laço dentro do outro.
+﻿// 6 - Escreva um algoritmo que permita a leitura dos nomes de 10 pessoas e armazene os nomes
+// lidos em um vetor. Após isto, o algoritmo deve permitir a leitura de mais 1 nome qualquer de
+// pessoa (para efetuar uma busca) e depois escrever a mensagem ACHEI, se o nome estiver
+// entre os 10 nomes lidos anteriormente (guardados no vetor), ou NÃO ACHEI caso contrário.
 
-int resultado;
-Console.WriteLine($"Aqui esta a tabuada de 1 a 10");
 
-for (int pMultiplicador = 0; pMultiplicador <= 10; pMultiplicador++)
+
+string[] nome = new string[10];
+for (int i = 0; i < 10; i++)
 {
-    for (int sMultiplicador = 0; sMultiplicador <= 10; sMultiplicador++)
-    {
-
-
-        resultado = sMultiplicador * pMultiplicador;
-        Console.WriteLine($"{pMultiplicador}x{sMultiplicador} = {resultado}");
-    }
+    Console.WriteLine($"Digite seu nome");
+    nome [i] = Console.ReadLine();
 }
+
+Console.WriteLine($"Informe o nome que deseja buscar: ");
+
+
+
 
