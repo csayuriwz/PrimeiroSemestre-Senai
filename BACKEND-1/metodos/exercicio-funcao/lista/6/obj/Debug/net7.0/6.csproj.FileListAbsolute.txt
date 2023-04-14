@@ -1,0 +1,5 @@
+C:\Users\40666090823\Desktop\PrimeiroSemestre-Senai\BACKEND-1\metodos\exercicio-funcao\lista\6\obj\Debug\net7.0\6.csproj.AssemblyReference.cache
+C:\Users\40666090823\Desktop\PrimeiroSemestre-Senai\BACKEND-1\metodos\exercicio-funcao\lista\6\obj\Debug\net7.0\6.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\40666090823\Desktop\PrimeiroSemestre-Senai\BACKEND-1\metodos\exercicio-funcao\lista\6\obj\Debug\net7.0\6.AssemblyInfoInputs.cache
+C:\Users\40666090823\Desktop\PrimeiroSemestre-Senai\BACKEND-1\metodos\exercicio-funcao\lista\6\obj\Debug\net7.0\6.AssemblyInfo.cs
+C:\Users\40666090823\Desktop\PrimeiroSemestre-Senai\BACKEND-1\metodos\exercicio-funcao\lista\6\obj\Debug\net7.0\6.csproj.CoreCompileInputs.cache
