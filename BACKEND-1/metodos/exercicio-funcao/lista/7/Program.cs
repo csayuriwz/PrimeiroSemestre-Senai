@@ -5,7 +5,12 @@
 float[] nums = new float[15];
 for (int i = 0; i < 15; i++)
 {
-    Console.WriteLine($"Digite o {i + 1} nome");
+    Console.WriteLine($"Digite o {i + 1}º numero");
     nums[i] = float.Parse(Console.ReadLine()!);
+}
+
+foreach (var valor in nums.Reverse())
+{
+    Console.WriteLine($"{valor}");
 }
 
