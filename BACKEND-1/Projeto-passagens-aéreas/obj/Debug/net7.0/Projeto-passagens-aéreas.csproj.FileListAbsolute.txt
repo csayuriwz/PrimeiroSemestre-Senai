@@ -1,0 +1,15 @@
+C:\Users\40666090823\Desktop\PrimeiroSemestre-Senai\BACKEND-1\Projeto-passagens-aéreas\bin\Debug\net7.0\Projeto-passagens-aéreas.exe
+C:\Users\40666090823\Desktop\PrimeiroSemestre-Senai\BACKEND-1\Projeto-passagens-aéreas\bin\Debug\net7.0\Projeto-passagens-aéreas.deps.json
+C:\Users\40666090823\Desktop\PrimeiroSemestre-Senai\BACKEND-1\Projeto-passagens-aéreas\bin\Debug\net7.0\Projeto-passagens-aéreas.runtimeconfig.json
+C:\Users\40666090823\Desktop\PrimeiroSemestre-Senai\BACKEND-1\Projeto-passagens-aéreas\bin\Debug\net7.0\Projeto-passagens-aéreas.dll
+C:\Users\40666090823\Desktop\PrimeiroSemestre-Senai\BACKEND-1\Projeto-passagens-aéreas\bin\Debug\net7.0\Projeto-passagens-aéreas.pdb
+C:\Users\40666090823\Desktop\PrimeiroSemestre-Senai\BACKEND-1\Projeto-passagens-aéreas\obj\Debug\net7.0\Projeto-passagens-aéreas.csproj.AssemblyReference.cache
+C:\Users\40666090823\Desktop\PrimeiroSemestre-Senai\BACKEND-1\Projeto-passagens-aéreas\obj\Debug\net7.0\Projeto-passagens-aéreas.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\40666090823\Desktop\PrimeiroSemestre-Senai\BACKEND-1\Projeto-passagens-aéreas\obj\Debug\net7.0\Projeto-passagens-aéreas.AssemblyInfoInputs.cache
+C:\Users\40666090823\Desktop\PrimeiroSemestre-Senai\BACKEND-1\Projeto-passagens-aéreas\obj\Debug\net7.0\Projeto-passagens-aéreas.AssemblyInfo.cs
+C:\Users\40666090823\Desktop\PrimeiroSemestre-Senai\BACKEND-1\Projeto-passagens-aéreas\obj\Debug\net7.0\Projeto-passagens-aéreas.csproj.CoreCompileInputs.cache
+C:\Users\40666090823\Desktop\PrimeiroSemestre-Senai\BACKEND-1\Projeto-passagens-aéreas\obj\Debug\net7.0\Projeto-passagens-aéreas.dll
+C:\Users\40666090823\Desktop\PrimeiroSemestre-Senai\BACKEND-1\Projeto-passagens-aéreas\obj\Debug\net7.0\refint\Projeto-passagens-aéreas.dll
+C:\Users\40666090823\Desktop\PrimeiroSemestre-Senai\BACKEND-1\Projeto-passagens-aéreas\obj\Debug\net7.0\Projeto-passagens-aéreas.pdb
+C:\Users\40666090823\Desktop\PrimeiroSemestre-Senai\BACKEND-1\Projeto-passagens-aéreas\obj\Debug\net7.0\Projeto-passagens-aéreas.genruntimeconfig.cache
+C:\Users\40666090823\Desktop\PrimeiroSemestre-Senai\BACKEND-1\Projeto-passagens-aéreas\obj\Debug\net7.0\ref\Projeto-passagens-aéreas.dll
