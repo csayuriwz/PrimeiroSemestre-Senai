@@ -9,13 +9,14 @@ int nascimento = int.Parse(Console.ReadLine()!);
 
 int idade = ano - nascimento;
 
-if (idade >=16)
+if (idade >= 16)
 {
     Console.WriteLine($"Você poderá votar esse ano!");
 }
-else{
+else
+{
     Console.WriteLine($"Você não poderá votar esse ano!");
-    
+
 }
 
 

@@ -3,3 +3,13 @@ C:\Users\40666090823\Desktop\PrimeiroSemestre-Senai\BACKEND-1\metodos\exercicio-
 C:\Users\40666090823\Desktop\PrimeiroSemestre-Senai\BACKEND-1\metodos\exercicio-funcao\lista\6\obj\Debug\net7.0\6.AssemblyInfoInputs.cache
 C:\Users\40666090823\Desktop\PrimeiroSemestre-Senai\BACKEND-1\metodos\exercicio-funcao\lista\6\obj\Debug\net7.0\6.AssemblyInfo.cs
 C:\Users\40666090823\Desktop\PrimeiroSemestre-Senai\BACKEND-1\metodos\exercicio-funcao\lista\6\obj\Debug\net7.0\6.csproj.CoreCompileInputs.cache
+C:\Users\40666090823\Desktop\PrimeiroSemestre-Senai\BACKEND-1\metodos\exercicio-funcao\lista\6\bin\Debug\net7.0\6.exe
+C:\Users\40666090823\Desktop\PrimeiroSemestre-Senai\BACKEND-1\metodos\exercicio-funcao\lista\6\bin\Debug\net7.0\6.deps.json
+C:\Users\40666090823\Desktop\PrimeiroSemestre-Senai\BACKEND-1\metodos\exercicio-funcao\lista\6\bin\Debug\net7.0\6.runtimeconfig.json
+C:\Users\40666090823\Desktop\PrimeiroSemestre-Senai\BACKEND-1\metodos\exercicio-funcao\lista\6\bin\Debug\net7.0\6.dll
+C:\Users\40666090823\Desktop\PrimeiroSemestre-Senai\BACKEND-1\metodos\exercicio-funcao\lista\6\bin\Debug\net7.0\6.pdb
+C:\Users\40666090823\Desktop\PrimeiroSemestre-Senai\BACKEND-1\metodos\exercicio-funcao\lista\6\obj\Debug\net7.0\6.dll
+C:\Users\40666090823\Desktop\PrimeiroSemestre-Senai\BACKEND-1\metodos\exercicio-funcao\lista\6\obj\Debug\net7.0\refint\6.dll
+C:\Users\40666090823\Desktop\PrimeiroSemestre-Senai\BACKEND-1\metodos\exercicio-funcao\lista\6\obj\Debug\net7.0\6.pdb
+C:\Users\40666090823\Desktop\PrimeiroSemestre-Senai\BACKEND-1\metodos\exercicio-funcao\lista\6\obj\Debug\net7.0\6.genruntimeconfig.cache
+C:\Users\40666090823\Desktop\PrimeiroSemestre-Senai\BACKEND-1\metodos\exercicio-funcao\lista\6\obj\Debug\net7.0\ref\6.dll

@@ -3,8 +3,6 @@
 // pessoa (para efetuar uma busca) e depois escrever a mensagem ACHEI, se o nome estiver
 // entre os 10 nomes lidos anteriormente (guardados no vetor), ou NÃO ACHEI caso contrário.
 
-
-
 string[] nome = new string[10];
 for (int i = 0; i < 10; i++)
 {
