@@ -110,7 +110,7 @@ do
            /                                        /
            ////////////////////////////////////////// ");
             }
-            break;
+            break;  
         case 0:
             Console.WriteLine($"Fim! Cadastros finalizados.");
             break;
