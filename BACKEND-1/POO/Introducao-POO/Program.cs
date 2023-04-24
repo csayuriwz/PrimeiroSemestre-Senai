@@ -1,6 +1,7 @@
 ﻿using Introducao_POO;
 
 // instanciar um objeto da classe personagem
+
 personagens p1 = new personagens();
 
 Console.WriteLine($"Informe o nome do personagem:");
