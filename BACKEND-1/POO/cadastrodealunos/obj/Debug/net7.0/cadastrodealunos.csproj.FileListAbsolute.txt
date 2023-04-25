@@ -1,0 +1,15 @@
+C:\Users\40666090823\Desktop\PrimeiroSemestre-Senai\BACKEND-1\POO\cadastrodealunos\bin\Debug\net7.0\cadastrodealunos.exe
+C:\Users\40666090823\Desktop\PrimeiroSemestre-Senai\BACKEND-1\POO\cadastrodealunos\bin\Debug\net7.0\cadastrodealunos.deps.json
+C:\Users\40666090823\Desktop\PrimeiroSemestre-Senai\BACKEND-1\POO\cadastrodealunos\bin\Debug\net7.0\cadastrodealunos.runtimeconfig.json
+C:\Users\40666090823\Desktop\PrimeiroSemestre-Senai\BACKEND-1\POO\cadastrodealunos\bin\Debug\net7.0\cadastrodealunos.dll
+C:\Users\40666090823\Desktop\PrimeiroSemestre-Senai\BACKEND-1\POO\cadastrodealunos\bin\Debug\net7.0\cadastrodealunos.pdb
+C:\Users\40666090823\Desktop\PrimeiroSemestre-Senai\BACKEND-1\POO\cadastrodealunos\obj\Debug\net7.0\cadastrodealunos.csproj.AssemblyReference.cache
+C:\Users\40666090823\Desktop\PrimeiroSemestre-Senai\BACKEND-1\POO\cadastrodealunos\obj\Debug\net7.0\cadastrodealunos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\40666090823\Desktop\PrimeiroSemestre-Senai\BACKEND-1\POO\cadastrodealunos\obj\Debug\net7.0\cadastrodealunos.AssemblyInfoInputs.cache
+C:\Users\40666090823\Desktop\PrimeiroSemestre-Senai\BACKEND-1\POO\cadastrodealunos\obj\Debug\net7.0\cadastrodealunos.AssemblyInfo.cs
+C:\Users\40666090823\Desktop\PrimeiroSemestre-Senai\BACKEND-1\POO\cadastrodealunos\obj\Debug\net7.0\cadastrodealunos.csproj.CoreCompileInputs.cache
+C:\Users\40666090823\Desktop\PrimeiroSemestre-Senai\BACKEND-1\POO\cadastrodealunos\obj\Debug\net7.0\cadastrodealunos.dll
+C:\Users\40666090823\Desktop\PrimeiroSemestre-Senai\BACKEND-1\POO\cadastrodealunos\obj\Debug\net7.0\refint\cadastrodealunos.dll
+C:\Users\40666090823\Desktop\PrimeiroSemestre-Senai\BACKEND-1\POO\cadastrodealunos\obj\Debug\net7.0\cadastrodealunos.pdb
+C:\Users\40666090823\Desktop\PrimeiroSemestre-Senai\BACKEND-1\POO\cadastrodealunos\obj\Debug\net7.0\cadastrodealunos.genruntimeconfig.cache
+C:\Users\40666090823\Desktop\PrimeiroSemestre-Senai\BACKEND-1\POO\cadastrodealunos\obj\Debug\net7.0\ref\cadastrodealunos.dll
