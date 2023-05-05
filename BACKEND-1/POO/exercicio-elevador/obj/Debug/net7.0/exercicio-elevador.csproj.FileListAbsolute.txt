@@ -1,0 +1,15 @@
+C:\Users\40666090823\Desktop\PrimeiroSemestre-Senai\BACKEND-1\POO\exercicio-elevador\bin\Debug\net7.0\exercicio-elevador.exe
+C:\Users\40666090823\Desktop\PrimeiroSemestre-Senai\BACKEND-1\POO\exercicio-elevador\bin\Debug\net7.0\exercicio-elevador.deps.json
+C:\Users\40666090823\Desktop\PrimeiroSemestre-Senai\BACKEND-1\POO\exercicio-elevador\bin\Debug\net7.0\exercicio-elevador.runtimeconfig.json
+C:\Users\40666090823\Desktop\PrimeiroSemestre-Senai\BACKEND-1\POO\exercicio-elevador\bin\Debug\net7.0\exercicio-elevador.dll
+C:\Users\40666090823\Desktop\PrimeiroSemestre-Senai\BACKEND-1\POO\exercicio-elevador\bin\Debug\net7.0\exercicio-elevador.pdb
+C:\Users\40666090823\Desktop\PrimeiroSemestre-Senai\BACKEND-1\POO\exercicio-elevador\obj\Debug\net7.0\exercicio-elevador.csproj.AssemblyReference.cache
+C:\Users\40666090823\Desktop\PrimeiroSemestre-Senai\BACKEND-1\POO\exercicio-elevador\obj\Debug\net7.0\exercicio-elevador.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\40666090823\Desktop\PrimeiroSemestre-Senai\BACKEND-1\POO\exercicio-elevador\obj\Debug\net7.0\exercicio-elevador.AssemblyInfoInputs.cache
+C:\Users\40666090823\Desktop\PrimeiroSemestre-Senai\BACKEND-1\POO\exercicio-elevador\obj\Debug\net7.0\exercicio-elevador.AssemblyInfo.cs
+C:\Users\40666090823\Desktop\PrimeiroSemestre-Senai\BACKEND-1\POO\exercicio-elevador\obj\Debug\net7.0\exercicio-elevador.csproj.CoreCompileInputs.cache
+C:\Users\40666090823\Desktop\PrimeiroSemestre-Senai\BACKEND-1\POO\exercicio-elevador\obj\Debug\net7.0\exercicio-elevador.dll
+C:\Users\40666090823\Desktop\PrimeiroSemestre-Senai\BACKEND-1\POO\exercicio-elevador\obj\Debug\net7.0\refint\exercicio-elevador.dll
+C:\Users\40666090823\Desktop\PrimeiroSemestre-Senai\BACKEND-1\POO\exercicio-elevador\obj\Debug\net7.0\exercicio-elevador.pdb
+C:\Users\40666090823\Desktop\PrimeiroSemestre-Senai\BACKEND-1\POO\exercicio-elevador\obj\Debug\net7.0\exercicio-elevador.genruntimeconfig.cache
+C:\Users\40666090823\Desktop\PrimeiroSemestre-Senai\BACKEND-1\POO\exercicio-elevador\obj\Debug\net7.0\ref\exercicio-elevador.dll
