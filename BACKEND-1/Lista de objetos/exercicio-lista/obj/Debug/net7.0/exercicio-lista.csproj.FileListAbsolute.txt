@@ -1,0 +1,15 @@
+C:\Users\40666090823\Desktop\PrimeiroSemestre-Senai\BACKEND-1\Lista de objetos\exercicio-lista\bin\Debug\net7.0\exercicio-lista.exe
+C:\Users\40666090823\Desktop\PrimeiroSemestre-Senai\BACKEND-1\Lista de objetos\exercicio-lista\bin\Debug\net7.0\exercicio-lista.deps.json
+C:\Users\40666090823\Desktop\PrimeiroSemestre-Senai\BACKEND-1\Lista de objetos\exercicio-lista\bin\Debug\net7.0\exercicio-lista.runtimeconfig.json
+C:\Users\40666090823\Desktop\PrimeiroSemestre-Senai\BACKEND-1\Lista de objetos\exercicio-lista\bin\Debug\net7.0\exercicio-lista.dll
+C:\Users\40666090823\Desktop\PrimeiroSemestre-Senai\BACKEND-1\Lista de objetos\exercicio-lista\bin\Debug\net7.0\exercicio-lista.pdb
+C:\Users\40666090823\Desktop\PrimeiroSemestre-Senai\BACKEND-1\Lista de objetos\exercicio-lista\obj\Debug\net7.0\exercicio-lista.csproj.AssemblyReference.cache
+C:\Users\40666090823\Desktop\PrimeiroSemestre-Senai\BACKEND-1\Lista de objetos\exercicio-lista\obj\Debug\net7.0\exercicio-lista.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\40666090823\Desktop\PrimeiroSemestre-Senai\BACKEND-1\Lista de objetos\exercicio-lista\obj\Debug\net7.0\exercicio-lista.AssemblyInfoInputs.cache
+C:\Users\40666090823\Desktop\PrimeiroSemestre-Senai\BACKEND-1\Lista de objetos\exercicio-lista\obj\Debug\net7.0\exercicio-lista.AssemblyInfo.cs
+C:\Users\40666090823\Desktop\PrimeiroSemestre-Senai\BACKEND-1\Lista de objetos\exercicio-lista\obj\Debug\net7.0\exercicio-lista.csproj.CoreCompileInputs.cache
+C:\Users\40666090823\Desktop\PrimeiroSemestre-Senai\BACKEND-1\Lista de objetos\exercicio-lista\obj\Debug\net7.0\exercicio-lista.dll
+C:\Users\40666090823\Desktop\PrimeiroSemestre-Senai\BACKEND-1\Lista de objetos\exercicio-lista\obj\Debug\net7.0\refint\exercicio-lista.dll
+C:\Users\40666090823\Desktop\PrimeiroSemestre-Senai\BACKEND-1\Lista de objetos\exercicio-lista\obj\Debug\net7.0\exercicio-lista.pdb
+C:\Users\40666090823\Desktop\PrimeiroSemestre-Senai\BACKEND-1\Lista de objetos\exercicio-lista\obj\Debug\net7.0\exercicio-lista.genruntimeconfig.cache
+C:\Users\40666090823\Desktop\PrimeiroSemestre-Senai\BACKEND-1\Lista de objetos\exercicio-lista\obj\Debug\net7.0\ref\exercicio-lista.dll

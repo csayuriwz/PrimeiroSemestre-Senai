@@ -1,0 +1,15 @@
+C:\Users\40666090823\Desktop\PrimeiroSemestre-Senai\BACKEND-1\Lista de objetos\exercicio-exemplo\obj\Debug\net7.0\exercicio-exemplo.csproj.AssemblyReference.cache
+C:\Users\40666090823\Desktop\PrimeiroSemestre-Senai\BACKEND-1\Lista de objetos\exercicio-exemplo\obj\Debug\net7.0\exercicio-exemplo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\40666090823\Desktop\PrimeiroSemestre-Senai\BACKEND-1\Lista de objetos\exercicio-exemplo\obj\Debug\net7.0\exercicio-exemplo.AssemblyInfoInputs.cache
+C:\Users\40666090823\Desktop\PrimeiroSemestre-Senai\BACKEND-1\Lista de objetos\exercicio-exemplo\obj\Debug\net7.0\exercicio-exemplo.AssemblyInfo.cs
+C:\Users\40666090823\Desktop\PrimeiroSemestre-Senai\BACKEND-1\Lista de objetos\exercicio-exemplo\obj\Debug\net7.0\exercicio-exemplo.csproj.CoreCompileInputs.cache
+C:\Users\40666090823\Desktop\PrimeiroSemestre-Senai\BACKEND-1\Lista de objetos\exercicio-exemplo\bin\Debug\net7.0\exercicio-exemplo.exe
+C:\Users\40666090823\Desktop\PrimeiroSemestre-Senai\BACKEND-1\Lista de objetos\exercicio-exemplo\bin\Debug\net7.0\exercicio-exemplo.deps.json
+C:\Users\40666090823\Desktop\PrimeiroSemestre-Senai\BACKEND-1\Lista de objetos\exercicio-exemplo\bin\Debug\net7.0\exercicio-exemplo.runtimeconfig.json
+C:\Users\40666090823\Desktop\PrimeiroSemestre-Senai\BACKEND-1\Lista de objetos\exercicio-exemplo\bin\Debug\net7.0\exercicio-exemplo.dll
+C:\Users\40666090823\Desktop\PrimeiroSemestre-Senai\BACKEND-1\Lista de objetos\exercicio-exemplo\bin\Debug\net7.0\exercicio-exemplo.pdb
+C:\Users\40666090823\Desktop\PrimeiroSemestre-Senai\BACKEND-1\Lista de objetos\exercicio-exemplo\obj\Debug\net7.0\exercicio-exemplo.dll
+C:\Users\40666090823\Desktop\PrimeiroSemestre-Senai\BACKEND-1\Lista de objetos\exercicio-exemplo\obj\Debug\net7.0\refint\exercicio-exemplo.dll
+C:\Users\40666090823\Desktop\PrimeiroSemestre-Senai\BACKEND-1\Lista de objetos\exercicio-exemplo\obj\Debug\net7.0\exercicio-exemplo.pdb
+C:\Users\40666090823\Desktop\PrimeiroSemestre-Senai\BACKEND-1\Lista de objetos\exercicio-exemplo\obj\Debug\net7.0\exercicio-exemplo.genruntimeconfig.cache
+C:\Users\40666090823\Desktop\PrimeiroSemestre-Senai\BACKEND-1\Lista de objetos\exercicio-exemplo\obj\Debug\net7.0\ref\exercicio-exemplo.dll
