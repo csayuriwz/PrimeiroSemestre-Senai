@@ -1,0 +1,15 @@
+C:\Users\40666090823\Desktop\PrimeiroSemestre-Senai\BACKEND-1\Lista de objetos\Projeto-Produto\bin\Debug\net7.0\Projeto-Produto.exe
+C:\Users\40666090823\Desktop\PrimeiroSemestre-Senai\BACKEND-1\Lista de objetos\Projeto-Produto\bin\Debug\net7.0\Projeto-Produto.deps.json
+C:\Users\40666090823\Desktop\PrimeiroSemestre-Senai\BACKEND-1\Lista de objetos\Projeto-Produto\bin\Debug\net7.0\Projeto-Produto.runtimeconfig.json
+C:\Users\40666090823\Desktop\PrimeiroSemestre-Senai\BACKEND-1\Lista de objetos\Projeto-Produto\bin\Debug\net7.0\Projeto-Produto.dll
+C:\Users\40666090823\Desktop\PrimeiroSemestre-Senai\BACKEND-1\Lista de objetos\Projeto-Produto\bin\Debug\net7.0\Projeto-Produto.pdb
+C:\Users\40666090823\Desktop\PrimeiroSemestre-Senai\BACKEND-1\Lista de objetos\Projeto-Produto\obj\Debug\net7.0\Projeto-Produto.csproj.AssemblyReference.cache
+C:\Users\40666090823\Desktop\PrimeiroSemestre-Senai\BACKEND-1\Lista de objetos\Projeto-Produto\obj\Debug\net7.0\Projeto-Produto.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\40666090823\Desktop\PrimeiroSemestre-Senai\BACKEND-1\Lista de objetos\Projeto-Produto\obj\Debug\net7.0\Projeto-Produto.AssemblyInfoInputs.cache
+C:\Users\40666090823\Desktop\PrimeiroSemestre-Senai\BACKEND-1\Lista de objetos\Projeto-Produto\obj\Debug\net7.0\Projeto-Produto.AssemblyInfo.cs
+C:\Users\40666090823\Desktop\PrimeiroSemestre-Senai\BACKEND-1\Lista de objetos\Projeto-Produto\obj\Debug\net7.0\Projeto-Produto.csproj.CoreCompileInputs.cache
+C:\Users\40666090823\Desktop\PrimeiroSemestre-Senai\BACKEND-1\Lista de objetos\Projeto-Produto\obj\Debug\net7.0\Projeto-Produto.dll
+C:\Users\40666090823\Desktop\PrimeiroSemestre-Senai\BACKEND-1\Lista de objetos\Projeto-Produto\obj\Debug\net7.0\refint\Projeto-Produto.dll
+C:\Users\40666090823\Desktop\PrimeiroSemestre-Senai\BACKEND-1\Lista de objetos\Projeto-Produto\obj\Debug\net7.0\Projeto-Produto.pdb
+C:\Users\40666090823\Desktop\PrimeiroSemestre-Senai\BACKEND-1\Lista de objetos\Projeto-Produto\obj\Debug\net7.0\Projeto-Produto.genruntimeconfig.cache
+C:\Users\40666090823\Desktop\PrimeiroSemestre-Senai\BACKEND-1\Lista de objetos\Projeto-Produto\obj\Debug\net7.0\ref\Projeto-Produto.dll

@@ -3,9 +3,9 @@
   <PropertyGroup>
     <OutputType>Exe</OutputType>
     <TargetFramework>net7.0</TargetFramework>
-    <RootNamespace>exercicio_exemplo</RootNamespace>
+    <RootNamespace>Projeto_Produto</RootNamespace>
     <ImplicitUsings>enable</ImplicitUsings>
-    <Nullable>desable</Nullable>
+    <Nullable>enable</Nullable>
   </PropertyGroup>
 
 </Project>

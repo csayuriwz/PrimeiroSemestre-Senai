@@ -13,7 +13,6 @@ namespace exercicio_exemplo
         {
             
         }
-
         public Produto(int codigo, string nome, float preco)
         {
             Código = codigo;
