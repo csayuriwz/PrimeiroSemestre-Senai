@@ -13,18 +13,28 @@ namespace projeto
         public string NomeMarca { get; set; } = "";
         public DateTime DataCadastro { get; set; }
 
+
+        List<Marca> listaMarcas = new List<Marca>();
+
         // Métodos
 
-        public Marca()
+        public void Listar()
         {
-            
+
         }
-        public string Cadastrar (string _marca)  
+        public Marca Cadastrar()
         {
-            return;
+            Marca novaMarca = new Marca();
+
+            return: novaMarca;
+            // logiv]ca
+        }
+        public void Deletar(int codigo)
+        {
         }
 
-        
+
+
 
     }
 }
