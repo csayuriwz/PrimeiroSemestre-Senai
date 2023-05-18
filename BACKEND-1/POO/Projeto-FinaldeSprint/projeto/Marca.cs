@@ -1,8 +1,3 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-
 namespace projeto
 {
     public class Marca
@@ -26,10 +21,10 @@ namespace projeto
         {
             Marca novaMarca = new Marca();
 
-            return: novaMarca;
+           return novaMarca;
             // logiv]ca
         }
-        public void Deletar(int codigo)
+        public void Deletar()
         {
         }
 

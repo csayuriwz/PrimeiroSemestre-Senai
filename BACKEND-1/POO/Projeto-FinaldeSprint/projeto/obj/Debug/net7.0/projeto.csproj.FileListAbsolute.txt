@@ -1,0 +1,15 @@
+C:\Users\40666090823\Desktop\PrimeiroSemestre-Senai\BACKEND-1\POO\Projeto-FinaldeSprint\projeto\bin\Debug\net7.0\projeto.exe
+C:\Users\40666090823\Desktop\PrimeiroSemestre-Senai\BACKEND-1\POO\Projeto-FinaldeSprint\projeto\bin\Debug\net7.0\projeto.deps.json
+C:\Users\40666090823\Desktop\PrimeiroSemestre-Senai\BACKEND-1\POO\Projeto-FinaldeSprint\projeto\bin\Debug\net7.0\projeto.runtimeconfig.json
+C:\Users\40666090823\Desktop\PrimeiroSemestre-Senai\BACKEND-1\POO\Projeto-FinaldeSprint\projeto\bin\Debug\net7.0\projeto.dll
+C:\Users\40666090823\Desktop\PrimeiroSemestre-Senai\BACKEND-1\POO\Projeto-FinaldeSprint\projeto\bin\Debug\net7.0\projeto.pdb
+C:\Users\40666090823\Desktop\PrimeiroSemestre-Senai\BACKEND-1\POO\Projeto-FinaldeSprint\projeto\obj\Debug\net7.0\projeto.csproj.AssemblyReference.cache
+C:\Users\40666090823\Desktop\PrimeiroSemestre-Senai\BACKEND-1\POO\Projeto-FinaldeSprint\projeto\obj\Debug\net7.0\projeto.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\40666090823\Desktop\PrimeiroSemestre-Senai\BACKEND-1\POO\Projeto-FinaldeSprint\projeto\obj\Debug\net7.0\projeto.AssemblyInfoInputs.cache
+C:\Users\40666090823\Desktop\PrimeiroSemestre-Senai\BACKEND-1\POO\Projeto-FinaldeSprint\projeto\obj\Debug\net7.0\projeto.AssemblyInfo.cs
+C:\Users\40666090823\Desktop\PrimeiroSemestre-Senai\BACKEND-1\POO\Projeto-FinaldeSprint\projeto\obj\Debug\net7.0\projeto.csproj.CoreCompileInputs.cache
+C:\Users\40666090823\Desktop\PrimeiroSemestre-Senai\BACKEND-1\POO\Projeto-FinaldeSprint\projeto\obj\Debug\net7.0\projeto.dll
+C:\Users\40666090823\Desktop\PrimeiroSemestre-Senai\BACKEND-1\POO\Projeto-FinaldeSprint\projeto\obj\Debug\net7.0\refint\projeto.dll
+C:\Users\40666090823\Desktop\PrimeiroSemestre-Senai\BACKEND-1\POO\Projeto-FinaldeSprint\projeto\obj\Debug\net7.0\projeto.pdb
+C:\Users\40666090823\Desktop\PrimeiroSemestre-Senai\BACKEND-1\POO\Projeto-FinaldeSprint\projeto\obj\Debug\net7.0\projeto.genruntimeconfig.cache
+C:\Users\40666090823\Desktop\PrimeiroSemestre-Senai\BACKEND-1\POO\Projeto-FinaldeSprint\projeto\obj\Debug\net7.0\ref\projeto.dll

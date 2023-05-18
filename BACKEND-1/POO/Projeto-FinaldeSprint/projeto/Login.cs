@@ -19,9 +19,10 @@ namespace projeto
                 GerarMenu();
             }
         }
-
         public void Logar(Usuário usuario)
         {
+            usuario.Cadastrar(); 
+
             Console.WriteLine($"Informe o e-mail:");
             string email = Console.ReadLine()!;
 
@@ -45,13 +46,15 @@ namespace projeto
 
         public void Deslogar()
         {
-
+            Logado = false;
         }
 
         public void GerarMenu()
         {
             Produto produto = new Produto();
             Marca marca = new Marca();
+
+            string opcao;
 
             do
             {
@@ -72,41 +75,48 @@ namespace projeto
             
             ");
 
-             opcao = Console.ReadLine()!;
+                opcao = Console.ReadLine()!;
 
                 switch (opcao)
                 {
                     case "1":
                         produto.Cadastrar();
                         break;
+
                     case "2":
                         produto.Listar();
                         break;
+
                     case "3":
                         Console.WriteLine($"Informe o código a ser excluido:");
                         int código = int.Parse(Console.ReadLine()!);
 
                         produto.Deletar();
                         break;
+
                     case "4":
                         marca.Cadastrar();
                         break;
+
                     case "5":
                         marca.Listar();
                         break;
+
                     case "6":
                         Console.WriteLine($"Informe o código da marca a ser excluida:");
                         int code = int.Parse(Console.ReadLine()!);
-
                         marca.Deletar();
                         break;
 
                     case "0":
-
+                        Console.WriteLine($"Saindo...");
+                        break;
 
                     default:
+                        Console.WriteLine($"opcao inválida!");
+                        break;
                 }
-            } while (opcao != 0);
+            } while (opcao != "0");
 
 
         }
