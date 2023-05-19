@@ -7,29 +7,64 @@ namespace projeto
         public bool Logado { get; set; }
 
 
-        //  métodos
+        //  método construtor login
         public Login()
         {
-            Usuário user = new Usuário();
+            Usuario user = new Usuario();
+            string opcao;
 
-            Logar(user);
-
-            if (this.Logado == true)
+            do
             {
-                GerarMenu();
-            }
-        }
-        public void Logar(Usuário usuario)
-        {
-            usuario.Cadastrar(); 
+                Console.WriteLine(@$"
+                =====================================
+                BEM VINDO AO NOSSO MENU! <3
+                =====================================
+                [1]-Cadastrar novo usuário
+                [2]-Logar com um usuário já existênte
 
-            Console.WriteLine($"Informe o e-mail:");
+                [0]-Sair
+                ======================================
+                ");
+
+                opcao = Console.ReadLine()!;
+
+
+                switch (opcao)
+                {
+                    case "1":
+                        user.Cadastrar(user);
+                        break;
+                    case "2":
+                        Logar(user);
+                        break;
+                    case "0":
+                        Console.WriteLine($"Saindo...");
+                        break;
+                    default:
+                        Console.WriteLine($"opcao invalida :(");
+                        break;
+                }
+                // Logar(user);
+
+                if (this.Logado == true)
+                {
+                    GerarMenu();
+                }
+            } while (opcao != "0");
+
+        }
+
+        // metodo construtor logar
+        public void Logar(Usuario usuario)
+        {
+
+            Console.WriteLine($"Vamos efetuar seu login! Primeiramente informe o seu e-mail de cadastro:");
             string email = Console.ReadLine()!;
 
-            Console.WriteLine($"Informe a senha:");
+            Console.WriteLine($"Por favor agora informe a sua senha:");
             string senha = Console.ReadLine()!;
 
-            if (email == usuario.Email && senha == usuario.Senha)
+            if (usuario.UsuarioExiste(usuario))
             {
                 this.Logado = true;
                 Console.WriteLine($"Login concluido! :) ");
@@ -38,16 +73,13 @@ namespace projeto
             else
             {
                 this.Logado = false;
-                Console.WriteLine($"Flha ao logar ! :( ");
+                Console.WriteLine($"Falha ao logar ! :( ");
 
             }
 
         }
 
-        public void Deslogar()
-        {
-            Logado = false;
-        }
+        public void Deslogar() => Logado = false;
 
         public void GerarMenu()
         {
@@ -87,12 +119,12 @@ namespace projeto
                         produto.Listar();
                         break;
 
-                    case "3":
-                        Console.WriteLine($"Informe o código a ser excluido:");
-                        int código = int.Parse(Console.ReadLine()!);
+                    // case "3":
+                    //     Console.WriteLine($"Informe o código a ser excluido:");
+                    //     int código = int.Parse(Console.ReadLine()!);
 
-                        produto.Deletar();
-                        break;
+                    //     produto.Deletar();
+                    //     break;
 
                     case "4":
                         marca.Cadastrar();

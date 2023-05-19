@@ -21,11 +21,21 @@ namespace projeto
         {
             Marca novaMarca = new Marca();
 
-           return novaMarca;
-            // logiv]ca
+             Console.WriteLine($"Digite o nome da marca que você deseja cadastrar:");
+            NomeMarca = Console.ReadLine()!;
+
+            Console.WriteLine($"Digite o código da marca que você deseja cadastrar:");
+            Código = int.Parse(Console.ReadLine())!;
+
+           
+
         }
         public void Deletar()
         {
+            Console.WriteLine($"Digite o código da marca que você deseja deletar:");
+            
+            
+
         }
 
 
