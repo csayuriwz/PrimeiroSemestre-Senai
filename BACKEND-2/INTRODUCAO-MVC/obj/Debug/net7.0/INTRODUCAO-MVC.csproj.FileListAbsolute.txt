@@ -1,0 +1,15 @@
+C:\Users\40666090823\Desktop\PrimeiroSemestre-Senai\BACKEND-2\INTRODUCAO-MVC\obj\Debug\net7.0\INTRODUCAO-MVC.csproj.AssemblyReference.cache
+C:\Users\40666090823\Desktop\PrimeiroSemestre-Senai\BACKEND-2\INTRODUCAO-MVC\obj\Debug\net7.0\INTRODUCAO-MVC.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\40666090823\Desktop\PrimeiroSemestre-Senai\BACKEND-2\INTRODUCAO-MVC\obj\Debug\net7.0\INTRODUCAO-MVC.AssemblyInfoInputs.cache
+C:\Users\40666090823\Desktop\PrimeiroSemestre-Senai\BACKEND-2\INTRODUCAO-MVC\obj\Debug\net7.0\INTRODUCAO-MVC.AssemblyInfo.cs
+C:\Users\40666090823\Desktop\PrimeiroSemestre-Senai\BACKEND-2\INTRODUCAO-MVC\obj\Debug\net7.0\INTRODUCAO-MVC.csproj.CoreCompileInputs.cache
+C:\Users\40666090823\Desktop\PrimeiroSemestre-Senai\BACKEND-2\INTRODUCAO-MVC\bin\Debug\net7.0\INTRODUCAO-MVC.exe
+C:\Users\40666090823\Desktop\PrimeiroSemestre-Senai\BACKEND-2\INTRODUCAO-MVC\bin\Debug\net7.0\INTRODUCAO-MVC.deps.json
+C:\Users\40666090823\Desktop\PrimeiroSemestre-Senai\BACKEND-2\INTRODUCAO-MVC\bin\Debug\net7.0\INTRODUCAO-MVC.runtimeconfig.json
+C:\Users\40666090823\Desktop\PrimeiroSemestre-Senai\BACKEND-2\INTRODUCAO-MVC\bin\Debug\net7.0\INTRODUCAO-MVC.dll
+C:\Users\40666090823\Desktop\PrimeiroSemestre-Senai\BACKEND-2\INTRODUCAO-MVC\bin\Debug\net7.0\INTRODUCAO-MVC.pdb
+C:\Users\40666090823\Desktop\PrimeiroSemestre-Senai\BACKEND-2\INTRODUCAO-MVC\obj\Debug\net7.0\INTRODUCAO-MVC.dll
+C:\Users\40666090823\Desktop\PrimeiroSemestre-Senai\BACKEND-2\INTRODUCAO-MVC\obj\Debug\net7.0\refint\INTRODUCAO-MVC.dll
+C:\Users\40666090823\Desktop\PrimeiroSemestre-Senai\BACKEND-2\INTRODUCAO-MVC\obj\Debug\net7.0\INTRODUCAO-MVC.pdb
+C:\Users\40666090823\Desktop\PrimeiroSemestre-Senai\BACKEND-2\INTRODUCAO-MVC\obj\Debug\net7.0\INTRODUCAO-MVC.genruntimeconfig.cache
+C:\Users\40666090823\Desktop\PrimeiroSemestre-Senai\BACKEND-2\INTRODUCAO-MVC\obj\Debug\net7.0\ref\INTRODUCAO-MVC.dll
