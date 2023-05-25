@@ -11,12 +11,17 @@ namespace INTRODUCAO_MVC.Controller
         ProdutoView produtoView = new ProdutoView();
 
         // metodos controladores para acessar a listagem de produtos
-
+        public void CadastrarProdutos()
+        {
+            produto.Inserir(produtoView.Cadastrar());
+        }
         public void ListarProdutos()
         {
             List<Produto> produtos = produto.Ler();
 
             produtoView.Listar(produtos);
         }
+
+
     }
 }

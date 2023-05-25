@@ -65,11 +65,12 @@ namespace INTRODUCAO_MVC.Model
 
         }
 
+        
         // método para preparar as linhas as erem inseridas no csv
 
         public string PrepararLinhasCSV(Produto p)
         {
-            return $"{p.Codigo};;{p.Nome};{p.Preco}";
+            return $"{p.Codigo};{p.Nome};{p.Preco}";
         }
 
         public void Inserir(Produto p)
@@ -81,4 +82,5 @@ namespace INTRODUCAO_MVC.Model
     }
 
 }
+
 
